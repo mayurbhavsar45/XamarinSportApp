@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/slRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <fanword.android.customviews.FeedRecyclerView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rvFeed" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/relativeLayout4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/addcontentbuttonbackground"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp">
+            <ImageButton
+                android:src="@drawable/pencilwhite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnAddPost"
+                android:background="@drawable/buttonroundedbackground"
+                android:padding="14dp"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
