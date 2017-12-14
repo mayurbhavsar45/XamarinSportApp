@@ -471,7 +471,7 @@ namespace Fanword.Shared
         public async Task<List<ScoreModel>> GetScores(ScoresFilterModel filter)
         {
             var scores = await Post<List<ScoreModel>>("/api/Scores/", filter);
-            var grouped = scores.GroupBy(m => m.EventDate.ToLocalTime().Date);
+            var grouped = scores.GroupBy(m => m.EventDate);
             var items = new List<ScoreModel>();
             foreach (var group in grouped)
             {

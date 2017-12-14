@@ -67,7 +67,8 @@ namespace Fanword.iOS
 
 
 #if DEBUG
-			txtEmail.Text = "jacob.krings@agilx.com";
+			//txtEmail.Text = "jacob.krings@agilx.com";
+            txtEmail.Text = "support@agilx.com";
 			txtPassword.Text = "Password$1";
 #endif
 
@@ -79,26 +80,26 @@ namespace Fanword.iOS
 
 			btnSignIn.TouchUpInside += (sender, e) =>
 			{
-                _boolBinding = AppTweaks.ShowLabel.Bind(b => txtEmail.Hidden = !b);
+                //_boolBinding = AppTweaks.ShowLabel.Bind(b => txtEmail.Hidden = !b);
 
-                if (boolValue)
-                {
-                    _boolBinding = AppTweaks.LabelText.Bind(text => btnRegister.SetTitle(text, UIControlState.Normal));
-                    boolValue = false;
-                }else{
-                    _boolBinding = AppTweaks.LabelText.Bind(text => btnRegister.SetTitle("Create new account", UIControlState.Normal));
-                    boolValue = true;
-                }
+                //if (boolValue)
+                //{
+                //    _boolBinding = AppTweaks.LabelText.Bind(text => btnRegister.SetTitle(text, UIControlState.Normal));
+                //    boolValue = false;
+                //}else{
+                //    _boolBinding = AppTweaks.LabelText.Bind(text => btnRegister.SetTitle("Create new account", UIControlState.Normal));
+                //    boolValue = true;
+                //}
 
-				//LoadingScreen.Show ();
-				//var apiTask = new ServiceApi ().Login (txtEmail.Text, txtPassword.Text);
-				//apiTask.HandleError (LoadingScreen);
-				//apiTask.OnSucess ((result) =>
-				//{
-				//	LoadingScreen.Hide ();
-				//	var controller = Storyboard.InstantiateViewController<MainViewController> ();
-				//	NavigationController.PushViewController (controller, true);
-				//});
+				LoadingScreen.Show ();
+				var apiTask = new ServiceApi ().Login (txtEmail.Text, txtPassword.Text);
+				apiTask.HandleError (LoadingScreen);
+				apiTask.OnSucess ((result) =>
+				{
+					LoadingScreen.Hide ();
+					var controller = Storyboard.InstantiateViewController<MainViewController> ();
+					NavigationController.PushViewController (controller, true);
+				});
 			};
 
 			btnForgotPassword.TouchUpInside += (sender, e) =>

@@ -6,6 +6,8 @@ using Fanword.Shared.Helpers;
 using Foundation;
 using UIKit;
 using Fanword.iOS.Shared;
+using System.Globalization;
+using TimeZoneNames;
 
 namespace Fanword.iOS
 {
@@ -61,14 +63,23 @@ namespace Fanword.iOS
 			lblPostCount.Text = item.PostCount.ToString ();
 			lblSportName.Text = item.SportName;
 			lblEventName.Text = item.EventName;
-			lblTimeZone.Text = TimeZoneName.GetLocalTimezoneName ();
+            //lblTimeZone.Text = TimeZoneName.GetLocalTimezoneName ();
+
+            //string tzid = TimeZone.CurrentTimeZone.StandardName;                // example: "Eastern Standard time"
+            string lang = CultureInfo.CurrentCulture.Name;   // example: "en-US"
+
+
+            var abbreviations = TZNames.GetAbbreviationsForTimeZone(item.TimezoneId, lang);
+            lblTimeZone.Text = abbreviations.Standard.ToString();
+
+
             if(item.IsTbd)
             {
                 lblTime.Text = "TBD";
             }
             else
             {
-				lblTime.Text = item.EventDate.ToLocalTime().ToString("h:mm tt");
+				lblTime.Text = item.EventDate.ToString("h:mm tt");
             }
 
             if (item.EventDate <= DateTime.UtcNow)

@@ -205,6 +205,12 @@
     <Reference Include="Plugin.PushNotifications">
       <HintPath>..\Xamrin_mobile_lib\Fanword.iOS\Plugin.PushNotifications.dll</HintPath>
     </Reference>
+    <Reference Include="TimeZoneConverter">
+      <HintPath>..\packages\TimeZoneConverter.2.2.1\lib\netstandard2.0\TimeZoneConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="TimeZoneNames">
+      <HintPath>..\packages\TimeZoneNames.3.2.0\lib\netstandard2.0\TimeZoneNames.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
