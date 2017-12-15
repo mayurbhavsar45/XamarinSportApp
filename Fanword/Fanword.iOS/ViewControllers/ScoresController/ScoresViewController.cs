@@ -23,6 +23,7 @@ namespace Fanword.iOS
         public string TeamId;
         public string SportId;
         public string SchoolId;
+
 		public ScoresViewController (IntPtr handle) : base (handle)
 		{
 		}
@@ -80,8 +81,6 @@ namespace Fanword.iOS
 				GetData ();
 			};
             SetButtons (btnToday);
-
-
 		}
 
 		void SetButtons (UIButton button)
@@ -105,7 +104,7 @@ namespace Fanword.iOS
             filter.SchoolId = SchoolId;
             filter.TeamId = TeamId;
             filter.SportId = SportId;
-			filter.Today = DateTime.Now.Date.ToUniversalTime ();
+            filter.Today = DateTime.Now;
             aiActivity.Hidden = false;
             aiActivity.StartAnimating();
 			var apiTask = new ServiceApi ().GetScores (filter);

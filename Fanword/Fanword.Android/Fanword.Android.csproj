@@ -225,6 +225,12 @@
     <Reference Include="Plugin.PushNotifications">
       <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Plugin.PushNotifications.dll</HintPath>
     </Reference>
+    <Reference Include="TimeZoneConverter">
+      <HintPath>..\packages\TimeZoneConverter.2.2.1\lib\netstandard2.0\TimeZoneConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="TimeZoneNames">
+      <HintPath>..\packages\TimeZoneNames.3.2.0\lib\netstandard2.0\TimeZoneNames.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\BasicProfileInfo\BasicProfileInfoActivity.cs" />

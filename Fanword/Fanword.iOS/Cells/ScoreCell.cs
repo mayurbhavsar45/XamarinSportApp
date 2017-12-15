@@ -65,13 +65,27 @@ namespace Fanword.iOS
 			lblEventName.Text = item.EventName;
             //lblTimeZone.Text = TimeZoneName.GetLocalTimezoneName ();
 
-            //string tzid = TimeZone.CurrentTimeZone.StandardName;                // example: "Eastern Standard time"
+            //string tzid = TimeZone.CurrentTimeZone.StandardName; // example: "Eastern Standard time"
             string lang = CultureInfo.CurrentCulture.Name;   // example: "en-US"
-
 
             var abbreviations = TZNames.GetAbbreviationsForTimeZone(item.TimezoneId, lang);
             lblTimeZone.Text = abbreviations.Standard.ToString();
 
+            DateTime eventDate = item.EventDate;
+            if (!string.IsNullOrEmpty(item.TimezoneId) && item.EventDate != null)
+            {
+                TimeZoneInfo zoneInfo;
+                try
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById(item.TimezoneId);
+                }
+                catch (TimeZoneNotFoundException)
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                }
+               
+                eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+            }
 
             if(item.IsTbd)
             {
@@ -79,7 +93,7 @@ namespace Fanword.iOS
             }
             else
             {
-				lblTime.Text = item.EventDate.ToString("h:mm tt");
+                lblTime.Text = eventDate.ToString("h:mm tt");
             }
 
             if (item.EventDate <= DateTime.UtcNow)

@@ -16,7 +16,25 @@ namespace Fanword.iOS
 		public void SetData (ScoreModel item, int position)
 		{
 			vwSpacer.Hidden = position == 0;
-			lblDate.Text = item.EventDate.ToString ("D").ToUpper();
+
+            DateTime eventDate = item.EventDate;
+            if (item.EventDate != null)
+            {
+                TimeZoneInfo zoneInfo;
+                try
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
+                }
+                catch (TimeZoneNotFoundException)
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                }
+
+                eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+
+            }
+
+            lblDate.Text = eventDate.ToString ("D").ToUpper();
 			lblCount.Text = item.TeamCount.ToString ();
 		}
 	}

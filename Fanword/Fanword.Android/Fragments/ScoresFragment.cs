@@ -24,6 +24,8 @@ using FFImageLoading.Work;
 using Mobile.Extensions.Android.Adapters;
 using Mobile.Extensions.Android.Extensions;
 using Fanword.Android.Shared;
+using TimeZoneNames;
+using System.Globalization;
 
 namespace Fanword.Android.Fragments
 {
@@ -165,7 +167,7 @@ namespace Fanword.Android.Fragments
             filter.FollowFilter.MySports = mySports;
             filter.FollowFilter.MyTeams = myTeams;
             filter.DateFilter = dateFilter;
-            filter.Today = DateTime.Now.Date.ToUniversalTime();
+            filter.Today = DateTime.Now;
 
             var apiTask = new ServiceApi().GetScores(filter);
             apiTask.HandleError(ActivityProgresDialog);
@@ -234,7 +236,24 @@ namespace Fanword.Android.Fragments
                 layout.TopMargin = position == 0 ? 0 : (int)(35 * Resources.DisplayMetrics.Density);
                 view.FindViewById<LinearLayout>(Resource.Id.llContainer).LayoutParameters = layout;
 
-                view.FindViewById<TextView>(Resource.Id.lblDate).Text = item.EventDate.ToString("D").ToUpper();
+                DateTime eventDate = item.EventDate;
+                if (item.EventDate != null)
+                {
+                    TimeZoneInfo zoneInfo;
+                    try
+                    {
+                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("India Standard Time");
+                    }
+                    catch (TimeZoneNotFoundException)
+                    {
+                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                    }
+
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+                }
+
+
+                view.FindViewById<TextView>(Resource.Id.lblDate).Text = eventDate.ToString("D").ToUpper();
                 view.FindViewById<TextView>(Resource.Id.lblCount).Text = item.TeamCount.ToString();
             }
             else
@@ -248,15 +267,37 @@ namespace Fanword.Android.Fragments
                 view.FindViewById<TextView>(Resource.Id.lblPostCount).Text = item.PostCount.ToString();
                 view.FindViewById<TextView>(Resource.Id.lblSportName).Text = item.SportName;
 
+                DateTime eventDate = item.EventDate;
+                if (!string.IsNullOrEmpty(item.TimezoneId) && item.EventDate != null)
+                {
+                    TimeZoneInfo zoneInfo;
+
+                    try
+                    {
+                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById(item.TimezoneId);
+                    }
+                    catch (TimeZoneNotFoundException)
+                    {
+                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                    }
+
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+                }
+
+
+
                 if (item.IsTbd)
                 {
                     view.FindViewById<TextView>(Resource.Id.lblTime).Text = "TBD";
                 }
                 else
                 {
-					view.FindViewById<TextView>(Resource.Id.lblTime).Text = item.EventDate.ToLocalTime().ToString("h:mm tt");
+                    view.FindViewById<TextView>(Resource.Id.lblTime).Text = eventDate.ToString("h:mm tt");
                 }
-				view.FindViewById<TextView>(Resource.Id.lblTimeZone).Text = TimeZoneName.GetLocalTimezoneName();
+
+                string lang = CultureInfo.CurrentCulture.Name;   // example: "en-US"
+                var abbreviations = TZNames.GetAbbreviationsForTimeZone(item.TimezoneId, lang);
+                view.FindViewById<TextView>(Resource.Id.lblTimeZone).Text = abbreviations.Standard.ToString();//TimeZoneName.GetLocalTimezoneName();
 
 
                 if (item.EventDate <= DateTime.UtcNow)
