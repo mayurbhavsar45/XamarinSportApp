@@ -18,8 +18,6 @@ namespace Fanword.iOS
 	public partial class LoginViewController : BaseViewController
 	{
 		LoginButton FacebookButton;
-        TweakBinding _boolBinding;
-        bool boolValue;
 
 		public LoginViewController (IntPtr handle) : base (handle)
 		{
@@ -80,16 +78,7 @@ namespace Fanword.iOS
 
 			btnSignIn.TouchUpInside += (sender, e) =>
 			{
-                //_boolBinding = AppTweaks.ShowLabel.Bind(b => txtEmail.Hidden = !b);
-
-                //if (boolValue)
-                //{
-                //    _boolBinding = AppTweaks.LabelText.Bind(text => btnRegister.SetTitle(text, UIControlState.Normal));
-                //    boolValue = false;
-                //}else{
-                //    _boolBinding = AppTweaks.LabelText.Bind(text => btnRegister.SetTitle("Create new account", UIControlState.Normal));
-                //    boolValue = true;
-                //}
+                Mixpanel.SharedInstance.Track("SignIn");
 
 				LoadingScreen.Show ();
 				var apiTask = new ServiceApi ().Login (txtEmail.Text, txtPassword.Text);

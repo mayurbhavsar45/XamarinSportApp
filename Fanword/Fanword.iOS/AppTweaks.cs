@@ -5,6 +5,7 @@ namespace Fanword.iOS
 {
     public static class AppTweaks
     {
+        public static Tweak<bool> SignIn = Tweak.Declare("SignIn", defaultValue: true);
         public static Tweak<bool> ShowLabel = Tweak.Declare("Show label", defaultValue: true);
         public static readonly Tweak<int> IntLabelValue = Tweak.Declare("Int label value", defaultValue: 5, min: 0, max: 5);
         public static readonly Tweak<float> FloatLabelValue = Tweak.Declare("Float label value", defaultValue: 1.5f, min: 0.5f, max: 10f);

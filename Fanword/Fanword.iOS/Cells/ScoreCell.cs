@@ -18,9 +18,9 @@ namespace Fanword.iOS
 		ImageLoaderHelper team1Task;
 		ImageLoaderHelper team2Task;
 		ImageLoaderHelper sportTask;
-		ImageLoaderHelper profileTask;
 		UIStringAttributes boldAttributes;
 		UIStringAttributes regularAttributes;
+
 		public ScoreCell (IntPtr handle) : base (handle)
 		{
 		}
@@ -38,7 +38,6 @@ namespace Fanword.iOS
 				regularAttributes = new UIStringAttributes ();
 				regularAttributes.Font = UIFont.SystemFontOfSize (btnShowTeams.Font.PointSize);
 				regularAttributes.ForegroundColor = UIColor.FromRGB (144, 144, 144);
-
 			}
 			this.item = item;
 			if (IsNew)
@@ -63,13 +62,11 @@ namespace Fanword.iOS
 			lblPostCount.Text = item.PostCount.ToString ();
 			lblSportName.Text = item.SportName;
 			lblEventName.Text = item.EventName;
-            //lblTimeZone.Text = TimeZoneName.GetLocalTimezoneName ();
 
-            //string tzid = TimeZone.CurrentTimeZone.StandardName; // example: "Eastern Standard time"
             string lang = CultureInfo.CurrentCulture.Name;   // example: "en-US"
 
             var abbreviations = TZNames.GetAbbreviationsForTimeZone(item.TimezoneId, lang);
-            lblTimeZone.Text = abbreviations.Standard.ToString();
+            lblTimeZone.Text = abbreviations.Standard;
 
             DateTime eventDate = item.EventDate;
             if (!string.IsNullOrEmpty(item.TimezoneId) && item.EventDate != null)
@@ -112,11 +109,9 @@ namespace Fanword.iOS
                 {
 					imgProfile.Hidden = true;
                 }
-
 				lblTeam1Score.Hidden = true;
 				lblTeam2Score.Hidden = true;
 			}
-
 
 			NSMutableAttributedString attributedString = new NSMutableAttributedString ("Show me all ", regularAttributes);
 			attributedString.Append (new NSMutableAttributedString (item.TeamCount.ToString() + " teams", boldAttributes));

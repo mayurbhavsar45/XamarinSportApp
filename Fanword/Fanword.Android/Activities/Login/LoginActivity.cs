@@ -38,6 +38,8 @@ namespace Fanword.Android
         private Button btnRegister { get; set; }
         LoginButton btnFacebook { get; set; }
         ICallbackManager manager;
+        public const string MIXPANEL_TOKEN = "298c35129fd8b5dd8d197a4cd395fab5";
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -76,7 +78,11 @@ namespace Fanword.Android
             {
                 ShowProgressDialog();
 
-                MixpanelAPI.BooleanTweak("Show label", true); 
+                MixpanelAPI mixpanel = MixpanelAPI.GetInstance(this, MIXPANEL_TOKEN);
+
+                mixpanel.TimeEvent("SignIn");
+
+                mixpanel.Track("SignIn");
 
                 var apiTask = new ServiceApi().Login(txtEmail.Text, txtPassword.Text);
                 apiTask.HandleError(this);
