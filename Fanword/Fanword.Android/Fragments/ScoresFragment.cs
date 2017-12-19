@@ -242,14 +242,18 @@ namespace Fanword.Android.Fragments
                     TimeZoneInfo zoneInfo;
                     try
                     {
-                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("India Standard Time");
+                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
                     }
                     catch (TimeZoneNotFoundException)
                     {
                         zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
                     }
 
-                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+                    var date_kind = eventDate.Kind;
+                    if (date_kind != DateTimeKind.Local)
+                    {
+                        eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+                    }
                 }
 
 
@@ -281,7 +285,14 @@ namespace Fanword.Android.Fragments
                         zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
                     }
 
-                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+                    if (item.TimezoneId.Contains("India Standard Time"))
+                    {
+                        eventDate = eventDate.ToLocalTime();
+                    }
+                    else
+                    {
+                        eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+                    }
                 }
 
 

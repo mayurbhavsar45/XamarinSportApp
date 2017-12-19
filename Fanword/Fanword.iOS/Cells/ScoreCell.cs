@@ -80,8 +80,13 @@ namespace Fanword.iOS
                 {
                     zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
                 }
-               
-                eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+
+                if (item.TimezoneId.Contains("India Standard Time"))
+                { 
+                    eventDate = eventDate.ToLocalTime();
+                }else{
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+                }
             }
 
             if(item.IsTbd)

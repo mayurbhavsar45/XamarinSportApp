@@ -471,7 +471,45 @@ namespace Fanword.Shared
         public async Task<List<ScoreModel>> GetScores(ScoresFilterModel filter)
         {
             var scores = await Post<List<ScoreModel>>("/api/Scores/", filter);
-            var grouped = scores.GroupBy(m => m.EventDate);
+            List<ScoreModel> TempList = new List<ScoreModel>();
+            TempList.Clear();
+            foreach (var item in scores)
+            {
+                DateTime eventDate = item.EventDate;
+                if (!string.IsNullOrEmpty(item.TimezoneId))
+                {
+                    
+                    if (item.TimezoneId.Contains("India Standard Time"))
+                    {
+                        eventDate = eventDate.ToLocalTime();
+                    }else{
+                        eventDate = item.EventDate;
+                    }
+                }
+
+                TempList.Add(new ScoreModel()
+                {
+                    EventDate = eventDate,
+                    EventId = item.EventId,
+                    EventName = item.EventName,
+                    IsTbd = item.IsTbd,
+                    PostCount = item.PostCount,
+                    ShowTicketUrl = item.ShowTicketUrl,
+                    SportName = item.SportName,
+                    SportProfileUrl = item.SportProfileUrl,
+                    Team1Name = item.Team1Name,
+                    Team1Score = item.Team1Score,
+                    Team1Url = item.Team1Url,
+                    Team2Name = item.Team2Name,
+                    Team2Score = item.Team2Score,
+                    Team2Url = item.Team2Url,
+                    TeamCount = item.TeamCount,
+                    TicketUrl = item.TicketUrl,
+                    TimezoneId = item.TimezoneId
+                });
+            }
+
+            var grouped = TempList.GroupBy(m => m.EventDate);
             var items = new List<ScoreModel>();
             foreach (var group in grouped)
             {

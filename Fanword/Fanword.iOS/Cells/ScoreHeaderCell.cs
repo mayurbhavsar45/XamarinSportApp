@@ -30,8 +30,11 @@ namespace Fanword.iOS
                     zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
                 }
 
-                eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
-
+                var date_kind = eventDate.Kind;
+                if (date_kind != DateTimeKind.Local)
+                {
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
+                }
             }
 
             lblDate.Text = eventDate.ToString ("D").ToUpper();
