@@ -307,9 +307,9 @@ namespace Fanword.Android.Fragments
                     view.FindViewById<TextView>(Resource.Id.lblTime).Text = item.EventDate.ToString("h:mm tt");
                 }
 
-                string lang = CultureInfo.CurrentCulture.Name;   // example: "en-US"
+                string lang = CultureInfo.CurrentCulture.Name;
                 var abbreviations = TZNames.GetAbbreviationsForTimeZone(item.TimezoneId, lang);
-                view.FindViewById<TextView>(Resource.Id.lblTimeZone).Text = abbreviations.Standard.ToString();//TimeZoneName.GetLocalTimezoneName();
+                view.FindViewById<TextView>(Resource.Id.lblTimeZone).Text = abbreviations.Standard;
 
 
                 if (item.EventDate <= DateTime.UtcNow)

@@ -62,7 +62,7 @@ namespace Fanword.iOS
             lblSportName.Text = item.SportName;
             lblEventName.Text = item.EventName;
 
-            string lang = CultureInfo.CurrentCulture.Name; // example: "en-US"
+            string lang = CultureInfo.CurrentCulture.Name;
             var abbreviations = TZNames.GetAbbreviationsForTimeZone(item.TimezoneId, lang);
             lblTimeZone.Text = abbreviations.Standard;
 
