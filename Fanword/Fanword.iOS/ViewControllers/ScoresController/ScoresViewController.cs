@@ -10,167 +10,248 @@ using Fanword.Shared;
 
 using Mobile.Extensions.iOS.Extensions;
 using Fanword.iOS.Shared;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Fanword.iOS
 {
-	public partial class ScoresViewController : BaseViewController
-	{
-		CustomListSource<ScoreModel> source;
-		bool mySchools;
-		bool mySports;
-		bool myTeams;
-		DateFilter dateFilter = DateFilter.Today;
+    public partial class ScoresViewController : BaseViewController
+    {
+        CustomListSource<ScoreModel> source;
+        bool mySchools;
+        bool mySports;
+        bool myTeams;
+        DateFilter dateFilter = DateFilter.Today;
         public string TeamId;
         public string SportId;
         public string SchoolId;
+        public static event Action<List<ScoreModel>> ScoreChanged;
 
-		public ScoresViewController (IntPtr handle) : base (handle)
-		{
-		}
+        public ScoresViewController(IntPtr handle) : base(handle)
+        {
+        }
 
-		public override void ViewDidLoad ()
-		{
-			base.ViewDidLoad ();
-			tvScores.EstimatedRowHeight = 100;
-			tvScores.RowHeight = UITableView.AutomaticDimension;
-            if(string.IsNullOrEmpty(TeamId + SportId + SchoolId))
+        public override void ViewDidLoad()
+        {
+            base.ViewDidLoad();
+            tvScores.EstimatedRowHeight = 100;
+            tvScores.RowHeight = UITableView.AutomaticDimension;
+            if (string.IsNullOrEmpty(TeamId + SportId + SchoolId))
             {
-				mySchools = true;
-				mySports = true;
-				myTeams = true;   
+                mySchools = true;
+                mySports = true;
+                myTeams = true;
             }
 
-			GetData ();
+            GetData();
             aiActivity.Hidden = true;
-			btnFilter.TouchUpInside += (sender, e) =>
-			{
-				var controller = Storyboard.InstantiateViewController<FollowFilterViewController> ();
-				controller.MyTeams = myTeams;
-				controller.MySports = mySports;
-				controller.MySchools = mySchools;
-				controller.SetValues = () =>
-				{
-					myTeams = controller.MyTeams;
-					mySports = controller.MySports;
-					mySchools = controller.MySchools;
-					GetData ();
-				};
-				controller.ModalPresentationStyle = UIModalPresentationStyle.OverCurrentContext;
-				controller.ModalTransitionStyle = UIModalTransitionStyle.CrossDissolve;
-				PresentViewController (controller, true, null);
-			};
+            btnFilter.TouchUpInside += (sender, e) =>
+            {
+                var controller = Storyboard.InstantiateViewController<FollowFilterViewController>();
+                controller.MyTeams = myTeams;
+                controller.MySports = mySports;
+                controller.MySchools = mySchools;
+                controller.SetValues = () =>
+                {
+                    myTeams = controller.MyTeams;
+                    mySports = controller.MySports;
+                    mySchools = controller.MySchools;
+                    GetData();
+                };
+                controller.ModalPresentationStyle = UIModalPresentationStyle.OverCurrentContext;
+                controller.ModalTransitionStyle = UIModalTransitionStyle.CrossDissolve;
+                PresentViewController(controller, true, null);
+            };
 
-			btnPast.TouchUpInside += (sender, e) =>
-			{
-				dateFilter = DateFilter.Past;
-				SetButtons (btnPast);
-				GetData ();
-			};
+            btnPast.TouchUpInside += (sender, e) =>
+            {
+                dateFilter = DateFilter.Past;
+                SetButtons(btnPast);
+                GetData();
+            };
 
-			btnToday.TouchUpInside += (sender, e) =>
-			{
-				dateFilter = DateFilter.Today;
-                SetButtons (btnToday);
-				GetData ();
-			};
+            btnToday.TouchUpInside += (sender, e) =>
+            {
+                dateFilter = DateFilter.Today;
+                SetButtons(btnToday);
+                GetData();
+            };
 
-			btnUpcoming.TouchUpInside += (sender, e) =>
-			{
-				dateFilter = DateFilter.Upcoming;
-                SetButtons (btnUpcoming);
-				GetData ();
-			};
-            SetButtons (btnToday);
-		}
+            btnUpcoming.TouchUpInside += (sender, e) =>
+            {
+                dateFilter = DateFilter.Upcoming;
+                SetButtons(btnUpcoming);
+                GetData();
+            };
+            SetButtons(btnToday);
+        }
 
-		void SetButtons (UIButton button)
-		{
-			btnPast.SetTitleColor (UIColor.FromRGB (144, 144, 144), UIControlState.Normal);
-			btnToday.SetTitleColor (UIColor.FromRGB (144, 144, 144), UIControlState.Normal);
-			btnUpcoming.SetTitleColor (UIColor.FromRGB (144, 144, 144), UIControlState.Normal);
-			button.SetTitleColor (UIColor.FromRGB (21, 21, 21), UIControlState.Normal);
-		}
+        void SetButtons(UIButton button)
+        {
+            btnPast.SetTitleColor(UIColor.FromRGB(144, 144, 144), UIControlState.Normal);
+            btnToday.SetTitleColor(UIColor.FromRGB(144, 144, 144), UIControlState.Normal);
+            btnUpcoming.SetTitleColor(UIColor.FromRGB(144, 144, 144), UIControlState.Normal);
+            button.SetTitleColor(UIColor.FromRGB(21, 21, 21), UIControlState.Normal);
+        }
 
-		public void GetData ()
-		{
+        public void GetData()
+        {
             if (aiActivity == null)
                 return;
-			var filter = new ScoresFilterModel ();
-			filter.FollowFilter = new FollowingFilterModel ();
-			filter.FollowFilter.MySchools = mySchools;
-			filter.FollowFilter.MySports = mySports;
-			filter.FollowFilter.MyTeams = myTeams;
-			filter.DateFilter = dateFilter;
+            var filter = new ScoresFilterModel();
+            filter.FollowFilter = new FollowingFilterModel();
+            filter.FollowFilter.MySchools = mySchools;
+            filter.FollowFilter.MySports = mySports;
+            filter.FollowFilter.MyTeams = myTeams;
+            filter.DateFilter = dateFilter;
             filter.SchoolId = SchoolId;
             filter.TeamId = TeamId;
             filter.SportId = SportId;
             filter.Today = DateTime.Now;
             aiActivity.Hidden = false;
             aiActivity.StartAnimating();
-			var apiTask = new ServiceApi ().GetScores (filter);
-			apiTask.HandleError ();
-			apiTask.OnSucess (response =>
-			{
-				if (tvScores.Source == null)
-				{
-					source = new CustomListSource<ScoreModel> (response.Result, GetCell, (arg1, arg2) => UITableView.AutomaticDimension);
-					source.NoContentText = "No Scores";
-					source.ItemClick += (sender, e) =>
+            var apiTask = new ServiceApi().GetScores(filter);
+            apiTask.HandleError();
+            apiTask.OnSucess(response =>
+           {
+               if (tvScores.Source == null)
+               {
+                   source = new CustomListSource<ScoreModel>(response.Result, GetCell, (arg1, arg2) => UITableView.AutomaticDimension);
+                   source.NoContentText = "No Scores";
+                   source.ItemClick += (sender, e) =>
+                   {
+                       if (!string.IsNullOrEmpty(e.EventId))
+                       {
+                           Navigator.GoToEventProfile(NavigationController, e.EventId);
+                       }
+                   };
+
+                   tvScores.Source = source;
+                   tvScores.ReloadData();
+               }
+               else
+               {
+                   if (ScoreChanged != null)
+                   {
+                       ScoreChanged.Invoke(response.Result);
+                   }
+                    //source.Items = response.Result;
+                    //tvScores.ReloadData ();
+                }
+               aiActivity.Hidden = true;
+           });
+
+            ScoresViewController.ScoreChanged += (List<ScoreModel> obj) =>
+            {
+
+                List<ScoreModel> TempList = new List<ScoreModel>();
+                TempList.Clear();
+                foreach (var item in obj)
+                {
+                    DateTime eventDate = ConvertToUTC(item.EventDate, item.TimezoneId);
+
+                    TempList.Add(new ScoreModel()
                     {
-                        if (!string.IsNullOrEmpty(e.EventId))
-                        {
-                            Navigator.GoToEventProfile(NavigationController, e.EventId);
-                        }
-					};
+                        EventDate = eventDate,
+                        EventId = item.EventId,
+                        EventName = item.EventName,
+                        IsTbd = item.IsTbd,
+                        PostCount = item.PostCount,
+                        ShowTicketUrl = item.ShowTicketUrl,
+                        SportName = item.SportName,
+                        SportProfileUrl = item.SportProfileUrl,
+                        Team1Name = item.Team1Name,
+                        Team1Score = item.Team1Score,
+                        Team1Url = item.Team1Url,
+                        Team2Name = item.Team2Name,
+                        Team2Score = item.Team2Score,
+                        Team2Url = item.Team2Url,
+                        TeamCount = item.TeamCount,
+                        TicketUrl = item.TicketUrl,
+                        TimezoneId = item.TimezoneId
+                    });
+                }
 
-					tvScores.Source = source;
-					tvScores.ReloadData ();
-				}
-				else
-				{
-					source.Items = response.Result;
-					tvScores.ReloadData ();
-				}
-                aiActivity.Hidden = true;
-			});
-		}
+                var grouped = TempList.GroupBy(m => m.EventDate.ToString("D"));
+
+                var items = new List<ScoreModel>();
+                foreach (var group in grouped)
+                {
+                    items.Add(new ScoreModel()
+                    {
+                        EventDate = Convert.ToDateTime(group.Key),
+                        TeamCount = group.Count()
+                    });
+                    items.AddRange(group);
+                }
+                source.Items = items;
+                tvScores.ReloadData();
+            };
+        }
 
 
-		public UITableViewCell GetCell (UITableView tableView, NSIndexPath indexPath, ScoreModel item)
-		{
-			if (string.IsNullOrEmpty (item.EventId))
-			{
-				var cell = tableView.DequeueReusableCell ("ScoreHeaderCell", indexPath) as ScoreHeaderCell;
-				cell.SetData (item, indexPath.Row);
-				cell.SelectionStyle = UITableViewCellSelectionStyle.None;
-				return cell;
-			}
-			else
-			{
-				var cell = tableView.DequeueReusableCell ("ScoreCell", indexPath) as ScoreCell;
-				cell.SetData (item, ShowTeamsClicked);
-				cell.SelectionStyle = UITableViewCellSelectionStyle.None;
-				return cell;
-			}
+        public UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath, ScoreModel item)
+        {
+            if (string.IsNullOrEmpty(item.EventId))
+            {
+                var cell = tableView.DequeueReusableCell("ScoreHeaderCell", indexPath) as ScoreHeaderCell;
+                cell.SetData(item, indexPath.Row);
+                cell.SelectionStyle = UITableViewCellSelectionStyle.None;
+                return cell;
+            }
+            else
+            {
+                var cell = tableView.DequeueReusableCell("ScoreCell", indexPath) as ScoreCell;
+                cell.SetData(item, ShowTeamsClicked);
+                cell.SelectionStyle = UITableViewCellSelectionStyle.None;
+                return cell;
+            }
 
-		}
+        }
 
         public void HideFilter()
         {
             btnFilter.Hidden = true;
         }
 
-		void ShowTeamsClicked (ScoreModel item)
-		{
+        void ShowTeamsClicked(ScoreModel item)
+        {
             var controller = Storyboard.InstantiateViewController<ShowTeamsViewController>();
             controller.EventId = item.EventId;
             NavigationController.PushViewController(controller, true);
-		}
+        }
 
         public override void ViewDidAppear(bool animated)
         {
-			base.ViewDidAppear(animated);
-			aiActivity.Hidden = true;
+            base.ViewDidAppear(animated);
+            aiActivity.Hidden = true;
         }
-	}
+
+        public DateTime ConvertToUTC(DateTime dd, string timezoneId)
+        {
+            DateTime eventDate = dd;
+            if (!string.IsNullOrEmpty(timezoneId))
+            {
+                TimeZoneInfo zoneInfo;
+                try
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById(timezoneId);
+                }
+                catch (TimeZoneNotFoundException)
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                }
+
+                if (timezoneId.Contains("India Standard Time"))
+                {
+                    eventDate = eventDate.ToLocalTime();
+                }
+                else
+                {
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(dd, zoneInfo);
+                }
+            }
+            return eventDate;
+        }
+    }
 }

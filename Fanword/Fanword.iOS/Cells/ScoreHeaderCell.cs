@@ -2,43 +2,21 @@
 
 using System;
 using Fanword.Poco.Models;
-using Foundation;
 using UIKit;
 
 namespace Fanword.iOS
 {
-	public partial class ScoreHeaderCell : UITableViewCell
-	{
-		public ScoreHeaderCell (IntPtr handle) : base (handle)
-		{
-		}
+    public partial class ScoreHeaderCell : UITableViewCell
+    {
+        public ScoreHeaderCell(IntPtr handle) : base(handle)
+        {
+        }
 
-		public void SetData (ScoreModel item, int position)
-		{
-			vwSpacer.Hidden = position == 0;
-
-            DateTime eventDate = item.EventDate;
-            if (item.EventDate != null)
-            {
-                TimeZoneInfo zoneInfo;
-                try
-                {
-                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
-                }
-                catch (TimeZoneNotFoundException)
-                {
-                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
-                }
-
-                var date_kind = eventDate.Kind;
-                if (date_kind != DateTimeKind.Local)
-                {
-                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
-                }
-            }
-
-            lblDate.Text = eventDate.ToString ("D").ToUpper();
-			lblCount.Text = item.TeamCount.ToString ();
-		}
-	}
+        public void SetData(ScoreModel item, int position)
+        {
+            vwSpacer.Hidden = position == 0;
+            lblDate.Text = item.EventDate.ToString("D").ToUpper();
+            lblCount.Text = item.TeamCount.ToString();
+        }
+    }
 }

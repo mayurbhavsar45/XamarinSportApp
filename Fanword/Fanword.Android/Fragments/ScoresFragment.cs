@@ -17,7 +17,6 @@ using Fanword.Android.Extensions;
 using Fanword.Android.TypeFaces;
 using Fanword.Poco.Models;
 using Fanword.Shared;
-using Fanword.Shared.Helpers;
 using FFImageLoading;
 using FFImageLoading.Views;
 using FFImageLoading.Work;
@@ -46,6 +45,7 @@ namespace Fanword.Android.Fragments
         public string TeamId;
         public string SportId;
         public string SchoolId;
+        public static event Action<List<ScoreModel>> ScoreChanged;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
@@ -56,13 +56,12 @@ namespace Fanword.Android.Fragments
 
         public override void OnViewCreated(View view, Bundle savedInstanceState)
         {
-
-			if (string.IsNullOrEmpty(TeamId + SportId + SchoolId))
-			{
-				mySchools = true;
-				mySports = true;
-				myTeams = true;
-			}
+            if (string.IsNullOrEmpty(TeamId + SportId + SchoolId))
+            {
+                mySchools = true;
+                mySports = true;
+                myTeams = true;
+            }
             btnPast.Click += (sender, args) =>
             {
                 SetButtons(btnPast);
@@ -114,10 +113,10 @@ namespace Fanword.Android.Fragments
                     v.FindViewById<ImageView>(Resource.Id.imgSports).SetImageResource(mySports ? Resource.Drawable.CheckYES : Resource.Drawable.CheckNO);
                 };
 
-				v.FindViewById<Button>(Resource.Id.btnFilter).Click += (o, eventArgs) =>
-				{
-					dialog.Dismiss();
-				};
+                v.FindViewById<Button>(Resource.Id.btnFilter).Click += (o, eventArgs) =>
+                {
+                    dialog.Dismiss();
+                };
 
                 dialog.DismissEvent += (o, eventArgs) =>
                 {
@@ -136,7 +135,7 @@ namespace Fanword.Android.Fragments
 
                 if (!string.IsNullOrEmpty(model.EventId))
                 {
-					Navigator.GoToEventProfile(model.EventId);
+                    Navigator.GoToEventProfile(model.EventId);
                 }
             };
 
@@ -147,17 +146,17 @@ namespace Fanword.Android.Fragments
 
         void SetButtons(Button button)
         {
-            btnPast.SetTextColor(new Color(144,144,144));
+            btnPast.SetTextColor(new Color(144, 144, 144));
             btnToday.SetTextColor(new Color(144, 144, 144));
             btnUpcoming.SetTextColor(new Color(144, 144, 144));
-            button.SetTextColor(new Color(21,21,21));
+            button.SetTextColor(new Color(21, 21, 21));
         }
 
         public void GetData()
         {
             if (lvScores == null)
                 return;
-            
+
             var filter = new ScoresFilterModel();
             filter.FollowFilter = new FollowingFilterModel();
             filter.TeamId = TeamId;
@@ -183,10 +182,58 @@ namespace Fanword.Android.Fragments
                 }
                 else
                 {
-                    adapter.Items = response.Result;
-                    adapter.NotifyDataSetChanged();
+                    if (ScoreChanged != null)
+                    {
+                        ScoreChanged.Invoke(response.Result);
+                    }
+                    //adapter.Items = response.Result;
+                    //adapter.NotifyDataSetChanged();
                 }
             });
+
+            ScoresFragment.ScoreChanged += (List<ScoreModel> obj) =>
+            {
+                List<ScoreModel> TempList = new List<ScoreModel>();
+                TempList.Clear();
+                foreach (var item in obj)
+                {
+                    DateTime eventDate = ConvertToUTC(item.EventDate, item.TimezoneId);
+                    TempList.Add(new ScoreModel()
+                    {
+                        EventDate = eventDate,
+                        EventId = item.EventId,
+                        EventName = item.EventName,
+                        IsTbd = item.IsTbd,
+                        PostCount = item.PostCount,
+                        ShowTicketUrl = item.ShowTicketUrl,
+                        SportName = item.SportName,
+                        SportProfileUrl = item.SportProfileUrl,
+                        Team1Name = item.Team1Name,
+                        Team1Score = item.Team1Score,
+                        Team1Url = item.Team1Url,
+                        Team2Name = item.Team2Name,
+                        Team2Score = item.Team2Score,
+                        Team2Url = item.Team2Url,
+                        TeamCount = item.TeamCount,
+                        TicketUrl = item.TicketUrl,
+                        TimezoneId = item.TimezoneId
+                    });
+                }
+
+                var grouped = TempList.GroupBy(m => m.EventDate.ToString("D"));
+                var items = new List<ScoreModel>();
+                foreach (var group in grouped)
+                {
+                    items.Add(new ScoreModel()
+                    {
+                        EventDate = Convert.ToDateTime(group.Key),
+                        TeamCount = group.Count()
+                    });
+                    items.AddRange(group);
+                }
+                adapter.Items = items;
+                adapter.NotifyDataSetChanged();
+            };
         }
 
         int GetViewType(ScoreModel item, int position)
@@ -235,29 +282,9 @@ namespace Fanword.Android.Fragments
                 var layout = view.FindViewById<LinearLayout>(Resource.Id.llContainer).LayoutParameters as LinearLayout.MarginLayoutParams;
                 layout.TopMargin = position == 0 ? 0 : (int)(35 * Resources.DisplayMetrics.Density);
                 view.FindViewById<LinearLayout>(Resource.Id.llContainer).LayoutParameters = layout;
-
-                DateTime eventDate = item.EventDate;
-                if (item.EventDate != null)
-                {
-                    TimeZoneInfo zoneInfo;
-                    try
-                    {
-                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
-                    }
-                    catch (TimeZoneNotFoundException)
-                    {
-                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
-                    }
-
-                    var date_kind = eventDate.Kind;
-                    if (date_kind != DateTimeKind.Local)
-                    {
-                        eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
-                    }
-                }
-
-
-                view.FindViewById<TextView>(Resource.Id.lblDate).Text = eventDate.ToString("D").ToUpper();
+                DateTime time = item.EventDate;  
+                string format = "dddd, MMMM d, yyyy";   
+                view.FindViewById<TextView>(Resource.Id.lblDate).Text = item.EventDate.ToString(format).ToUpper();
                 view.FindViewById<TextView>(Resource.Id.lblCount).Text = item.TeamCount.ToString();
             }
             else
@@ -271,39 +298,13 @@ namespace Fanword.Android.Fragments
                 view.FindViewById<TextView>(Resource.Id.lblPostCount).Text = item.PostCount.ToString();
                 view.FindViewById<TextView>(Resource.Id.lblSportName).Text = item.SportName;
 
-                DateTime eventDate = item.EventDate;
-                if (!string.IsNullOrEmpty(item.TimezoneId) && item.EventDate != null)
-                {
-                    TimeZoneInfo zoneInfo;
-
-                    try
-                    {
-                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById(item.TimezoneId);
-                    }
-                    catch (TimeZoneNotFoundException)
-                    {
-                        zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
-                    }
-
-                    if (item.TimezoneId.Contains("India Standard Time"))
-                    {
-                        eventDate = eventDate.ToLocalTime();
-                    }
-                    else
-                    {
-                        eventDate = TimeZoneInfo.ConvertTimeFromUtc(item.EventDate, zoneInfo);
-                    }
-                }
-
-
-
                 if (item.IsTbd)
                 {
                     view.FindViewById<TextView>(Resource.Id.lblTime).Text = "TBD";
                 }
                 else
                 {
-                    view.FindViewById<TextView>(Resource.Id.lblTime).Text = eventDate.ToString("h:mm tt");
+                    view.FindViewById<TextView>(Resource.Id.lblTime).Text = item.EventDate.ToString("h:mm tt");
                 }
 
                 string lang = CultureInfo.CurrentCulture.Name;   // example: "en-US"
@@ -329,7 +330,6 @@ namespace Fanword.Android.Fragments
                     }
                     view.FindViewById<TextView>(Resource.Id.lblTeam1Score).Visibility = ViewStates.Gone;
                     view.FindViewById<TextView>(Resource.Id.lblTeam2Score).Visibility = ViewStates.Gone;
-
                 }
 
                 view.FindViewById<TextView>(Resource.Id.lblEventName).Text = item.EventName;
@@ -378,5 +378,31 @@ namespace Fanword.Android.Fragments
             return view;
         }
 
+        public DateTime ConvertToUTC(DateTime dd, string timezoneId)
+        {
+            DateTime eventDate = dd;
+            if (!string.IsNullOrEmpty(timezoneId))
+            {
+                TimeZoneInfo zoneInfo;
+                try
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById(timezoneId);
+                }
+                catch (TimeZoneNotFoundException)
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                }
+
+                if (timezoneId.Contains("India Standard Time"))
+                {
+                    eventDate = eventDate.ToLocalTime();
+                }
+                else
+                {
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(dd, zoneInfo);
+                }
+            }
+            return eventDate;
+        }
     }
 }

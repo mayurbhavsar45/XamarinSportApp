@@ -217,7 +217,7 @@ namespace Fanword.Shared
 
         public async Task<User> GetMyUser()
         {
-            var response = await Get<User>("/api/users/MyUser", new Dictionary<string, object>() {});
+            var response = await Get<User>("/api/users/MyUser", new Dictionary<string, object>() { });
             LocalStorage.UpdateUser(response);
             return response;
         }
@@ -471,63 +471,28 @@ namespace Fanword.Shared
         public async Task<List<ScoreModel>> GetScores(ScoresFilterModel filter)
         {
             var scores = await Post<List<ScoreModel>>("/api/Scores/", filter);
-            List<ScoreModel> TempList = new List<ScoreModel>();
-            TempList.Clear();
-            foreach (var item in scores)
-            {
-                DateTime eventDate = item.EventDate;
-                if (!string.IsNullOrEmpty(item.TimezoneId))
-                {
-                    
-                    if (item.TimezoneId.Contains("India Standard Time"))
-                    {
-                        eventDate = eventDate.ToLocalTime();
-                    }else{
-                        eventDate = item.EventDate;
-                    }
-                }
 
-                TempList.Add(new ScoreModel()
-                {
-                    EventDate = eventDate,
-                    EventId = item.EventId,
-                    EventName = item.EventName,
-                    IsTbd = item.IsTbd,
-                    PostCount = item.PostCount,
-                    ShowTicketUrl = item.ShowTicketUrl,
-                    SportName = item.SportName,
-                    SportProfileUrl = item.SportProfileUrl,
-                    Team1Name = item.Team1Name,
-                    Team1Score = item.Team1Score,
-                    Team1Url = item.Team1Url,
-                    Team2Name = item.Team2Name,
-                    Team2Score = item.Team2Score,
-                    Team2Url = item.Team2Url,
-                    TeamCount = item.TeamCount,
-                    TicketUrl = item.TicketUrl,
-                    TimezoneId = item.TimezoneId
-                });
-            }
+            //var grouped = scores.GroupBy(m => m.EventDate).ToDictionary(t => t.Key, t => t.ToList());
+            //var items = new List<ScoreModel>();
+            //foreach (var group in grouped)
+            //{
+            //    items.Add(new ScoreModel()
+            //    {
+            //        EventDate = group.Key,
+            //        TimezoneId = group.Value.FirstOrDefault().TimezoneId,
+            //        TeamCount = group.Value.Count()
+            //    });
+            //    items.AddRange(group.Value);
+            //}
 
-            var grouped = TempList.GroupBy(m => m.EventDate);
-            var items = new List<ScoreModel>();
-            foreach (var group in grouped)
-            {
-                items.Add(new ScoreModel()
-                {
-                    EventDate = group.Key,
-                    TeamCount = group.Count()
-                });
-                items.AddRange(group);
-            }
-            return items;
+            return scores;
         }
         #endregion
 
         #region CreatePostProfileSearch
         public async Task<ProfileSearch> SearchProfiles(string text, string id, FeedType type)
         {
-            return await Get<ProfileSearch>("/api/ProfileSearch/Search", new Dictionary<string, object>() { { "text", text }, {"id", id ?? ""}, {"type", type} });
+            return await Get<ProfileSearch>("/api/ProfileSearch/Search", new Dictionary<string, object>() { { "text", text }, { "id", id ?? "" }, { "type", type } });
         }
 
         public async Task<EventSearch> SearchEvents(DateTime utcMidnight)
@@ -615,7 +580,7 @@ namespace Fanword.Shared
         #region UserProfile
         public async Task<UserProfile> GetUserProfile(string userId)
         {
-            return await Get<UserProfile>("/api/UserProfile/", new Dictionary<string, object>() {{"userId", userId}});
+            return await Get<UserProfile>("/api/UserProfile/", new Dictionary<string, object>() { { "userId", userId } });
         }
         #endregion
 
@@ -642,10 +607,10 @@ namespace Fanword.Shared
             return await Get<List<TeamRanking>>("/api/TeamRankings/", new Dictionary<string, object>() { { "teamId", teamId } });
         }
 
-		public async Task<List<AthleteItem>> GetAthletesForTeam(string teamId)
-		{
-			return await Get<List<AthleteItem>>("/api/AthleteItems/GetByTeam", new Dictionary<string, object>() { { "teamId", teamId } });
-		}
+        public async Task<List<AthleteItem>> GetAthletesForTeam(string teamId)
+        {
+            return await Get<List<AthleteItem>>("/api/AthleteItems/GetByTeam", new Dictionary<string, object>() { { "teamId", teamId } });
+        }
 
         #endregion
 
@@ -657,10 +622,10 @@ namespace Fanword.Shared
 
         public async Task<List<Ranking>> GetSportRankings(string sportId)
         {
-            return await GetRankings(new FollowingFilterModel() {SportId = sportId});
+            return await GetRankings(new FollowingFilterModel() { SportId = sportId });
         }
 
-        
+
         public async Task<List<TeamProfile>> GetTeamsForSport(string sportId)
         {
             return await Get<List<TeamProfile>>("/api/TeamProfile/GetBySport", new Dictionary<string, object>() { { "sportId", sportId } });
@@ -705,7 +670,7 @@ namespace Fanword.Shared
         public async Task<List<UserNotification>> GetNotifcations()
         {
             var accessToken = CrossSettings.Current.GetValueOrDefault("AccessToken", "");
-            return (await new NotificationService(accessToken).GetAllAsync()).OrderByDescending(m => m.DateCreatedUtc).Select(m => new UserNotification() { IsRead = m.DateReadUtc != null, DateCreatedUtc = m.DateCreatedUtc, Id = m.Id, Title = m.Title, Message = NotificationContentHelper.GetContentFromNotification(m), ProfileUrl = m.UserMetaData["ProfileUrl"], MetaData = m.MetaData, UserMetaData = m.UserMetaData}).ToList();
+            return (await new NotificationService(accessToken).GetAllAsync()).OrderByDescending(m => m.DateCreatedUtc).Select(m => new UserNotification() { IsRead = m.DateReadUtc != null, DateCreatedUtc = m.DateCreatedUtc, Id = m.Id, Title = m.Title, Message = NotificationContentHelper.GetContentFromNotification(m), ProfileUrl = m.UserMetaData["ProfileUrl"], MetaData = m.MetaData, UserMetaData = m.UserMetaData }).ToList();
         }
 
         public async Task MarkNotificationsAsRead()
@@ -722,7 +687,7 @@ namespace Fanword.Shared
             if (string.IsNullOrEmpty(filter))
             {
                 data.Results = data.Results.OrderByDescending(m => m.Followers).ThenBy(m => m.Title).ToList();
-                data.Results.Insert(0, new GlobalSearchItem() { Title = "Popular"});
+                data.Results.Insert(0, new GlobalSearchItem() { Title = "Popular" });
             }
             else
             {
@@ -740,7 +705,7 @@ namespace Fanword.Shared
 
         public async Task<GlobalSearch> SearchByType(string filter, FeedType type)
         {
-            return await Get<GlobalSearch>("/api/Search/", new Dictionary<string, object>() { { "filter", filter }, { "type", (int)type} });
+            return await Get<GlobalSearch>("/api/Search/", new Dictionary<string, object>() { { "filter", filter }, { "type", (int)type } });
         }
         #endregion
 
@@ -792,7 +757,7 @@ namespace Fanword.Shared
                     }
                 }).ToList();
             }
-            
+
             return teams;
         }
         #endregion
