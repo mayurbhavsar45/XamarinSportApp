@@ -267,7 +267,44 @@ namespace Fanword.iOS
 			cell.LblLikes.Text = item.LikeCount.ToString ();
 			cell.LblComments.Text = item.CommentCount.ToString ();
 			cell.LblTags.Text = item.TagCount.ToString ();
-			cell.LblName.Text = item.Username;
+
+
+            string[] separators = { "@" };
+            string value = item.Username;
+            string[] words = value.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string schoolName = string.Empty;
+            string sportsName = string.Empty;
+
+            if (words.Count() > 1)
+            {
+                for (int i = 0; i < words.Length; i++)
+                {
+                    schoolName = words[0];
+                    sportsName = words[1];
+                }
+            }
+            else
+            {
+                schoolName = words[0];
+            }
+
+            NSMutableAttributedString username = null;
+
+            username = new NSMutableAttributedString(
+
+                str: schoolName,
+                font: UIFont.BoldSystemFontOfSize(12),
+                foregroundColor: UIColor.Black
+            );
+
+            username.Append(new NSMutableAttributedString(
+
+                str: "\n" + sportsName,
+                font: UIFont.SystemFontOfSize(12),
+                foregroundColor: UIColor.LightGray
+            ));
+
+            cell.LblName.AttributedText = username;
 			cell.TxtContent.Text = item.Content;
             cell.VwContent.Hidden = string.IsNullOrEmpty(cell.TxtContent.Text);
 

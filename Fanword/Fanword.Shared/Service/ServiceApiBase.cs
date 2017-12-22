@@ -29,8 +29,11 @@ namespace Fanword.Shared.Service
 
         //public static string PortalURL = "http://192.168.0.126:12145";
 
-        public static string PortalURL = "http://166.62.84.232:8921";
-        public static string MvcPortalURL = "http://localhost:11551";
+        //public static string PortalURL = "http://166.62.84.232:8921";
+        //public static string MvcPortalURL = "http://localhost:11551";
+
+        public static string PortalURL = "https://fanword-api-beta.azurewebsites.net";
+        public static string MvcPortalURL = "https://fanwordportalbeta.azurewebsites.net";
 
         //public static string PortalURL = "https://fanwordapibeta.azurewebsites.net";
         //public static string MvcPortalURL = "https://fanword-beta.agilx.com";
