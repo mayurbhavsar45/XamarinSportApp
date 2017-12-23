@@ -175,9 +175,6 @@
     <Reference Include="Mixpanel">
       <HintPath>..\lib_iOS\Mixpanel.dll</HintPath>
     </Reference>
-    <Reference Include="Fanword.Poco">
-      <HintPath>..\Xamrin_mobile_lib\Fanword.iOS\Fanword.Poco.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.WindowsAzure.Messaging.iOS">
       <HintPath>..\Xamrin_mobile_lib\Fanword.iOS\Microsoft.WindowsAzure.Messaging.iOS.dll</HintPath>
     </Reference>

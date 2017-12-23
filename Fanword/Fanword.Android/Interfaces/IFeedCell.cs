@@ -39,5 +39,7 @@ namespace Fanword.Android.ViewHolders
         ImageButton btnFacebook { get; set; }
         ImageButton btnTwitter { get; set; }
         ImageButton btnInstagram { get; set; }
+        LinearLayout llSharePost { get; set; }
+        TextView lblSharedFrom { get; set; }
     }
 }
