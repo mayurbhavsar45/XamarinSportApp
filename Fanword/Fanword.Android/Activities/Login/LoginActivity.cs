@@ -70,8 +70,11 @@ namespace Fanword.Android
             btnFacebook.RegisterCallback(manager, this);
 
 #if DEBUG
-            txtEmail.Text = "dkprajapati18@gmail.com";
-            txtPassword.Text = "Darshan@1234";
+            //txtEmail.Text = "dkprajapati18@gmail.com";
+            //txtPassword.Text = "Darshan@1234";
+
+            txtEmail.Text = "support@agilx.com";
+            txtPassword.Text = "Password$1";
 #endif
 
             btnSignIn.Click += (sender, args) =>

@@ -328,6 +328,16 @@ namespace Fanword.Android.CustomViews
             {
                 return;
             }
+
+            if (item.IsSharePost)
+            {
+                cell.llSharePost.Visibility = ViewStates.Visible;
+                cell.lblSharedFrom.Text = item.SharedUsername;
+            }
+            else
+            {
+                cell.llSharePost.Visibility = ViewStates.Gone;
+            }
             cell.lblContent.Text = item.Content;
             //cell.lblContent.MovementMethod = LinkMovementMethod.Instance;
 

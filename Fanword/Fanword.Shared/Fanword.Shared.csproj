@@ -106,14 +106,8 @@
     <Reference Include="Plugin.Media.Abstractions">
       <HintPath>..\packages\Xam.Plugin.Media.2.6.2\lib\portable-net45+wp80+win8+wpa81\Plugin.Media.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Plugin.Media">
-      <HintPath>..\packages\Xam.Plugin.Media.2.6.2\lib\portable-net45+wp80+win8+wpa81\Plugin.Media.dll</HintPath>
-    </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\packages\HtmlAgilityPack.1.4.9.5\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll</HintPath>
-    </Reference>
-    <Reference Include="Fanword.Poco">
-      <HintPath>..\Xamrin_mobile_lib\Fanword.Shared\Fanword.Poco.dll</HintPath>
     </Reference>
     <Reference Include="FileUploader.Portable">
       <HintPath>..\Xamrin_mobile_lib\Fanword.Shared\FileUploader.Portable.dll</HintPath>
@@ -135,6 +129,12 @@
     </Reference>
     <Reference Include="Plugin.PushNotifications">
       <HintPath>..\Xamrin_mobile_lib\Fanword.Shared\Plugin.PushNotifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Media">
+      <HintPath>..\packages\Xam.Plugin.Media.2.6.2\lib\portable-net45+wp80+win8+wpa81\Plugin.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="Fanword.Poco">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Shared\Fanword.Poco.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

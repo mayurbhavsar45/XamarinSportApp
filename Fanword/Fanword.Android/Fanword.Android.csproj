@@ -201,9 +201,6 @@
     <Reference Include="MixpanelAndroid">
       <HintPath>..\packages\Vapolia.Mixpanel.4.6.4\lib\MonoAndroid\MixpanelAndroid.dll</HintPath>
     </Reference>
-    <Reference Include="Fanword.Poco">
-      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Fanword.Poco.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.WindowsAzure.Messaging.Android">
       <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Microsoft.WindowsAzure.Messaging.Android.dll</HintPath>
     </Reference>
@@ -230,6 +227,9 @@
     </Reference>
     <Reference Include="TimeZoneNames">
       <HintPath>..\packages\TimeZoneNames.3.2.0\lib\netstandard2.0\TimeZoneNames.dll</HintPath>
+    </Reference>
+    <Reference Include="Fanword.Poco">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Fanword.Poco.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
