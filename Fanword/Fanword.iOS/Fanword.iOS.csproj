@@ -151,6 +151,9 @@
     <Reference Include="PCLStorage.Abstractions">
       <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="PCLStorage">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.dll</HintPath>
+    </Reference>
     <Reference Include="FFImageLoading">
       <HintPath>..\packages\Xamarin.FFImageLoading.2.2.9\lib\Xamarin.iOS10\FFImageLoading.dll</HintPath>
     </Reference>
@@ -171,6 +174,9 @@
     </Reference>
     <Reference Include="Mixpanel">
       <HintPath>..\lib_iOS\Mixpanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Fanword.Poco">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.iOS\Fanword.Poco.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.Messaging.iOS">
       <HintPath>..\Xamrin_mobile_lib\Fanword.iOS\Microsoft.WindowsAzure.Messaging.iOS.dll</HintPath>
@@ -204,12 +210,6 @@
     </Reference>
     <Reference Include="TimeZoneNames">
       <HintPath>..\packages\TimeZoneNames.3.2.0\lib\netstandard2.0\TimeZoneNames.dll</HintPath>
-    </Reference>
-    <Reference Include="PCLStorage">
-      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.dll</HintPath>
-    </Reference>
-    <Reference Include="Fanword.Poco">
-      <HintPath>..\Xamrin_mobile_lib\Fanword.iOS\Fanword.Poco.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -40,8 +40,6 @@ namespace Fanword.Android.ViewHolders
         public ImageButton btnFacebook { get; set; }
         public ImageButton btnTwitter { get; set; }
         public ImageButton btnInstagram { get; set; }
-        public LinearLayout llSharePost { get; set; }
-        public TextView lblSharedFrom { get; set; }
 
         public ImageButton btnTag { get; set; }
         public FeedItemViewHolder(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
@@ -76,8 +74,6 @@ namespace Fanword.Android.ViewHolders
             btnFacebook = itemView.FindViewById<ImageButton>(Resource.Id.btnFacebook);
             btnTwitter = itemView.FindViewById<ImageButton>(Resource.Id.btnTwitter);
             btnInstagram = itemView.FindViewById<ImageButton>(Resource.Id.btnInstagram);
-            llSharePost = itemView.FindViewById<LinearLayout>(Resource.Id.linearLayout0);
-            lblSharedFrom = itemView.FindViewById<TextView>(Resource.Id.lblNameShares);
 
             var parameters = rlMedia.LayoutParameters as LinearLayout.LayoutParams;
             var height = Application.Context.Resources.DisplayMetrics.WidthPixels * 9 / 16f;
