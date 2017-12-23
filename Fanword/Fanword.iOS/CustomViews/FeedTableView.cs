@@ -262,6 +262,35 @@ namespace Fanword.iOS
 				cell.IsCommonNew = false;
 			}
 
+
+
+
+            if ((item.IsSharePost) && (!string.IsNullOrWhiteSpace(item.SharedUsername)))
+            {
+                NSMutableAttributedString shareName = null;
+
+                shareName = new NSMutableAttributedString(
+
+                    str: "Shared from ",
+                    font: UIFont.SystemFontOfSize(12),
+                    foregroundColor: UIColor.LightGray
+                );
+
+                shareName.Append(new NSMutableAttributedString(
+
+                    str: item.SharedUsername,
+                    font: UIFont.BoldSystemFontOfSize(12),
+                    foregroundColor: UIColor.Black
+                ));
+
+                cell.VwShare.Hidden = false;
+                cell.LblNameShares.AttributedText = shareName;
+            }
+            else
+            {
+                cell.VwShare.Hidden = true;
+            }
+
             cell.ImgImage.RemoveConstraints(cell.ImgImage.Constraints);
             cell.ImgImage.AddConstraint(NSLayoutConstraint.Create(cell.ImgImage, NSLayoutAttribute.Height, NSLayoutRelation.Equal, cell.ImgImage, NSLayoutAttribute.Width, (nfloat)item.ImageAspectRatio, 0));
 

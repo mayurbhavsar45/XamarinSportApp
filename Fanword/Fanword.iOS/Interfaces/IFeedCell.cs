@@ -35,5 +35,7 @@ namespace Fanword.iOS
 		int Position { get; set; }
 		string PostId { get; set; }
         NSLayoutConstraint ImgAspectRatio { get; }
+        UIView VwShare { get; }
+        UILabel LblNameShares { get; }
 	}
 }

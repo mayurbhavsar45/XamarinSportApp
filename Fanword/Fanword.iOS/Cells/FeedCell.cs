@@ -42,7 +42,8 @@ namespace Fanword.iOS
 		public string PostId { get; set; }
         public NSLayoutConstraint ImgAspectRatio => imgAspectRatio;
 
-
+        public UIView VwShare => shareView;
+        public UILabel LblNameShares => lblNameShares;
 
         public FeedCell (IntPtr handle) : base (handle)
 		{
