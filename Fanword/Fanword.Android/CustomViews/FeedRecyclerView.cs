@@ -331,8 +331,19 @@ namespace Fanword.Android.CustomViews
 
             if ((item.IsSharePost) && (!string.IsNullOrWhiteSpace(item.SharedUsername)))
             {
+                var spanFromName = new SpannableString("Shared from" +" "+ item.SharedUsername);
+                spanFromName.SetSpan(new ForegroundColorSpan(Color.LightGray), 0, 11, 0);
+                spanFromName.SetSpan(new RelativeSizeSpan(1.0f), 0, 11, 0);
+                spanFromName.SetSpan(new StyleSpan(TypefaceStyle.Normal), 0, 11, 0);
+               
+                spanFromName.SetSpan(new ForegroundColorSpan(Color.Black), 12, item.SharedUsername.Length + 12, 0);
+                spanFromName.SetSpan(new RelativeSizeSpan(1.0f), 12, item.SharedUsername.Length + 12, 0);
+                spanFromName.SetSpan(new StyleSpan(TypefaceStyle.Bold), 12, item.SharedUsername.Length + 12, 0);
+
+
+
                 cell.llSharePost.Visibility = ViewStates.Visible;
-                cell.lblSharedFrom.Text = item.SharedUsername;
+                cell.lblSharedFrom.SetText(spanFromName, TextView.BufferType.Spannable);
             }
             else
             {
