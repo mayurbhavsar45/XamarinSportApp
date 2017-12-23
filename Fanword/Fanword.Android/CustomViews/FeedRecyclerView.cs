@@ -40,6 +40,7 @@ using Mobile.Extensions.Extensions;
 using Plugin.Settings;
 using Fanword.Android.Activities.SchoolProfile;
 using Fanword.Android.Shared;
+using static Android.Support.V7.Widget.StaggeredGridLayoutManager;
 
 namespace Fanword.Android.CustomViews
 {
@@ -194,17 +195,20 @@ namespace Fanword.Android.CustomViews
             }
 
             LoadingData = true;
-            DateTime queryTime = DateTime.UtcNow.AddMinutes(5);
+            DateTime queryDate = DateTime.UtcNow.AddMinutes(2);
+            string strQueryDate = string.Format("{0:MM/dd/yyyy hh:mm tt}", queryDate);
+
             if (!refresh)
             {
-                queryTime = (adapter.Items.LastOrDefault(m => !string.IsNullOrEmpty(m.Id))?.DateCreatedUtc ?? DateTime.UtcNow.AddMinutes(5));
+                queryDate = DateTime.SpecifyKind(adapter.Items.LastOrDefault(m => !string.IsNullOrEmpty(m.Id)).DateCreatedUtc, DateTimeKind.Utc).ToLocalTime();
+                strQueryDate = string.Format("{0:MM/dd/yyyy hh:mm tt}", queryDate);
             }
             else
             {
                 RefreshRequested?.Invoke(this, EventArgs.Empty);
             }
 
-            var apiTask = new ServiceApi().GetFeed(queryTime, id, type);
+            var apiTask = new ServiceApi().GetFeed(strQueryDate, id, type);
             apiTask.HandleError(activity);
             apiTask.OnSucess(activity, (response) =>
             {
@@ -277,6 +281,7 @@ namespace Fanword.Android.CustomViews
         void GetView(RecyclerView.ViewHolder holder, FeedItem item, int position, int viewType)
         {
             IFeedCell cell = holder as IFeedCell;
+
             if(viewType == (int)FeedViewType.AdvertisementItem)
             {
                 var advertisment = holder as AdvertisementViewHolder;
@@ -325,6 +330,7 @@ namespace Fanword.Android.CustomViews
             }
             cell.lblContent.Text = item.Content;
             //cell.lblContent.MovementMethod = LinkMovementMethod.Instance;
+
             DateTime date = DateTime.SpecifyKind(item.DateCreatedUtc, DateTimeKind.Utc);
             if (date > DateTime.UtcNow)
             {
@@ -332,8 +338,38 @@ namespace Fanword.Android.CustomViews
             }
 
 			cell.lblTimeAgo.Text = TimeAgoHelper.GetTimeAgo(date);
-            
-            cell.lblName.Text = item.Username;
+
+
+            string[] separators = { "@" };
+            string value = item.Username;
+            string[] words = value.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            string schoolName = string.Empty;
+            string sportsName = string.Empty;
+
+            if (words.Count() > 1)
+            {
+                for (int i = 0; i < words.Length; i++)
+                {
+                    schoolName = words[0];
+                    sportsName = words[1];
+                }
+            }
+            else
+            {
+                schoolName = words[0];
+            }
+
+            var span = new SpannableString(schoolName + "\n"+ sportsName);
+            span.SetSpan(new ForegroundColorSpan(Color.Black), 0, schoolName.Length, 0);
+            span.SetSpan(new RelativeSizeSpan(1.0f), 0, schoolName.Length, 0);
+            span.SetSpan(new StyleSpan(TypefaceStyle.Bold), 0, schoolName.Length, 0);
+            if(!string.IsNullOrEmpty(sportsName)){
+                span.SetSpan(new ForegroundColorSpan(Color.LightGray), schoolName.Length + 1, schoolName.Length + sportsName.Length + 1, 0);
+                span.SetSpan(new RelativeSizeSpan(1.0f), schoolName.Length + 1, schoolName.Length + sportsName.Length + 1, 0);
+                span.SetSpan(new StyleSpan(TypefaceStyle.Normal), schoolName.Length + 1, schoolName.Length + sportsName.Length + 1, 0);
+            }
+            cell.lblName.SetText(span, TextView.BufferType.Spannable);
+
             cell.ProfileTask?.Cancel(item.ProfileUrl);
             if (!string.IsNullOrEmpty(item.ProfileUrl))
             {

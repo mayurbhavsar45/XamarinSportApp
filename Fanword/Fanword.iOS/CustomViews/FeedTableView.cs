@@ -129,18 +129,20 @@ namespace Fanword.iOS
 				GetBottomViewController(viewController).LoadingScreen.Show();
 			}
 			isLoadingData = true;
-			DateTime queryDate = DateTime.UtcNow.AddMinutes (2);
+            DateTime queryDate = DateTime.UtcNow.AddMinutes(2);
+            var strQueryDate = string.Format("{0:MM/dd/yyyy hh:mm tt}", queryDate);
 
 			if (!refresh)
 			{
 				queryDate = DateTime.SpecifyKind (source.Items.LastOrDefault (m => !string.IsNullOrEmpty(m.Id)).DateCreatedUtc, DateTimeKind.Utc).ToLocalTime ();
+                strQueryDate = string.Format("{0:MM/dd/yyyy hh:mm tt}", queryDate);
 			}
             else
             {
                 RefreshRequested?.Invoke(this, EventArgs.Empty);
             }
 
-			var apiTask = new ServiceApi ().GetFeed (queryDate, id, type);
+            var apiTask = new ServiceApi ().GetFeed (strQueryDate, id, type);
 			apiTask.HandleError (viewController.LoadingScreen);
 			apiTask.OnSucess (response =>
 			{

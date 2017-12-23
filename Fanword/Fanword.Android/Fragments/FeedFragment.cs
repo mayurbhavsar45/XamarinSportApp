@@ -35,7 +35,7 @@ namespace Fanword.Android.Fragments
         {
             rvFeed.Initialize(Activity as BaseActivity);
             rvFeed.SwipeContainer = slRefresh;
-            //rvFeed.GetNewsFeedItems(true);
+            rvFeed.GetNewsFeedItems(true);
 
             slRefresh.Refresh += (sender, args) => rvFeed.GetNewsFeedItems(true);
 

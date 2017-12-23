@@ -325,7 +325,7 @@ namespace Fanword.Shared
         #endregion
 
         #region Feed
-        public async Task<List<FeedItem>> GetFeed(DateTime lastPostCreateDate, string id, FeedType type)
+        public async Task<List<FeedItem>> GetFeed(string lastPostCreateDate, string id, FeedType type)
         {
             return await Get<List<FeedItem>>("/api/Feed/", new Dictionary<string, object>() { { "lastPostCreatedAt", lastPostCreateDate.ToString() }, { "id", id ?? "" }, { "type", type } });
         }
