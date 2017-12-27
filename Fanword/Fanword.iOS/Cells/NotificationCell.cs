@@ -29,7 +29,7 @@ namespace Fanword.iOS
 
 				IsNew = false;
 			}
-			lblTitle.Text = item.Message;
+            lblTitle.Text = item.Title;
 			
             vwIsNew.Hidden = item.IsRead;
 

@@ -17,6 +17,7 @@ using Fanword.Android.Activities.SchoolProfile;
 using Fanword.Android.Activities.ViewPost;
 using Fanword.Shared.Models;
 using Fanword.Android.Activities.ViewNotification;
+using System.Diagnostics;
 
 namespace Fanword.Android.Shared
 {
@@ -134,15 +135,20 @@ namespace Fanword.Android.Shared
             }
             else
             {
-				Intent intent = new Intent(activity, typeof(ViewNotificationActivity));
-				intent.PutExtra("Title", title);
-                var content = metaData[MetaDataKeys.NewsNotificationMessage];
-				intent.PutExtra("Message", content);
-				if (newTask)
-				{
-					intent.SetFlags(ActivityFlags.NewTask);
+				try
+                {
+                    Intent intent = new Intent(activity, typeof(ViewNotificationActivity));
+                    intent.PutExtra("Title", title);
+                    var content = metaData[MetaDataKeys.NewsNotificationMessage];
+                    intent.PutExtra("Message", content);
+                    if (newTask)
+                    {
+                        intent.SetFlags(ActivityFlags.NewTask);
+                    }
+                    activity.StartActivity(intent);
+				} catch (Exception ex) {
+                    Debug.WriteLine(ex.Message);
 				}
-				activity.StartActivity(intent);
             }
         }
     }

@@ -97,7 +97,7 @@ namespace Fanword.Android.Activities.Notifications
             }
 
             view.FindViewById<TextView>(Resource.Id.lblTimeAgo).Text = TimeAgoHelper.GetTimeAgo(item.DateCreatedUtc);
-            view.FindViewById<TextView>(Resource.Id.lblMessage).Text = item.Message;
+            view.FindViewById<TextView>(Resource.Id.lblMessage).Text = item.Title;
             
             var profileImageView = view.FindViewById<ImageViewAsync>(Resource.Id.imgProfile);
             profileImageView.Tag?.CancelPendingTask(item.ProfileUrl);

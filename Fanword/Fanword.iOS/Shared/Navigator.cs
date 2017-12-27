@@ -5,6 +5,7 @@ using Plugin.Settings;
 using Mobile.Extensions.Extensions;
 using Fanword.Poco.Models;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace Fanword.iOS.Shared
 {
@@ -86,11 +87,18 @@ namespace Fanword.iOS.Shared
 			}
             else
             {
-				var controller = navigationController.Storyboard.InstantiateViewController<ViewNotificationViewController>();
-                controller.NotificationTitle = title;
-                var content = metaData[MetaDataKeys.NewsNotificationMessage];
-                controller.NotificationMessage = content;
-				navigationController.PushViewController(controller, true);
+				try
+                {
+                    var controller = navigationController.Storyboard.InstantiateViewController<ViewNotificationViewController>();
+                    controller.NotificationTitle = title;
+                    var content = metaData[MetaDataKeys.NewsNotificationMessage];
+                    controller.NotificationMessage = content;
+                    navigationController.PushViewController(controller, true);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex.Message);
+				}
             }
         }
     }
