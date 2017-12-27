@@ -397,6 +397,10 @@ namespace Fanword.Android.Fragments
                 {
                     eventDate = eventDate.ToLocalTime();
                 }
+                else if (timezoneId.Contains("Central America Standard Time"))
+                {
+                    eventDate = dd.AddHours(-6);
+                }
                 else
                 {
                     eventDate = TimeZoneInfo.ConvertTimeFromUtc(dd, zoneInfo);

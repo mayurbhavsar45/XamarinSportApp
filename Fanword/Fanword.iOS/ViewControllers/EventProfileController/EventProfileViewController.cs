@@ -12,6 +12,8 @@ using FFImageLoading;
 using Fanword.Shared;
 using Fanword.Shared.Helpers;
 using Fanword.iOS.Shared;
+using System.Globalization;
+using TimeZoneNames;
 
 namespace Fanword.iOS
 {
@@ -74,6 +76,7 @@ namespace Fanword.iOS
 
 		void GetData()
 		{
+            DateTime eventDate = DateTime.Now;
 			var apiTask = new ServiceApi().GetEventProfile(EventId);
 			apiTask.HandleError();
 			apiTask.OnSucess(response =>
@@ -82,14 +85,18 @@ namespace Fanword.iOS
 				lblTitle.Text = response.Result.Name;
 				lblSport.Text = response.Result.SportName;
 				lblLocation.Text = response.Result.Location;
-				lblDate.Text = response.Result.DateOfEventUtc.ToLocalTime().ToString("D");
+                eventDate = ConvertToUTC(response.Result.DateOfEventUtc, response.Result.TimezoneId);
+                lblDate.Text = eventDate.ToString("D");
                 if(response.Result.IsTbd)
                 {
                     lblTime.Text = "TBD";
                 }
                 else
                 {
-					lblTime.Text = response.Result.DateOfEventUtc.ToLocalTime().ToString("h:mm tt") + " " + TimeZoneName.GetLocalTimezoneName();
+                    string lang = CultureInfo.CurrentCulture.Name;
+                    var abbreviations = TZNames.GetAbbreviationsForTimeZone(response.Result.TimezoneId, lang);
+
+                    lblTime.Text = eventDate.ToString("h:mm tt") + " " + abbreviations.Standard;
                 }
 
 				lblName.Text = response.Result.Name;
@@ -159,5 +166,36 @@ namespace Fanword.iOS
 			    lblTeam2Score.Text = response.Result.Team2Score;
             });
 		}
+
+        public DateTime ConvertToUTC(DateTime dd, string timezoneId)
+        {
+            DateTime eventDate = dd;
+            if (!string.IsNullOrEmpty(timezoneId))
+            {
+                TimeZoneInfo zoneInfo;
+                try
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById(timezoneId);
+                }
+                catch (TimeZoneNotFoundException)
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                }
+
+                if (timezoneId.Contains("India Standard Time"))
+                {
+                    eventDate = eventDate.ToLocalTime();
+                }
+                else if (timezoneId.Contains("Central America Standard Time"))
+                {
+                    eventDate = dd.AddHours(-6);
+                }
+                else
+                {
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(dd, zoneInfo);
+                }
+            }
+            return eventDate;
+        }
 	}
 }

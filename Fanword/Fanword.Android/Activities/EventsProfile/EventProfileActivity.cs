@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 
@@ -24,6 +25,7 @@ using FFImageLoading;
 using FFImageLoading.Transformations;
 using FFImageLoading.Views;
 using Mobile.Extensions.Android.Extensions;
+using TimeZoneNames;
 
 namespace Fanword.Android.Activities.EventsProfile
 {
@@ -125,6 +127,7 @@ namespace Fanword.Android.Activities.EventsProfile
 
         void GetData()
         {
+            DateTime eventDate = DateTime.Now;
             var apiTask = new ServiceApi().GetEventProfile(EventId);
             apiTask.HandleError(this);
             apiTask.OnSucess(this, response =>
@@ -133,15 +136,21 @@ namespace Fanword.Android.Activities.EventsProfile
                 lblTitle.Text = response.Result.Name;
                 lblSport.Text = response.Result.SportName;
                 lblLocation.Text = response.Result.Location;
+
+                eventDate = ConvertToUTC(response.Result.DateOfEventUtc, response.Result.TimezoneId);
+
                 if (response.Result.IsTbd)
                 {
                     lblTime.Text = "TBD";
                 }
                 else
                 {
-                    lblTime.Text = (response.Result.DateOfEventUtc.ToLocalTime().ToString("h:mm tt") + " " + TimeZoneName.GetLocalTimezoneName()).ToUpper();
+                    string lang = CultureInfo.CurrentCulture.Name;
+                    var abbreviations = TZNames.GetAbbreviationsForTimeZone(response.Result.TimezoneId, lang);
+
+                    lblTime.Text = eventDate.ToString("h:mm tt") + " " + abbreviations.Standard;
                 }
-                lblDate.Text = response.Result.DateOfEventUtc.ToLocalTime().ToString("D");
+                lblDate.Text = eventDate.ToString("D");
                 lblName.Text = response.Result.Name;
                 lblEventName.Text = profile.Name;
 
@@ -201,6 +210,37 @@ namespace Fanword.Android.Activities.EventsProfile
                 lblTeam1Score.Text = response.Result.Team1Score;
                 lblTeam2Score.Text = response.Result.Team2Score;
             });
+        }
+
+        public DateTime ConvertToUTC(DateTime dd, string timezoneId)
+        {
+            DateTime eventDate = dd;
+            if (!string.IsNullOrEmpty(timezoneId))
+            {
+                TimeZoneInfo zoneInfo;
+                try
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById(timezoneId);
+                }
+                catch (TimeZoneNotFoundException)
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                }
+
+                if (timezoneId.Contains("India Standard Time"))
+                {
+                    eventDate = eventDate.ToLocalTime();
+                }
+                else if (timezoneId.Contains("Central America Standard Time"))
+                {
+                    eventDate = dd.AddHours(-6);
+                }
+                else
+                {
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(dd, zoneInfo);
+                }
+            }
+            return eventDate;
         }
     }
 }

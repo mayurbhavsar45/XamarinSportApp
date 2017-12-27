@@ -12,6 +12,7 @@ using Mobile.Extensions.iOS.Extensions;
 using Fanword.iOS.Shared;
 using System.Collections.Generic;
 using System.Linq;
+using TimeZoneConverter;
 
 namespace Fanword.iOS
 {
@@ -135,9 +136,9 @@ namespace Fanword.iOS
                    {
                        ScoreChanged.Invoke(response.Result);
                    }
-                    //source.Items = response.Result;
-                    //tvScores.ReloadData ();
-                }
+                   //source.Items = response.Result;
+                   //tvScores.ReloadData ();
+               }
                aiActivity.Hidden = true;
            });
 
@@ -239,12 +240,16 @@ namespace Fanword.iOS
                 }
                 catch (TimeZoneNotFoundException)
                 {
-                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");                 
                 }
 
                 if (timezoneId.Contains("India Standard Time"))
                 {
                     eventDate = eventDate.ToLocalTime();
+                }
+                else if (timezoneId.Contains("Central America Standard Time"))
+                {
+                    eventDate = dd.AddHours(-6);
                 }
                 else
                 {
