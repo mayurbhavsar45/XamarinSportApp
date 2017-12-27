@@ -227,7 +227,7 @@ namespace Fanword.Android.Activities.EventsProfile
                     zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
                 }
 
-                if (timezoneId.Contains("India Standard Time"))
+                if (zoneInfo.StandardName == TimeZone.CurrentTimeZone.StandardName)
                 {
                     eventDate = eventDate.ToLocalTime();
                 }

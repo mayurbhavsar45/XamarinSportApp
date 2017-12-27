@@ -170,6 +170,7 @@ namespace Fanword.iOS
         public DateTime ConvertToUTC(DateTime dd, string timezoneId)
         {
             DateTime eventDate = dd;
+
             if (!string.IsNullOrEmpty(timezoneId))
             {
                 TimeZoneInfo zoneInfo;
@@ -182,7 +183,7 @@ namespace Fanword.iOS
                     zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
                 }
 
-                if (timezoneId.Contains("India Standard Time"))
+                if (zoneInfo.StandardName == TimeZone.CurrentTimeZone.StandardName)
                 {
                     eventDate = eventDate.ToLocalTime();
                 }
