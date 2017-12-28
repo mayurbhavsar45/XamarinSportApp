@@ -22,7 +22,7 @@ namespace Fanword.iOS
 	{
 		// class-level declarations
 		public static string DefaultProfileString = "DefaultProfile";
-        public const string MIXPANEL_TOKEN = "298c35129fd8b5dd8d197a4cd395fab5";
+        public const string MIXPANEL_TOKEN = ConstantsHelper.MIXPANEL_TOKEN; //"298c35129fd8b5dd8d197a4cd395fab5";
 
 		public override UIWindow Window
 		{
@@ -41,8 +41,8 @@ namespace Fanword.iOS
 			var manager = BITHockeyManager.SharedHockeyManager;
 			manager.Configure ("8a31b849e71547c7b6137a87d58fdb09");
 			manager.StartManager ();
-			Settings.AppID = "469763806538563";
-			Settings.DisplayName = "Fanword";
+            Settings.AppID = ConstantsHelper.FB_ApplicationID; //"469763806538563";
+            Settings.DisplayName = ConstantsHelper.AppName; //"Fanword";
 
             MixpanelTweaks.Register(typeof(AppTweaks));
             Mixpanel.SharedInstanceWithToken(MIXPANEL_TOKEN);

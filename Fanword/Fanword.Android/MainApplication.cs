@@ -22,14 +22,14 @@ namespace Fanword.Android
         {
         }
 
-        public const string MIXPANEL_TOKEN = "298c35129fd8b5dd8d197a4cd395fab5";
+        public const string MIXPANEL_TOKEN = ConstantsHelper.MIXPANEL_TOKEN; //"298c35129fd8b5dd8d197a4cd395fab5";
         public static bool DidClick = false;
         public override void OnCreate()
         {
             base.OnCreate();
             RegisterActivityLifecycleCallbacks(this);
-			FacebookSdk.ApplicationId = "469763806538563";
-			FacebookSdk.ApplicationName = "FanWord";
+            FacebookSdk.ApplicationId = ConstantsHelper.FB_ApplicationID; //"469763806538563";
+            FacebookSdk.ApplicationName = ConstantsHelper.AppName; //"FanWord";
 			FacebookSdk.SdkInitialize (this);
 
             MixpanelAPI mixpanel = MixpanelAPI.GetInstance(this, MIXPANEL_TOKEN);
