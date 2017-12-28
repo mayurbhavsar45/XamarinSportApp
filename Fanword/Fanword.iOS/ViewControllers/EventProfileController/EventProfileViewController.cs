@@ -187,7 +187,7 @@ namespace Fanword.iOS
                 {
                     eventDate = eventDate.ToLocalTime();
                 }
-                else if (timezoneId.Contains("Central America Standard Time"))
+                else if (timezoneId.Contains("Central"))
                 {
                     eventDate = dd.AddHours(-6);
                 }
