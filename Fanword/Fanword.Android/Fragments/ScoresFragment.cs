@@ -25,6 +25,11 @@ using Mobile.Extensions.Android.Extensions;
 using Fanword.Android.Shared;
 using TimeZoneNames;
 using System.Globalization;
+using Felipecsl.GifImageViewLibrary;
+using System.Net.Http;
+using Java.IO;
+using Android.Graphics.Drawables;
+using Android.Webkit;
 
 namespace Fanword.Android.Fragments
 {
@@ -46,16 +51,23 @@ namespace Fanword.Android.Fragments
         public string SportId;
         public string SchoolId;
         public static event Action<List<ScoreModel>> ScoreChanged;
+        WebView webLoadingIcon;
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             View view = inflater.Inflate(Resource.Layout.ScoresLayout, null);
+
+            webLoadingIcon = view.FindViewById<WebView>(Resource.Id.webLoadingIcon);
+            webLoadingIcon.SetLayerType(LayerType.Software, null);
+
+
             this.PopulateViewProperties(view);
             return view;
         }
 
         public override void OnViewCreated(View view, Bundle savedInstanceState)
         {
+            
             if (string.IsNullOrEmpty(TeamId + SportId + SchoolId))
             {
                 mySchools = true;
@@ -78,6 +90,7 @@ namespace Fanword.Android.Fragments
 
             btnUpcoming.Click += (sender, args) =>
             {
+                
                 SetButtons(btnUpcoming);
                 dateFilter = DateFilter.Upcoming;
                 GetData();
@@ -94,6 +107,8 @@ namespace Fanword.Android.Fragments
                 v.FindViewById<ImageView>(Resource.Id.imgTeams).SetImageResource(myTeams ? Resource.Drawable.CheckYES : Resource.Drawable.CheckNO);
                 v.FindViewById<ImageView>(Resource.Id.imgSchools).SetImageResource(mySchools ? Resource.Drawable.CheckYES : Resource.Drawable.CheckNO);
                 v.FindViewById<ImageView>(Resource.Id.imgSports).SetImageResource(mySports ? Resource.Drawable.CheckYES : Resource.Drawable.CheckNO);
+
+
 
                 v.FindViewById<ImageView>(Resource.Id.imgTeams).Click += (o, eventArgs) =>
                 {
@@ -124,6 +139,8 @@ namespace Fanword.Android.Fragments
                 };
                 dialog.Show();
             };
+
+
 
             if (!string.IsNullOrEmpty(TeamId) || !string.IsNullOrEmpty(SportId) || !string.IsNullOrEmpty(SchoolId))
             {
@@ -168,10 +185,16 @@ namespace Fanword.Android.Fragments
             filter.DateFilter = dateFilter;
             filter.Today = DateTime.Now;
 
+            webLoadingIcon.Visibility = ViewStates.Visible;
+            webLoadingIcon.SetBackgroundColor(new Color(227, 228, 230));
+            webLoadingIcon.LoadUrl(string.Format("file:///android_asset/loader.gif"));
+
             var apiTask = new ServiceApi().GetScores(filter);
             apiTask.HandleError(ActivityProgresDialog);
+
             apiTask.OnSucess(ActivityProgresDialog, response =>
-            {
+            { 
+                
                 ActivityProgresDialog.HideProgressDialog();
                 if (lvScores.Adapter == null)
                 {
@@ -189,6 +212,7 @@ namespace Fanword.Android.Fragments
                     //adapter.Items = response.Result;
                     //adapter.NotifyDataSetChanged();
                 }
+                webLoadingIcon.Visibility = ViewStates.Invisible;
             });
 
             ScoresFragment.ScoreChanged += (List<ScoreModel> obj) =>

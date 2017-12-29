@@ -35,6 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+<AndroidTlsProvider>btls</AndroidTlsProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -230,6 +231,9 @@
     </Reference>
     <Reference Include="Fanword.Poco">
       <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Fanword.Poco.dll</HintPath>
+    </Reference>
+    <Reference Include="Refractored.GifImageView">
+      <HintPath>..\packages\Refractored.GifImageView.2.0.0\lib\monoandroid\Refractored.GifImageView.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -605,6 +609,7 @@
     <AndroidResource Include="Resources\layout\ContentSourceInfoLayout.axml" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\AdvertiserOrange.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\PencilOrange.png" />
+    <None Include="Interfaces\loader.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />

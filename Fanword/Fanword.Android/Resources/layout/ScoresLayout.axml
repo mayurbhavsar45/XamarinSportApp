@@ -19,6 +19,18 @@
             android:background="@drawable/buttonbackground"
             android:scaleType="fitCenter"
             android:padding="12dp" />
+    <!-- <com.felipecsl.gifimageview.library.GifImageView
+            android:id="@+id/gifImageView"
+            android:scaleType="fitCenter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@id/btnFilter" />-->
+        <WebView
+            android:id="@+id/webLoadingIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            android:layout_toLeftOf="@id/btnFilter" />
         <LinearLayout
             android:orientation="horizontal"
             android:minWidth="25px"
