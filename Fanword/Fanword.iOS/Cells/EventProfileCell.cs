@@ -6,6 +6,8 @@ using Foundation;
 using UIKit;
 using Fanword.Poco.Models;
 using System.Collections.Generic;
+using System.Globalization;
+using TimeZoneNames;
 
 namespace Fanword.iOS
 {
@@ -19,8 +21,12 @@ namespace Fanword.iOS
 
         public void SetData(EventProfile item, List<string> events)
         {
+			string lang = CultureInfo.CurrentCulture.Name;
+			var abbreviations = TZNames.GetAbbreviationsForTimeZone(item.TimezoneId, lang);
+			string lblTimeZone = abbreviations.Standard;
+
             lblSportName.Text = item.SportName;
-            lblDate.Text = item.DateOfEventUtc.ToLocalTime().ToString("h:mm tt");
+            lblDate.Text = item.DateOfEventUtc.ToLocalTime().ToString("h:mm tt") + " " + lblTimeZone;
             lblTeam1.Text = item.Team1Name;
             lblTeam2.Text = item.Team2Name;
 

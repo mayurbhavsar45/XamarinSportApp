@@ -31,6 +31,8 @@ using Fanword.Android.Shared;
 using Fanword.Android.TypeFaces;
 using Java.Lang;
 using Fanword.Shared.Helpers;
+using System.Globalization;
+using TimeZoneNames;
 
 namespace Fanword.Android.Activities.TagEvents
 {
@@ -177,11 +179,15 @@ namespace Fanword.Android.Activities.TagEvents
                 view = LayoutInflater.Inflate(Resource.Layout.EventProfileItem, null);
             }
 
+			string lang = CultureInfo.CurrentCulture.Name;
+			var abbreviations = TZNames.GetAbbreviationsForTimeZone(item.TimezoneId, lang);
+			string lblTimeZone = abbreviations.Standard;
+
             view.FindViewById<TextView>(Resource.Id.lblTeam1).Text = item.Team1Name;
             view.FindViewById<TextView>(Resource.Id.lblTeam2).Text = item.Team2Name;
             view.FindViewById<TextView>(Resource.Id.lblEventName).Text = item.Name;
             view.FindViewById<TextView>(Resource.Id.lblSport).Text = item.SportName;
-            view.FindViewById<TextView>(Resource.Id.lblTime).Text = item.DateOfEventUtc.ToLocalTime().ToString("hh:mm tt");
+            view.FindViewById<TextView>(Resource.Id.lblTime).Text = item.DateOfEventUtc.ToLocalTime().ToString("hh:mm tt") + " " + lblTimeZone;
 
             var team2ImageView = view.FindViewById<ImageViewAsync>(Resource.Id.imgTeam2);
             team2ImageView.Tag?.CancelPendingTask(item.Team2Url);
