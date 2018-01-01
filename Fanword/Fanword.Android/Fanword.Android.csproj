@@ -610,6 +610,7 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\AdvertiserOrange.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\PencilOrange.png" />
     <None Include="Interfaces\loader.gif" />
+    <AndroidAsset Include="Assets\loader.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
