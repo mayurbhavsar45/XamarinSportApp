@@ -20,8 +20,13 @@ namespace Fanword.Shared.Service
     public class ServiceApiBase
     {
 #if DEBUG
-        public const string HubName = "fanworddev";
-        public const string AzureConnectionString = "Endpoint=sb://agilxsbnew.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=algUxmIxlNZPUx6cd+P0jfYl1YDyAnjxdmVPcOF5BKo=";
+        //public const string HubName = "fanworddev";
+        //public const string AzureConnectionString = "Endpoint=sb://agilxsbnew.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=algUxmIxlNZPUx6cd+P0jfYl1YDyAnjxdmVPcOF5BKo=";
+
+        public const string HubName = "fanwordBeta";
+        public const string AzureConnectionString = "Endpoint=sb://fanwordbeta.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=Z030s1TggFodcapvdeWN6P1MzZqigTYz70FgcvjXXj0=";
+
+        public const string SenderID = "440868453679"; // Google API Project Number
 
         //public static string PortalURL = "http://192.168.5.236:12138/";
         //public static string PortalURL = "https://fanwordapidev.azurewebsites.net";

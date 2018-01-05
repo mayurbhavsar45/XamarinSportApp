@@ -27,6 +27,7 @@ using Fanword.Android.Activities.Search;
 using Fanword.Android.Activities.Settings;
 using Fanword.Shared.Helpers;
 using Fanword.Android.Activities.ContentSourceInfo;
+using Gcm.Client;
 
 namespace Fanword.Android
 { 
@@ -45,6 +46,13 @@ namespace Fanword.Android
             SetContentView(Resource.Layout.MainLayout);
             this.PopulateViewProperties();
             SetupViewBindings();
+
+            GcmClient.CheckDevice(this);
+            GcmClient.CheckManifest(this);
+            GcmClient.Register(this, "fanword-191110");
+
+            GcmService.Initialize(this);
+            GcmService.Register(this);
         }
 
         void SetupViewBindings()
