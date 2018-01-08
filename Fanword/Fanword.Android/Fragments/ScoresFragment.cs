@@ -30,6 +30,7 @@ using System.Net.Http;
 using Java.IO;
 using Android.Graphics.Drawables;
 using Android.Webkit;
+using System.Timers;
 
 namespace Fanword.Android.Fragments
 {
@@ -59,7 +60,6 @@ namespace Fanword.Android.Fragments
 
             webLoadingIcon = view.FindViewById<WebView>(Resource.Id.webLoadingIcon);
             webLoadingIcon.SetLayerType(LayerType.Software, null);
-
 
             this.PopulateViewProperties(view);
             return view;
@@ -189,12 +189,18 @@ namespace Fanword.Android.Fragments
             webLoadingIcon.SetBackgroundColor(new Color(227, 228, 230));
             webLoadingIcon.LoadUrl(string.Format("file:///android_asset/loader.gif"));
 
+            Timer timer = new Timer();
+            timer.Interval = 1000;
+            timer.Start();
+            timer.Elapsed += (object sender, ElapsedEventArgs e) => {
+                webLoadingIcon.LoadUrl(string.Format("file:///android_asset/loader.gif"));
+            };
+
             var apiTask = new ServiceApi().GetScores(filter);
             apiTask.HandleError(ActivityProgresDialog);
 
             apiTask.OnSucess(ActivityProgresDialog, response =>
             { 
-                
                 ActivityProgresDialog.HideProgressDialog();
                 if (lvScores.Adapter == null)
                 {
@@ -202,6 +208,7 @@ namespace Fanword.Android.Fragments
                     adapter.SetViewTypes(GetViewType, 2);
                     adapter.NoContentText = "No Scores";
                     lvScores.Adapter = adapter;
+                    adapter.NotifyDataSetChanged();
                 }
                 else
                 {
@@ -213,6 +220,7 @@ namespace Fanword.Android.Fragments
                     //adapter.NotifyDataSetChanged();
                 }
                 webLoadingIcon.Visibility = ViewStates.Invisible;
+                timer.Stop();
             });
 
             ScoresFragment.ScoreChanged += (List<ScoreModel> obj) =>

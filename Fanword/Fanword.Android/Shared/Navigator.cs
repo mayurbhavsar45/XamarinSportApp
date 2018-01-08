@@ -102,17 +102,17 @@ namespace Fanword.Android.Shared
         {
             Context activity = CrossCurrentActivity.Current.Activity;
             bool newTask = false;
-            if(activity == null)
+            if (activity == null)
             {
                 activity = Application.Context;
                 newTask = true;
             }
-
+            if(metaData != null){
             if (metaData[MetaDataKeys.UserNotificationType] == UserNotificationType.Like.ToString())
             {
                 Intent intent = new Intent(activity, typeof(ViewPostActivity));
                 intent.PutExtra("PostId", metaData[MetaDataKeys.PostId]);
-                if(newTask)
+                if (newTask)
                 {
                     intent.SetFlags(ActivityFlags.NewTask);
                 }
@@ -123,10 +123,10 @@ namespace Fanword.Android.Shared
                 Intent intent = new Intent(activity, typeof(PostDetailsActivity));
                 intent.PutExtra("PostId", metaData[MetaDataKeys.PostId]);
                 intent.PutExtra("Fragment", "Comments");
-				if (newTask)
-				{
-					intent.SetFlags(ActivityFlags.NewTask);
-				}
+                if (newTask)
+                {
+                    intent.SetFlags(ActivityFlags.NewTask);
+                }
                 activity.StartActivity(intent);
             }
             else if (metaData[MetaDataKeys.UserNotificationType] == UserNotificationType.Follow.ToString())
@@ -135,7 +135,7 @@ namespace Fanword.Android.Shared
             }
             else
             {
-				try
+                try
                 {
                     Intent intent = new Intent(activity, typeof(ViewNotificationActivity));
                     intent.PutExtra("Title", title);
@@ -146,10 +146,13 @@ namespace Fanword.Android.Shared
                         intent.SetFlags(ActivityFlags.NewTask);
                     }
                     activity.StartActivity(intent);
-				} catch (Exception ex) {
+                }
+                catch (Exception ex)
+                {
                     Debug.WriteLine(ex.Message);
-				}
+                }
             }
+        }
         }
     }
 
