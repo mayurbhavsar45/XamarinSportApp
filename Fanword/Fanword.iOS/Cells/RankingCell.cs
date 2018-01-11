@@ -62,7 +62,6 @@ namespace Fanword.iOS
 			lblRank.Text = item.Rank.ToString ();
 			lblSportName.Text = item.SportName;
 			lblTeamName.Text = item.TeamName;
-			lblWinsLosses.Text = item.Wins + "W " + item.Loses + "L " + item.Ties + "T";
 			lblDate.Text = item.DateUpdatedUtc.ToString ("dd MMMM");
 
 			NSMutableAttributedString attributedString = new NSMutableAttributedString ("Show ", regularAttributes);
@@ -70,23 +69,31 @@ namespace Fanword.iOS
 			attributedString.Append (new NSMutableAttributedString (" Rankings", regularAttributes));
 			btnShowRankings.SetAttributedTitle (attributedString, UIControlState.Normal);
 
-			if (item.IsFollowing)
-			{
-				btnFollow.SetTitle ("Following", UIControlState.Normal);
-				btnFollow.Layer.BorderWidth = 0;
-				btnFollow.SetTitleColor (UIColor.White, UIControlState.Normal);
-				btnFollow.BackgroundColor = UIColor.FromRGB (249, 95, 6);
-			}
-			else
-			{
-				btnFollow.SetTitle ("Follow", UIControlState.Normal);
+            if (item.IsActive)
+            {
+                btnFollow.Hidden = false;
+                lblWinsLosses.Text = item.Wins + "W " + item.Loses + "L " + item.Ties + "T";
+                if (item.IsFollowing)
+                {
+                    btnFollow.SetTitle("Following", UIControlState.Normal);
+                    btnFollow.Layer.BorderWidth = 0;
+                    btnFollow.SetTitleColor(UIColor.White, UIControlState.Normal);
+                    btnFollow.BackgroundColor = UIColor.FromRGB(249, 95, 6);
+                }
+                else
+                {
+                    btnFollow.SetTitle("Follow", UIControlState.Normal);
 
-				btnFollow.Layer.BorderWidth = 1;
-				btnFollow.SetTitleColor (UIColor.FromRGB (144, 144, 144), UIControlState.Normal);
-				btnFollow.Layer.BorderColor = UIColor.FromRGB (144, 144, 144).CGColor;
-				btnFollow.Layer.BorderColor = UIColor.FromRGB (144, 144, 144).CGColor;
-				btnFollow.BackgroundColor = UIColor.White;
-			}
+                    btnFollow.Layer.BorderWidth = 1;
+                    btnFollow.SetTitleColor(UIColor.FromRGB(144, 144, 144), UIControlState.Normal);
+                    btnFollow.Layer.BorderColor = UIColor.FromRGB(144, 144, 144).CGColor;
+                    btnFollow.Layer.BorderColor = UIColor.FromRGB(144, 144, 144).CGColor;
+                    btnFollow.BackgroundColor = UIColor.White;
+                }
+            }else{
+                btnFollow.Hidden = true;
+                lblWinsLosses.Text = "This profile is not active yet";
+            }
 
 			imageTask?.Cancel (item.ProfileUrl);
 			if (!string.IsNullOrEmpty (item.ProfileUrl))
