@@ -25,6 +25,8 @@ namespace Fanword.iOS
             this.item = item;
 			pos = position;
 			this.followClicked = followClicked;
+
+
 			if (isNew)
 			{
 				btnFollow.TouchUpInside += (sender, e) =>
@@ -49,8 +51,21 @@ namespace Fanword.iOS
 
 			lblName.Text = item.TeamName;
 			lblRank.Text = item.Rank.ToString();
-            lblRecord.Text = item.Wins + "W " + item.Loses + "L " + item.Ties + "T";
+
 			imageTask?.Cancel(item.ProfileUrl);
+
+            if (item.IsActive)
+            {
+                btnFollow.Hidden = false;
+                lblRecord.Text = item.Wins + "W " + item.Loses + "L " + item.Ties + "T";
+            }
+            else
+            {
+                btnFollow.Hidden = true;
+                lblRecord.Text = "This profile is not active yet";
+            }
+
+
 			if (!string.IsNullOrEmpty(item.ProfileUrl))
 			{
 				imageTask = new ImageLoaderHelper(item.ProfileUrl, imgProfile, "DefaultProfile");
