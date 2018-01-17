@@ -22,14 +22,6 @@ namespace Fanword.iOS
 
 		public void SetData (Ranking item, Action<Ranking, UIButton> followClicked, UINavigationController navigationController)
 		{
-
-            if (mainView != null)
-            {
-                mainView.Frame = new CoreGraphics.CGRect(100, imgProfile.Frame.Top, UIScreen.MainScreen.Bounds.Width, mainView.Frame.Height);
-                containnerView.Frame = new CoreGraphics.CGRect(0, 5, mainView.Frame.Width, 70);
-                lblWinsLosses.Frame = new CoreGraphics.CGRect(lblWinsLosses.Frame.X, lblWinsLosses.Frame.Top, containnerView.Frame.Width, lblWinsLosses.Frame.Height);
-            }
-
 			if (boldAttributes == null)
 			{
 				boldAttributes = new UIStringAttributes ();
@@ -45,34 +37,27 @@ namespace Fanword.iOS
 			}
 
 			this.item = item;
-
-            if (item.IsActive)
-            {
-                if (IsNew)
+			if (IsNew)
+			{
+				btnShowRankings.SetTitleColor (UIColor.FromRGB (144, 144, 144), UIControlState.Normal);
+				btnFollow.TouchUpInside += (sender, e) => followClicked?.Invoke (this.item, btnFollow);
+				btnShowRankings.TouchUpInside += (sender, e) =>
                 {
-                    btnShowRankings.SetTitleColor(UIColor.FromRGB(144, 144, 144), UIControlState.Normal);
-                    btnFollow.TouchUpInside += (sender, e) => followClicked?.Invoke(this.item, btnFollow);
-                    btnShowRankings.TouchUpInside += (sender, e) =>
-                    {
-                        Navigator.GoToSportProfile(navigationController, this.item.SportId, true);
-                    };
-                    imgProfile.UserInteractionEnabled = true;
-                    imgProfile.AddGestureRecognizer(new UITapGestureRecognizer(() =>
-                    {
-                        Navigator.GoToTeamProfile(navigationController, this.item.TeamId, false);
-                    }));
+                    Navigator.GoToSportProfile(navigationController, this.item.SportId, true);
+                };
+                imgProfile.UserInteractionEnabled = true;
+                imgProfile.AddGestureRecognizer(new UITapGestureRecognizer(() =>
+                {
+					Navigator.GoToTeamProfile(navigationController, this.item.TeamId, false);
+                }));
 
-                    lblTeamName.UserInteractionEnabled = true;
-                    lblTeamName.AddGestureRecognizer(new UITapGestureRecognizer(() =>
-                    {
-                        Navigator.GoToTeamProfile(navigationController, this.item.TeamId, false);
-                    }));
-                    IsNew = false;
-                }
-                viewFollowBtn.BackgroundColor = UIColor.White;
-            }else{
-                viewFollowBtn.BackgroundColor = UIColor.Clear;
-            }
+				lblTeamName.UserInteractionEnabled = true;
+				lblTeamName.AddGestureRecognizer(new UITapGestureRecognizer(() =>
+				{
+					Navigator.GoToTeamProfile(navigationController, this.item.TeamId, false);
+				}));
+				IsNew = false;
+			}
 
 			lblRank.Text = item.Rank.ToString ();
 			lblSportName.Text = item.SportName;

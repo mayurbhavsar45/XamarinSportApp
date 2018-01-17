@@ -44,18 +44,6 @@ namespace Fanword.iOS
         [Outlet]
         UIKit.UILabel lblWinsLosses { get; set; }
 
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIStackView containnerView { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIView mainView { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIView viewFollowBtn { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
             if (btnFollow != null) {
@@ -66,11 +54,6 @@ namespace Fanword.iOS
             if (btnShowRankings != null) {
                 btnShowRankings.Dispose ();
                 btnShowRankings = null;
-            }
-
-            if (containnerView != null) {
-                containnerView.Dispose ();
-                containnerView = null;
             }
 
             if (imgProfile != null) {
@@ -101,16 +84,6 @@ namespace Fanword.iOS
             if (lblWinsLosses != null) {
                 lblWinsLosses.Dispose ();
                 lblWinsLosses = null;
-            }
-
-            if (mainView != null) {
-                mainView.Dispose ();
-                mainView = null;
-            }
-
-            if (viewFollowBtn != null) {
-                viewFollowBtn.Dispose ();
-                viewFollowBtn = null;
             }
         }
     }
