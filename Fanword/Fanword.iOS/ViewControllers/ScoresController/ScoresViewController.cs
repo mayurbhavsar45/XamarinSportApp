@@ -117,7 +117,8 @@ namespace Fanword.iOS
            {
                if (tvScores.Source == null)
                {
-                   source = new CustomListSource<ScoreModel>(response.Result, GetCell, (arg1, arg2) => UITableView.AutomaticDimension);
+                   List<ScoreModel> items = ScoresMethod(response.Result);
+                   source = new CustomListSource<ScoreModel>(items, GetCell, (arg1, arg2) => UITableView.AutomaticDimension);
                    source.NoContentText = "No Scores";
                    source.ItemClick += (sender, e) =>
                    {
@@ -257,6 +258,52 @@ namespace Fanword.iOS
                 }
             }
             return eventDate;
+        }
+
+        public List<ScoreModel> ScoresMethod(List<ScoreModel> lstItems)
+        {
+            List<ScoreModel> TempList = new List<ScoreModel>();
+                   TempList.Clear();
+            foreach (var item in lstItems)
+                   {
+                       DateTime eventDate = ConvertToUTC(item.EventDate, item.TimezoneId);
+
+                       TempList.Add(new ScoreModel()
+                       {
+                           EventDate = eventDate,
+                           EventId = item.EventId,
+                           EventName = item.EventName,
+                           IsTbd = item.IsTbd,
+                           PostCount = item.PostCount,
+                           ShowTicketUrl = item.ShowTicketUrl,
+                           SportName = item.SportName,
+                           SportProfileUrl = item.SportProfileUrl,
+                           Team1Name = item.Team1Name,
+                           Team1Score = item.Team1Score,
+                           Team1Url = item.Team1Url,
+                           Team2Name = item.Team2Name,
+                           Team2Score = item.Team2Score,
+                           Team2Url = item.Team2Url,
+                           TeamCount = item.TeamCount,
+                           TicketUrl = item.TicketUrl,
+                           TimezoneId = item.TimezoneId
+                       });
+                   }
+
+                   var grouped = TempList.GroupBy(m => m.EventDate.ToString("D"));
+
+                   var items = new List<ScoreModel>();
+                   foreach (var group in grouped)
+                   {
+                       items.Add(new ScoreModel()
+                       {
+                           EventDate = Convert.ToDateTime(group.Key),
+                           TeamCount = group.Count()
+                       });
+                       items.AddRange(group);
+                   }
+
+            return items;
         }
     }
 }

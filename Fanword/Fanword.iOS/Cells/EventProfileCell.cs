@@ -25,8 +25,10 @@ namespace Fanword.iOS
 			var abbreviations = TZNames.GetAbbreviationsForTimeZone(item.TimezoneId, lang);
 			string lblTimeZone = abbreviations.Standard;
 
+            DateTime eventDate = ConvertToUTC(item.DateOfEventUtc, item.TimezoneId);
+
             lblSportName.Text = item.SportName;
-            lblDate.Text = item.DateOfEventUtc.ToLocalTime().ToString("h:mm tt") + " " + lblTimeZone;
+            lblDate.Text = eventDate.ToString("h:mm tt") + " " + lblTimeZone;
             lblTeam1.Text = item.Team1Name;
             lblTeam2.Text = item.Team2Name;
 
@@ -65,6 +67,37 @@ namespace Fanword.iOS
 				vwTeam2.Hidden = true;
                 vwEventName.Hidden = false;
             }
+        }
+
+        public DateTime ConvertToUTC(DateTime dd, string timezoneId)
+        {
+            DateTime eventDate = dd;
+            if (!string.IsNullOrEmpty(timezoneId))
+            {
+                TimeZoneInfo zoneInfo;
+                try
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById(timezoneId);
+                }
+                catch (TimeZoneNotFoundException)
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                }
+
+                if (zoneInfo.StandardName == TimeZone.CurrentTimeZone.StandardName)
+                {
+                    eventDate = eventDate.ToLocalTime();
+                }
+                else if (timezoneId.Contains("Central"))
+                {
+                    eventDate = dd.AddHours(-6);
+                }
+                else
+                {
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(dd, zoneInfo);
+                }
+            }
+            return eventDate;
         }
 	}
 }
