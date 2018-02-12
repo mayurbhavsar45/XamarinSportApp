@@ -52,7 +52,6 @@ namespace Fanword.Android.CustomViews
         bool LoadingData;
         LinearLayoutManager layoutManager;
         public ListPopupWindow popup;
-        LinearLayout emptyFeedLayout;
         View headerView;
         string id;
         int itemsLoaded;
@@ -61,9 +60,7 @@ namespace Fanword.Android.CustomViews
         public EventHandler<EventArgs> DataReceived;
         public EventHandler<EventArgs> RefreshRequested;
         public ImageView NoFeedItems;
-        
         User user;
-
         public FeedRecyclerView(Context context)
             : base(context)
         {
@@ -103,7 +100,6 @@ namespace Fanword.Android.CustomViews
             user = CrossSettings.Current.GetValueOrDefaultJson<User>("User");
             layoutManager = new LinearLayoutManager(activity);
             SetLayoutManager(layoutManager);
-            // emptyFeedLayout = FindViewById<LinearLayout>(Resource.Id.emptyFeedLayout);
             var list = new List<FeedItem>();
             if (headerView != null)
             {
@@ -111,11 +107,6 @@ namespace Fanword.Android.CustomViews
             }
             adapter = new CustomRecyclerViewAdapter<FeedItem>(list, GetView, CreateViewHolder, GetViewType);
             SetAdapter(adapter);
-
-           
-
-
-            // adapter.NoContentText = "No content yet. Try to follow some profiles.";
 
             AddOnScrollListener(new RecyclerViewScrollListener(() =>
             {
@@ -129,7 +120,7 @@ namespace Fanword.Android.CustomViews
                 }
             }));
 
-          GetNewsFeedItems(true);
+            GetNewsFeedItems(true);
         }
         RecyclerView.ViewHolder CreateViewHolder(ViewGroup parent, int viewType, Action<int> onClick)
         {
@@ -196,7 +187,7 @@ namespace Fanword.Android.CustomViews
             }
         }
 
-        public int GetNewsFeedItems(bool refresh)
+        public void GetNewsFeedItems(bool refresh)
         {
             if (!adapter.Items.Any())
             {
@@ -221,22 +212,23 @@ namespace Fanword.Android.CustomViews
             apiTask.HandleError(activity);
             apiTask.OnSucess(activity, (response) =>
             {
-                /*if (response.Result.Count == 0)
+                if (NoFeedItems != null)
                 {
-                 
+                    if (response.Result.Count == 0)
+                    {
+                        //NoFeedItems.Visibility = ViewStates.Visible;
+                    }
+                    else
+                    {
+                        NoFeedItems.Visibility = ViewStates.Gone;
+                    }
                 }
-                else
-                {
-                    //NoFeedItems.Visibility = ViewStates.Gone;
-                }*/
-               // }
                 if (SwipeContainer != null)
                 {
                     SwipeContainer.Refreshing = false;
                 }
                 activity.HideProgressDialog();
                 itemsLoaded = response.Result.Count;
-
 
                 if (refresh)
                 {
@@ -263,7 +255,6 @@ namespace Fanword.Android.CustomViews
                 DataReceived?.Invoke(this, EventArgs.Empty);
                 LoadingData = false;
             });
-            return itemsLoaded;
         }
         /*
         public void UpdateComments(int position, int count)
@@ -756,7 +747,6 @@ namespace Fanword.Android.CustomViews
         NormalItem,
         HeaderItem,
         AdvertisementItem,
-        EmptyFeedItem
         
     }
 }

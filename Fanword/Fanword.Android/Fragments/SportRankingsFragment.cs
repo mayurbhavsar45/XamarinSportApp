@@ -45,38 +45,27 @@ namespace Fanword.Android.Fragments
                 adapter = new CustomListAdapter<Ranking>(response.Result, GetView);
                 lblDate.Text = response.Result.FirstOrDefault()?.DateUpdatedUtc.ToLocalTime().ToString("D");
                 lvRankings.Adapter = adapter;
-              
             });
         }
 
-      
-
         View GetView(Ranking item, int position, View convertView, ViewGroup parent)
         {
-         // Toast.MakeText(this.Activity,  adapter.GetItemAtPosition(position).Rank.ToString(),ToastLength.Short).Show();
             View view = convertView;
-
             if (view == null)
             {
                 view = Activity.LayoutInflater.Inflate(Resource.Layout.SportRankingItem, null);
                 view.FindViewById<Button>(Resource.Id.btnFollow).Click += (sender, e) =>
                 {
-                    //  int Item_id = adapter.Items[(int)view.Tag].Rank;
-                   
-                    bool enable = adapter.Items[(int)view.Tag].IsActive;
-                    if (enable == true)
+                    if (item.IsActive == true)
                     {
                         var model = adapter.Items[(int)view.Tag];
-                        
                         Shared.Follower.FollowToggle(ActivityProgresDialog, sender as Button, model, model.TeamId, FeedType.Team);
                     }
                 };
 
 				view.FindViewById<ImageViewAsync>(Resource.Id.imgProfile).Click += (sender, e) =>
 				{
-                    bool enable = adapter.Items[(int)view.Tag].IsActive;
-
-                    if (enable == true)
+                    if (item.IsActive == true)
                     {
                         var model = adapter.Items[(int)view.Tag];
                         Navigator.GoToTeamProflie(model.TeamId, false);
@@ -85,8 +74,7 @@ namespace Fanword.Android.Fragments
 
 				view.FindViewById<TextView>(Resource.Id.lblName).Click += (sender, e) =>
 				{
-                    bool enable = adapter.Items[(int)view.Tag].IsActive;
-                    if (enable == true)
+                    if (item.IsActive == true)
                     {
                         var model = adapter.Items[(int)view.Tag];
                         Navigator.GoToTeamProflie(model.TeamId, false);

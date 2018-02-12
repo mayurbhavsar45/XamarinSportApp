@@ -141,15 +141,6 @@ namespace Fanword.Android.Activities.UserProfile
                 {
                     ImageService.Instance.LoadUrl(response.Result.ProfileUrl).Transform(new CircleTransformation()).Retry(3, 300).Into(imgProfile);
                 }
-
-                var apiTask2 = new ServiceApi().GetUser(userId);
-                apiTask2.HandleError(this);
-                apiTask2.OnSucess(this, response2 => {
-                    if (!response2.Result.AthleteVerified) {
-                        lblAthlete.Text = "";
-                        lblAthlete.Visibility = ViewStates.Gone;
-                    }
-                });
             });
 
         }

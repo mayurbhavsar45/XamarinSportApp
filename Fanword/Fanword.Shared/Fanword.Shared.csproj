@@ -59,11 +59,24 @@
     <Compile Include="Service\ConstantsHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Fanword.Poco, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Fanword.Poco_New\Fanword.Poco.dll</HintPath>
+    </Reference>
+    <Reference Include="FileUploader.Portable">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\DLLs\FileUploader.Portable.dll</HintPath>
+    </Reference>
     <Reference Include="HockeySDK">
       <HintPath>..\packages\HockeySDK.Xamarin.4.1.2\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\HockeySDK.dll</HintPath>
     </Reference>
+    <Reference Include="Mobile.Extensions">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\DLLs\Mobile.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Notifications.Mobile">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\DLLs\Notifications.Mobile.dll</HintPath>
     </Reference>
     <Reference Include="PCLStorage, Version=1.0.2.0, Culture=neutral, PublicKeyToken=286fe515a2c35b64, processorArchitecture=MSIL">
       <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac\PCLStorage.dll</HintPath>
@@ -78,6 +91,20 @@
     </Reference>
     <Reference Include="Plugin.Connectivity">
       <HintPath>..\packages\Xam.Plugin.Connectivity.2.3.0\lib\portable-net45+wp80+win8+wpa81\Plugin.Connectivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Dialog">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\DLLs\Plugin.Dialog.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Dialog.Abstractions">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\DLLs\Plugin.Dialog.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.PushNotifications, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.PushNotifications.2017.7.10.3\lib\portable-net45+wp80+win8+wpa81\Plugin.PushNotifications.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.PushNotifications.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.PushNotifications.2017.7.10.3\lib\portable-net45+wp80+win8+wpa81\Plugin.PushNotifications.Abstractions.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Plugin.Settings.Abstractions">
       <HintPath>..\packages\Xam.Plugins.Settings.2.5.4\lib\portable-net45+wp80+win8+wpa81\Plugin.Settings.Abstractions.dll</HintPath>
@@ -113,6 +140,9 @@
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\packages\HtmlAgilityPack.1.4.9.5\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll</HintPath>
     </Reference>
+    <Reference Include="Fanword.Poco">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Shared\Fanword.Poco.dll</HintPath>
+    </Reference>
     <Reference Include="FileUploader.Portable">
       <HintPath>..\Xamrin_mobile_lib\Fanword.Shared\FileUploader.Portable.dll</HintPath>
     </Reference>
@@ -133,9 +163,6 @@
     </Reference>
     <Reference Include="Plugin.PushNotifications">
       <HintPath>..\Xamrin_mobile_lib\Fanword.Shared\Plugin.PushNotifications.dll</HintPath>
-    </Reference>
-    <Reference Include="Fanword.Poco">
-      <HintPath>..\Xamrin_mobile_lib\Fanword.Shared\Fanword.Poco.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

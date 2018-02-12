@@ -1,36 +1,34 @@
-﻿// WARNING
+// WARNING
 //
-// This file has been generated automatically by Visual Studio from the outlets and
-// actions declared in your storyboard file.
-// Manual changes to this file will not be maintained.
+// This file has been generated automatically by Xamarin Studio to store outlets and
+// actions made in the UI designer. If it is removed, they will be lost.
+// Manual changes to this file may not be handled correctly.
 //
 using Foundation;
-using System;
 using System.CodeDom.Compiler;
 
 namespace Fanword.iOS
 {
-    [Register ("RankingsViewController")]
-    partial class RankingsViewController
-    {
-        [Outlet]
-        UIKit.UIButton btnFilter { get; set; }
+	[Register ("RankingsViewController")]
+	partial class RankingsViewController
+	{
+		[Outlet]
+		UIKit.UIButton btnFilter { get; set; }
 
+		[Outlet]
+		UIKit.UITableView tvRankings { get; set; }
+		
+		void ReleaseDesignerOutlets ()
+		{
+			if (btnFilter != null) {
+				btnFilter.Dispose ();
+				btnFilter = null;
+			}
 
-        [Outlet]
-        UIKit.UITableView tvRankings { get; set; }
-
-        void ReleaseDesignerOutlets ()
-        {
-            if (btnFilter != null) {
-                btnFilter.Dispose ();
-                btnFilter = null;
-            }
-
-            if (tvRankings != null) {
-                tvRankings.Dispose ();
-                tvRankings = null;
-            }
-        }
-    }
+			if (tvRankings != null) {
+				tvRankings.Dispose ();
+				tvRankings = null;
+			}
+		}
+	}
 }

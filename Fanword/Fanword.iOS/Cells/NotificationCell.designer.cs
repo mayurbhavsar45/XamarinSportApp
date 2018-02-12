@@ -1,54 +1,50 @@
-﻿// WARNING
+// WARNING
 //
-// This file has been generated automatically by Visual Studio from the outlets and
-// actions declared in your storyboard file.
-// Manual changes to this file will not be maintained.
+// This file has been generated automatically by Visual Studio to store outlets and
+// actions made in the UI designer. If it is removed, they will be lost.
+// Manual changes to this file may not be handled correctly.
 //
 using Foundation;
-using System;
 using System.CodeDom.Compiler;
 
 namespace Fanword.iOS
 {
-    [Register ("NotificationCell")]
-    partial class NotificationCell
-    {
-        [Outlet]
-        UIKit.UIImageView imgProfile { get; set; }
+	[Register ("NotificationCell")]
+	partial class NotificationCell
+	{
+		[Outlet]
+		UIKit.UIImageView imgProfile { get; set; }
 
+		[Outlet]
+		UIKit.UILabel lblTimeAgo { get; set; }
 
-        [Outlet]
-        UIKit.UILabel lblTimeAgo { get; set; }
+		[Outlet]
+		UIKit.UILabel lblTitle { get; set; }
 
+		[Outlet]
+		UIKit.UIView vwIsNew { get; set; }
+		
+		void ReleaseDesignerOutlets ()
+		{
+			if (lblTitle != null) {
+				lblTitle.Dispose ();
+				lblTitle = null;
+			}
 
-        [Outlet]
-        UIKit.UILabel lblTitle { get; set; }
+			if (imgProfile != null) {
+				imgProfile.Dispose ();
+				imgProfile = null;
+			}
 
+			if (lblTimeAgo != null) {
+				lblTimeAgo.Dispose ();
+				lblTimeAgo = null;
+			}
 
-        [Outlet]
-        UIKit.UIView vwIsNew { get; set; }
-
-        void ReleaseDesignerOutlets ()
-        {
-            if (imgProfile != null) {
-                imgProfile.Dispose ();
-                imgProfile = null;
-            }
-
-            if (lblTimeAgo != null) {
-                lblTimeAgo.Dispose ();
-                lblTimeAgo = null;
-            }
-
-            if (lblTitle != null) {
-                lblTitle.Dispose ();
-                lblTitle = null;
-            }
-
-            if (vwIsNew != null) {
-                vwIsNew.Dispose ();
-                vwIsNew = null;
-            }
-        }
-    }
+			if (vwIsNew != null) {
+				vwIsNew.Dispose ();
+				vwIsNew = null;
+			}
+		}
+	}
 }

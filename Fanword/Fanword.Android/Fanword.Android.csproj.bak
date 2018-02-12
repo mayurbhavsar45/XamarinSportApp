@@ -224,6 +224,39 @@
     <Reference Include="Xamarin.Facebook">
       <HintPath>..\packages\Xamarin.Facebook.Android.4.24.0\lib\MonoAndroid70\Xamarin.Facebook.dll</HintPath>
     </Reference>
+    <Reference Include="MixpanelAndroid">
+      <HintPath>..\packages\Vapolia.Mixpanel.4.6.4\lib\MonoAndroid\MixpanelAndroid.dll</HintPath>
+    </Reference>
+    <Reference Include="Fanword.Poco">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Fanword.Poco.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Messaging.Android">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Microsoft.WindowsAzure.Messaging.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Mobile.Extensions.Android">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Mobile.Extensions.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Mobile.Extensions">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Mobile.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Dialog.Abstractions">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Plugin.Dialog.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Dialog">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Plugin.Dialog.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.PushNotifications.Abstractions">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Plugin.PushNotifications.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.PushNotifications">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Plugin.PushNotifications.dll</HintPath>
+    </Reference>
+    <Reference Include="TimeZoneConverter">
+      <HintPath>..\packages\TimeZoneConverter.2.2.1\lib\netstandard2.0\TimeZoneConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="TimeZoneNames">
+      <HintPath>..\packages\TimeZoneNames.3.2.0\lib\netstandard2.0\TimeZoneNames.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\BasicProfileInfo\BasicProfileInfoActivity.cs" />

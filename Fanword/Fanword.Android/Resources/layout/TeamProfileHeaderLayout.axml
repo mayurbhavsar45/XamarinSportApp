@@ -16,8 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/relativeLayout7"
-            android:background="#f4f4f4"
-            android:visibility="gone">
+            android:background="#f4f4f4">
             <Button
                 android:text="Become an Admin of this profile!"
                 android:layout_width="match_parent"
@@ -26,8 +25,7 @@
                 android:textSize="14dp"
                 android:background="@drawable/buttonbackground"
                 android:textColor="#212121"
-                android:textAllCaps="false"                
-                android:visibility="gone" />
+                android:textAllCaps="false" />
         </RelativeLayout>
         <RelativeLayout
             android:minWidth="25px"

@@ -188,7 +188,7 @@ namespace Fanword.iOS
 				lblPosts.Text = LargeValueHelper.GetString(response.Result.Posts);
 				lblFollowers.Text = LargeValueHelper.GetString(response.Result.Followers);
 
-				//btnAdmin.SetTitle("Become an Admin of this profile", UIControlState.Normal);
+				btnAdmin.SetTitle("Become an Admin of this profile", UIControlState.Normal);
 				Views.SetFollowed(btnFollow, response.Result.IsFollowing);
 
 				if (!string.IsNullOrEmpty(response.Result.ProfileUrl))

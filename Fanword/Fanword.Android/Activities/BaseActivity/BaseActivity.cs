@@ -21,7 +21,6 @@ using Fanword.Android.TypeFaces;
 using Android.Text;
 using Fanword.Android.Fragments;
 using Android.Text.Style;
-using Fanword.Android.Activities.Search;
 
 namespace Fanword.Android
 {
@@ -77,22 +76,10 @@ namespace Fanword.Android
 
             var dialog = new AlertDialog.Builder(this).SetView(view).Create();
 
-            if(btnOk.Text == "Follow Profiles")
+            btnOk.Click += (sender, e) => 
             {
-                btnOk.Click += (sender, e) =>
-                {
-                    dialog.Dismiss();
-                    StartActivity(typeof(SearchActivity));
-                };
-            }
-            else
-            {
-                btnOk.Click += (sender, e) =>
-                {
-                    dialog.Dismiss();
-                };
-            }
-            
+                dialog.Dismiss();
+            };
 
             dialog.DismissEvent += (sender, e) => 
             {

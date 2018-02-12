@@ -1,28 +1,27 @@
-﻿using System.Net.Http.Headers;
-using Fanword.Poco.Models;
-using Mobile.Extensions.Extensions;
-using Plugin.Dialog;
-using PortableFileUploader.Portable;
-using System.Diagnostics;
-using Notifications.Mobile.Models;
-using Notifications.Mobile.Service;
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Fanword.Poco.Models;
 using Fanword.Shared.Service;
+using Mobile.Extensions.Extensions;
 using ModernHttpClient;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Plugin.Connectivity;
+using Plugin.Dialog;
 using Plugin.Settings;
 using Polly;
+using PortableFileUploader.Portable;
+using System.Diagnostics;
 using Fanword.Shared.Helpers;
 using Fanword.Shared.Models;
+using Notifications.Mobile.Models;
+using Notifications.Mobile.Service;
 
 namespace Fanword.Shared
 {
@@ -222,10 +221,6 @@ namespace Fanword.Shared
             LocalStorage.UpdateUser(response);
             return response;
         }
-        public async Task<User> GetUser(string userId) {
-            var response = await Get<User>("/api/users/GetUser", new Dictionary<string, object>() { { "userId", userId } });
-            return response;
-        }
 
         #endregion
 
@@ -350,17 +345,17 @@ namespace Fanword.Shared
         #region Post Likes
         public async Task<List<PostLike>> GetLikes(string postId)
         {
-            return await Get<List<PostLike>>("/api/PostLikes/", new Dictionary<string, object>() { { "postId", postId } });
+            return await Get<List<PostLike>>("/api/PostLIkes/", new Dictionary<string, object>() { { "postId", postId } });
         }
 
         public async Task LikePost(string postId)
         {
-            await Get("/api/PostLikes/Like", new Dictionary<string, object>() { { "postId", postId } });
+            await Get("/api/PostLIkes/Like", new Dictionary<string, object>() { { "postId", postId } });
         }
 
         public async Task UnlikePost(string postId)
         {
-            await Get("/api/PostLikes/Unlike", new Dictionary<string, object>() { { "postId", postId } });
+            await Get("/api/PostLIkes/Unlike", new Dictionary<string, object>() { { "postId", postId } });
         }
         #endregion
 
@@ -694,7 +689,7 @@ namespace Fanword.Shared
             var data = await Get<GlobalSearch>("/api/Search/", new Dictionary<string, object>() { { "filter", filter ?? "" } });
             if (string.IsNullOrEmpty(filter))
             {
-                data.Results = data.Results.OrderByDescending(m => m.Followers).ThenBy(m => m.Title).ThenBy(m => m.Subtitle).ToList();
+                data.Results = data.Results.OrderByDescending(m => m.Followers).ThenBy(m => m.Title).ToList();
                 data.Results.Insert(0, new GlobalSearchItem() { Title = "Popular" });
             }
             else

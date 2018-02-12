@@ -86,17 +86,17 @@ namespace Fanword.Android.Fragments
 				});
             };
 
-			//btnAdmin.Click += (sender, args) =>
-			//{
-   //             if (profile == null)
-   //                 return;
+			btnAdmin.Click += (sender, args) =>
+			{
+                if (profile == null)
+                    return;
 
-			//	Intent intent = new Intent(Activity, typeof(AdminInfoActivity));
-			//	intent.PutExtra("Id", TeamId);
-			//	intent.PutExtra("Type", (int)FeedType.Team);
-			//	intent.PutExtra("IsAdmin", profile.IsProfileAdmin);
-			//	StartActivity(intent);
-			//};
+				Intent intent = new Intent(Activity, typeof(AdminInfoActivity));
+				intent.PutExtra("Id", TeamId);
+				intent.PutExtra("Type", (int)FeedType.Team);
+				intent.PutExtra("IsAdmin", profile.IsProfileAdmin);
+				StartActivity(intent);
+			};
             SetData(profile);
 
             (lblFollowers.Parent as ViewGroup).Click += (sender, args) =>

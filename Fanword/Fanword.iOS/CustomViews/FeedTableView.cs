@@ -74,8 +74,7 @@ namespace Fanword.iOS
 				model.Add (new FeedItem ());
 			}
 			source = new CustomListSource<FeedItem> (model, GetCell, (tv, ip) => AutomaticDimension);
-            //source.NoContentEnabled = false;
-            source.NoContentText = "No content yet. Try following some profiles.";
+			source.NoContentEnabled = false;
 
 			Source = source;
             ReloadData();

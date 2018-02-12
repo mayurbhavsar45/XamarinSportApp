@@ -64,11 +64,6 @@ namespace Fanword.iOS
 			lblAthlete.Superview.Hidden = string.IsNullOrEmpty(user.AthleteTeamId);
 			lblAthlete.Text = user.AthleteSchool + " - " + user.AthleteSport;
 
-            if (!user.AthleteVerified) {
-                lblAthlete.Text = "";
-                lblAthlete.Superview.Hidden = true;
-            }
-
             lblFollowers.Superview.AddGestureRecognizer(new UITapGestureRecognizer(() =>
             {
                 var controller = Storyboard.InstantiateViewController<FavoritesViewController>();

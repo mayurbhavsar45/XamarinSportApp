@@ -27,6 +27,4 @@
   <string name="com_facebook_smart_login_confirmation_title_m2gender">Confirm</string>
   <string name="com_facebook_tooltip_default_f1gender">Default</string>
   <string name="com_facebook_tooltip_default_m2gender">Default</string>
-  <string name="facebook_app_id">469763806538563</string>
-  <string name="fb_login_protocol_scheme">fb469763806538563</string>
 </resources>

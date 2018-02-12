@@ -136,30 +136,27 @@ namespace Fanword.Android.Fragments
 
                 view.FindViewById<Button>(Resource.Id.btnShowRankings).Click += (sender, e) => 
                 {
-                    var model = adapter.Items[(int)view.Tag];
-                    if (model.IsActive == true)
+                    if (item.IsActive == true)
                     {
-                        
+                        var model = adapter.Items[(int)view.Tag];
                         Navigator.GoToSportProflie(model.SportId, true);
                     }
                 };
 
 				view.FindViewById<ImageViewAsync>(Resource.Id.imgProfile).Click += (sender, e) =>
 				{
-                    var model = adapter.Items[(int)view.Tag];
-                    if (model.IsActive == true)
+                    if (item.IsActive == true)
                     {
-                        
+                        var model = adapter.Items[(int)view.Tag];
                         Navigator.GoToTeamProflie(model.TeamId, false);
                     }
 				};
 
                 view.FindViewById<TextView>(Resource.Id.lblTeamName).Click += (sender, e) => 
                 {
-                    var model = adapter.Items[(int)view.Tag];
-                    if (model.IsActive == true)
+                    if (item.IsActive == true)
                     {
-                      
+                        var model = adapter.Items[(int)view.Tag];
                         Navigator.GoToTeamProflie(model.TeamId, false);
                     }
                 };

@@ -105,6 +105,39 @@
     <CodesignProvision>Automatic:AdHoc</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Fanword.Poco">
+      <HintPath>..\Xamrin_mobile_lib\Fanword.Android\Fanword.Poco_New\Fanword.Poco.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Messaging.iOS">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\Microsoft.WindowsAzure.Messaging.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Mobile.Extensions">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\ios dll\Mobile.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Mobile.Extensions.iOS">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\DLLs\Mobile.Extensions.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="ModernHttpClient">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\ModernHttpClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Dialog">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\ios dll\Plugin.Dialog.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Dialog.Abstractions">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\ios dll\Plugin.Dialog.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.PushNotifications">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\ios dll\Plugin.PushNotifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.PushNotifications.Abstractions">
+      <HintPath>C:\Users\NS-01\Documents\Received Files\ios dll\Plugin.PushNotifications.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Polly, Version=5.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Polly.5.1.0\lib\netstandard1.0\Polly.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -130,9 +163,6 @@
     </Reference>
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="Polly">
-      <HintPath>..\packages\Polly.5.0.6\lib\netstandard1.0\Polly.dll</HintPath>
-    </Reference>
     <Reference Include="WebP.Touch">
       <HintPath>..\packages\WebP.Touch.1.0.3\lib\Xamarin.iOS10\WebP.Touch.dll</HintPath>
     </Reference>
@@ -208,816 +238,1082 @@
     <Reference Include="TimeZoneNames">
       <HintPath>..\packages\TimeZoneNames.3.2.0\lib\netstandard2.0\TimeZoneNames.dll</HintPath>
     </Reference>
-    <Reference Include="Fanword.Poco">
-      <HintPath>..\Xamrin_mobile_lib\Fanword.iOS\Fanword.Poco.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconChecked.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconUnchecked.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\DefaultProfile.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconUser.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLock.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconEmail.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowLeft.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTrash.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconMenu.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconChecked.imageset\CheckYES.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconChecked.imageset\CheckYES%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconChecked.imageset\CheckYES%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconUnchecked.imageset\CheckNO.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconUnchecked.imageset\CheckNO%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconUnchecked.imageset\CheckNO%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\DefaultProfile.imageset\DefProfPic.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\DefaultProfile.imageset\DefProfPic%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\DefaultProfile.imageset\DefProfPic%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconUser.imageset\User.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconUser.imageset\User%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconUser.imageset\User%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLock.imageset\Lock.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLock.imageset\Lock%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLock.imageset\Lock%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconEmail.imageset\Email.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconEmail.imageset\Email%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconEmail.imageset\Email%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowLeft.imageset\ArrowLeft.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowLeft.imageset\ArrowLeft%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowLeft.imageset\ArrowLeft%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTrash.imageset\Trash.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTrash.imageset\Trash%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTrash.imageset\Trash%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconMenu.imageset\Menu.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconMenu.imageset\Menu%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconMenu.imageset\Menu%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\LoginHeader.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\LoginHeader.imageset\LoginOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\LoginHeader.imageset\LoginOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\LoginHeader.imageset\LoginOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\FanwordIcon.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\FanwordLoading.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\FanwordLoading.imageset\icon_loading_image.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\FanwordLoading.imageset\icon_loading_image%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\FanwordLoading.imageset\icon_loading_image%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearch.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearch.imageset\Search.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearch.imageset\Search%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearch.imageset\Search%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconNotifications.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearchWhite.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFavorite.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\Splash.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\Splash.imageset\Splash.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\Splash.imageset\Splash%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\Splash.imageset\Splash%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFavorite.imageset\Favorite.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFavorite.imageset\Favorite%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFavorite.imageset\Favorite%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearchWhite.imageset\SearchWhite.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearchWhite.imageset\SearchWhite%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearchWhite.imageset\SearchWhite%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconNotifications.imageset\Notifications.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconNotifications.imageset\Notifications%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconNotifications.imageset\Notifications%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Spotlight-40%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Spotlight-40%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-60%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-60%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowDown.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowDown.imageset\ArrowDown.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowDown.imageset\ArrowDown%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowDown.imageset\ArrowDown%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLike.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconComment.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconShare.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTag.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCommented.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLike.imageset\Like.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLike.imageset\Like%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLike.imageset\Like%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconComment.imageset\Comment.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconComment.imageset\Comment%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconComment.imageset\Comment%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconShare.imageset\Share.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconShare.imageset\Share%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconShare.imageset\Share%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTag.imageset\Tag.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTag.imageset\Tag%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTag.imageset\Tag%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCommented.imageset\Commented.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCommented.imageset\Commented%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCommented.imageset\Commented%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowLeftWhite.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowLeftWhite.imageset\ArrowLeftWhite.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowLeftWhite.imageset\ArrowLeftWhite%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconArrowLeftWhite.imageset\ArrowLeftWhite%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLiked.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLiked.imageset\Liked.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLiked.imageset\Liked%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLiked.imageset\Liked%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencil.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconDots.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTicket.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFilter.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencil.imageset\Pencil.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencil.imageset\Pencil%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencil.imageset\Pencil%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconDots.imageset\Dots.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconDots.imageset\Dots%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconDots.imageset\Dots%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTicket.imageset\Ticket.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTicket.imageset\Ticket%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTicket.imageset\Ticket%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFilter.imageset\Filter.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFilter.imageset\Filter%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFilter.imageset\Filter%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconIsLiked.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconIsLiked.imageset\Liked.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconIsLiked.imageset\Liked%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconIsLiked.imageset\Liked%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencilWhite.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencilWhite.imageset\PencilWhite.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencilWhite.imageset\PencilWhite%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencilWhite.imageset\PencilWhite%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraGrey.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkGrey.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCancel.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraGrey.imageset\CameraGrey.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraGrey.imageset\CameraGrey%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraGrey.imageset\CameraGrey%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraOrange.imageset\CameraOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraOrange.imageset\CameraOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraOrange.imageset\CameraOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkGrey.imageset\LinkGrey.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkGrey.imageset\LinkGrey%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkGrey.imageset\LinkGrey%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkOrange.imageset\LinkOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkOrange.imageset\LinkOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkOrange.imageset\LinkOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkBlack.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkBlack.imageset\Link.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkBlack.imageset\Link%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLinkBlack.imageset\Link%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraBlack.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraBlack.imageset\CameraBlack.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraBlack.imageset\CameraBlack%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCameraBlack.imageset\CameraBlack%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCancel.imageset\cancel.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCancel.imageset\cancel%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCancel.imageset\cancel%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconNoImage.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconNoImage.imageset\NoImageGraphic.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconNoImage.imageset\NoImageGraphic%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconNoImage.imageset\NoImageGraphic%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPlay.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPlay.imageset\VideoPlay.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPlay.imageset\VideoPlay%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPlay.imageset\VideoPlay%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFacebook.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTwitter.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconInstagram.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconInstagram.imageset\instagram.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconInstagram.imageset\instagram%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconInstagram.imageset\instagram%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTwitter.imageset\Twitter.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTwitter.imageset\Twitter%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTwitter.imageset\Twitter%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFacebook.imageset\Facebook.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFacebook.imageset\Facebook%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFacebook.imageset\Facebook%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconAdvertiser.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconContentSource.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFeedback.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconHome.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLogout.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSchools.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSettings.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSports.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTeams.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\LogoGrey.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\LogoGrey.imageset\LogoGrey.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\LogoGrey.imageset\LogoGrey%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\LogoGrey.imageset\LogoGrey%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTeams.imageset\IconTeams.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTeams.imageset\IconTeams%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTeams.imageset\IconTeams%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSports.imageset\IconSports.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSports.imageset\IconSports%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSports.imageset\IconSports%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSettings.imageset\IconSettings.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSettings.imageset\IconSettings%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSettings.imageset\IconSettings%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSchools.imageset\IconSchools.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSchools.imageset\IconSchools%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSchools.imageset\IconSchools%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLogout.imageset\IconLogout.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLogout.imageset\IconLogout%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconLogout.imageset\IconLogout%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconHome.imageset\IconHome.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconHome.imageset\IconHome%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconHome.imageset\IconHome%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFeedback.imageset\IconFeedback.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFeedback.imageset\IconFeedback%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFeedback.imageset\IconFeedback%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconContentSource.imageset\IconContentSource.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconContentSource.imageset\IconContentSource%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconContentSource.imageset\IconContentSource%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconAdvertiser.imageset\IconAdvertiser.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconAdvertiser.imageset\IconAdvertiser%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconAdvertiser.imageset\IconAdvertiser%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPlusWhite.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPlusWhite.imageset\PlusWhite.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPlusWhite.imageset\PlusWhite%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPlusWhite.imageset\PlusWhite%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFacebookGray.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFacebookGray.imageset\FacebookGray.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFacebookGray.imageset\FacebookGray%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconFacebookGray.imageset\FacebookGray%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconShareWhite.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconShareWhite.imageset\sharewhite.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconShareWhite.imageset\sharewhite%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconShareWhite.imageset\sharewhite%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconScoreOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTeamsOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearchOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconMenuOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCSOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconEventsOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconProfileOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconEventsOrange.imageset\EventsOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconEventsOrange.imageset\EventsOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconEventsOrange.imageset\EventsOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCSOrange.imageset\CSOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCSOrange.imageset\CSOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconCSOrange.imageset\CSOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTeamsOrange.imageset\TeamsOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTeamsOrange.imageset\TeamsOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconTeamsOrange.imageset\TeamsOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearchOrange.imageset\SearchOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearchOrange.imageset\SearchOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconSearchOrange.imageset\SearchOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconScoreOrange.imageset\ScoreOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconScoreOrange.imageset\ScoreOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconScoreOrange.imageset\ScoreOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconProfileOrange.imageset\ProfileOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconProfileOrange.imageset\ProfileOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconProfileOrange.imageset\ProfileOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconMenuOrange.imageset\MenuOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconMenuOrange.imageset\MenuOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconMenuOrange.imageset\MenuOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencilOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconAdvertiserOrange.imageset\Contents.json">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencilOrange.imageset\PencilOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencilOrange.imageset\PencilOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconPencilOrange.imageset\PencilOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconAdvertiserOrange.imageset\AdvertiserOrange.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconAdvertiserOrange.imageset\AdvertiserOrange%402x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\IconAdvertiserOrange.imageset\AdvertiserOrange%403x.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\AppIcon.png">
+      <Visible>false</Visible>
       <InProject>false</InProject>
     </ImageAsset>
   </ItemGroup>
@@ -1096,17 +1392,7 @@
     <None Include="app.config" />
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
-    <ImageAsset Include="Resources\Media.xcassets\Images.imageset\Contents.json">
-      <Visible>false</Visible>
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Media.xcassets\LogoWhite.imageset\Contents.json">
-      <Visible>false</Visible>
-      <InProject>false</InProject>
-    </ImageAsset>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -1142,10 +1428,6 @@
     <Compile Include="ViewControllers\OnboardingAthleteSeasonController\OnboardingAthleteSeasonViewController.cs" />
     <Compile Include="ViewControllers\OnboardingAthleteSeasonController\OnboardingAthleteSeasonViewController.designer.cs">
       <DependentUpon>OnboardingAthleteSeasonViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllers\SplashLogin\SplashLogin.cs" />
-    <Compile Include="ViewControllers\SplashLogin\SplashLogin.designer.cs">
-      <DependentUpon>SplashLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewControllers\TablePopoverController\TablePopoverViewController.cs" />
     <Compile Include="ViewControllers\TablePopoverController\TablePopoverViewController.designer.cs">
@@ -1478,21 +1760,6 @@
       <Project>{E5CA2C62-35B1-4ABB-93DA-AB417FEE9431}</Project>
       <Name>Fanword.Shared</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ImageAsset Include="Resources\Media.xcassets\Images.imageset\LogoWhite.png">
-      <Visible>false</Visible>
-      <InProject>false</InProject>
-    </ImageAsset>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="ArrowLeft.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ImageAsset Include="Resources\Media.xcassets\LogoWhite.imageset\LogoWhite.png">
-      <Visible>false</Visible>
-      <InProject>false</InProject>
-    </ImageAsset>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

@@ -32,8 +32,8 @@ namespace Fanword.Shared.Models
             items.Add(new MenuItem("GENERAL"));
             items.Add(new MenuItem("Home", "Home", "IconHome"));
             items.Add(new MenuItem("Profile", "Profile", "IconUser"));
-            //items.Add(new MenuItem("BecomeAdvertiser", "Become an Advertiser", "IconAdvertiser"));
-            //items.Add(new MenuItem("CreateContentSource", "Create a Content Source", "IconContentSource"));
+            items.Add(new MenuItem("BecomeAdvertiser", "Become an Advertiser", "IconAdvertiser"));
+            items.Add(new MenuItem("CreateContentSource", "Create a Content Source", "IconContentSource"));
 
             items.Add(new MenuItem("FOLLOW"));
             items.Add(new MenuItem("Teams", "Teams", "IconTeams"));

@@ -19,9 +19,6 @@ namespace Fanword.iOS
 		public SportRankingCell (IntPtr handle) : base (handle)
 		{
 		}
-		
-		
-		
 
 		public void SetData(Ranking item, int position, Action<int, UIButton> followClicked, UINavigationController navigationController)
         {
@@ -29,44 +26,43 @@ namespace Fanword.iOS
 			pos = position;
 			this.followClicked = followClicked;
 
-
-			if (isNew)
-			{
-				btnFollow.TouchUpInside += (sender, e) =>
-				{
-					this.followClicked?.Invoke(pos, btnFollow);
-				};
-
-				imgProfile.UserInteractionEnabled = true;
-				imgProfile.AddGestureRecognizer(new UITapGestureRecognizer(() =>
-				{
-					Navigator.GoToTeamProfile(navigationController, this.item.TeamId, false);
-				}));
-
-				lblName.UserInteractionEnabled = true;
-				lblName.AddGestureRecognizer(new UITapGestureRecognizer(() =>
-				{
-					Navigator.GoToTeamProfile(navigationController, this.item.TeamId, false);
-				}));
-
-				isNew = false;
-			}
-
-			lblName.Text = item.TeamName;
-			lblRank.Text = item.Rank.ToString();
-
-			imageTask?.Cancel(item.ProfileUrl);
-
             if (item.IsActive)
             {
                 btnFollow.Hidden = false;
                 lblRecord.Text = item.Wins + "W " + item.Loses + "L " + item.Ties + "T";
+                if (isNew)
+                {
+                    btnFollow.TouchUpInside += (sender, e) =>
+                    {
+                        this.followClicked?.Invoke(pos, btnFollow);
+                    };
+
+                    imgProfile.UserInteractionEnabled = true;
+                    imgProfile.AddGestureRecognizer(new UITapGestureRecognizer(() =>
+                    {
+                        Navigator.GoToTeamProfile(navigationController, this.item.TeamId, false);
+                    }));
+
+                    lblName.UserInteractionEnabled = true;
+                    lblName.AddGestureRecognizer(new UITapGestureRecognizer(() =>
+                    {
+                        Navigator.GoToTeamProfile(navigationController, this.item.TeamId, false);
+                    }));
+
+                    isNew = false;
+                }
+
             }
             else
             {
                 btnFollow.Hidden = true;
                 lblRecord.Text = "This profile is not active yet";
             }
+
+			lblName.Text = item.TeamName;
+			lblRank.Text = item.Rank.ToString();
+
+			imageTask?.Cancel(item.ProfileUrl);
 
 
 			if (!string.IsNullOrEmpty(item.ProfileUrl))

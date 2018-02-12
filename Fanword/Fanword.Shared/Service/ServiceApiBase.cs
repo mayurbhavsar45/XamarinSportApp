@@ -23,19 +23,17 @@ namespace Fanword.Shared.Service
         //public const string HubName = "fanworddev";
         //public const string AzureConnectionString = "Endpoint=sb://agilxsbnew.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=algUxmIxlNZPUx6cd+P0jfYl1YDyAnjxdmVPcOF5BKo=";
 
+        public const string HubName = "fanwordBeta";
+        public const string AzureConnectionString = "Endpoint=sb://fanwordbeta.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=Z030s1TggFodcapvdeWN6P1MzZqigTYz70FgcvjXXj0=";
         public const string SenderID = "440868453679"; // Google API Project Number
 
-        // Azure app specific connection string and hub path
-        public const string AzureConnectionString = "Endpoint=sb://fanwordbeta.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=Z030s1TggFodcapvdeWN6P1MzZqigTYz70FgcvjXXj0=";
-        public const string HubName = "fanwordBeta";
-
         //public static string PortalURL = "http://192.168.5.236:12138/";
-        //public static string PortalURL = "https://fanwordapidev.azurewebsites.net";
+        //public static string PortalURL = "https://fanwordapidev.azurewebsites.net"; 
         //public static string MvcPortalURL = "https://fanword-dev.agilx.com";
 
         //public static string PortalURL = "http://192.168.0.126:12145";
 
-        public static string PortalURL = "https://fanword-api-beta.azurewebsites.net"; 
+        public static string PortalURL = "https://fanword-api-beta.azurewebsites.net"; /*//https://fanword-api-beta.azurewebsites.net*/
         public static string MvcPortalURL = "https://fanwordportalbeta.azurewebsites.net";
 
         //public static string PortalURL = "https://fanwordapibeta.azurewebsites.net";
@@ -43,7 +41,7 @@ namespace Fanword.Shared.Service
 
 #elif HOCKEYAPP
         public const string HubName = "fanwordbeta";
-        public const string AzureConnectionString = "Endpoint=sb://agilxsbnew.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=2vTEyPwl21cHGFFYlaz/RpV8Ux+s7WL8U4mSf4UQgSc=";
+        public const string AzureConnectionString = "Endpoint=sb://fanwordbeta.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=Z030s1TggFodcapvdeWN6P1MzZqigTYz70FgcvjXXj0=";
 
         public const string SenderID = "440868453679";
 
@@ -54,7 +52,7 @@ namespace Fanword.Shared.Service
         //public static string PortalURL = "https://fanwordapiprod.azurewebsites.net";
         //public static string MvcPortalURL = "https://portal.fanword.com";
 
-        public static string PortalURL = "https://fanword-api-beta.azurewebsites.net"; 
+        public static string PortalURL = "https://fanword-api-beta.azurewebsites.net";
         public static string MvcPortalURL = "https://fanwordportalbeta.azurewebsites.net";
 
         public const string HubName = "fanwordBeta";
@@ -124,7 +122,6 @@ namespace Fanword.Shared.Service
                     }
                 }
                 return JsonConvert.DeserializeObject<T>(content);
-
             }
             else
             {
@@ -157,7 +154,6 @@ namespace Fanword.Shared.Service
                 .WaitAndRetryAsync(retryCount: 2, sleepDurationProvider: retryAttempt => TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)))
                 .ExecuteAsync(async () => await t);
 
-
                 string content = await message.Content.ReadAsStringAsync();
                 if (!message.IsSuccessStatusCode)
                 {
@@ -182,7 +178,6 @@ namespace Fanword.Shared.Service
                 throw new Exception("No internet connection.");
             }
         }
-
         protected async Task Delete(string route, Dictionary<string, object> values)
         {
             var accessToken = CrossSettings.Current.GetValueOrDefault("AccessToken", "");

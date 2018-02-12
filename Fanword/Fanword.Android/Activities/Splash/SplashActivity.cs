@@ -9,7 +9,6 @@ using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
-using Android.Util;
 using Android.Views;
 using Android.Widget;
 using Fanword.Shared;
@@ -20,14 +19,11 @@ namespace Fanword.Android
 	[Activity (Label = "Fanword", MainLauncher = true, ScreenOrientation = ScreenOrientation.Portrait, Theme = "@android:style/Theme.NoTitleBar", NoHistory = true)]
 	public class SplashActivity : BaseActivity
 	{
-        private ImageView mFanword;
-
 		protected override async void OnCreate (Bundle savedInstanceState)
 		{
 		    RequestWindowFeature(WindowFeatures.NoTitle);
 			base.OnCreate (savedInstanceState);
             SetContentView(Resource.Layout.SplashLayout);
-            mFanword = (ImageView) FindViewById(Resource.Id.imageView1);
             this.PopulateViewProperties();
 		    await Task.Delay(1000);
 		    if (LocalStorage.IsLoggedIn())
@@ -36,8 +32,7 @@ namespace Fanword.Android
 		    }
 		    else
 		    {
-                StartActivity(typeof(SplashLoginActivity));
-                Finish();
+                StartActivity(typeof(LoginActivity));
             }
         }
 	}

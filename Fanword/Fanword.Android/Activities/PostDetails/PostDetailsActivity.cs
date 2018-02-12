@@ -36,6 +36,7 @@ namespace Fanword.Android.Activities.PostDetails
         
         public string PostId { get; set; }
 
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             RequestWindowFeature(WindowFeatures.NoTitle);
@@ -52,7 +53,6 @@ namespace Fanword.Android.Activities.PostDetails
             btnBack.Click += (sender, e) =>
             {
                 MainActivity.PostId = PostId;
-
                 Finish();
             };
 
