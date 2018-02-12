@@ -57,7 +57,7 @@ namespace Fanword.Android.Fragments
             btnFollow = headerView.FindViewById<Button>(Resource.Id.btnFollow);
             lblPosts = headerView.FindViewById<TextView>(Resource.Id.lblPosts);
             lblFollowers = headerView.FindViewById<TextView>(Resource.Id.lblFollowers);
-            btnAdmin = headerView.FindViewById<Button>(Resource.Id.btnAdmin);
+            //btnAdmin = headerView.FindViewById<Button>(Resource.Id.btnAdmin);
 
             rvFeed.Initialize(Activity as BaseActivity, headerView, SchoolId, FeedType.School);
             rvFeed.SwipeContainer = slRefresh;
@@ -116,17 +116,17 @@ namespace Fanword.Android.Fragments
                     .Into(imgProfile);
             }
 
-            btnAdmin.Click += (sender, args) =>
-            {
-                if (profile == null)
-                    return;
+            //btnAdmin.Click += (sender, args) =>
+            //{
+            //    if (profile == null)
+            //        return;
 
-                Intent intent = new Intent(Activity, typeof(AdminInfoActivity));
-                intent.PutExtra("Id", SchoolId);
-                intent.PutExtra("Type", (int)FeedType.School);
-                intent.PutExtra("IsAdmin", profile.IsProfileAdmin);
-                StartActivity(intent);
-            };
+            //    Intent intent = new Intent(Activity, typeof(AdminInfoActivity));
+            //    intent.PutExtra("Id", SchoolId);
+            //    intent.PutExtra("Type", (int)FeedType.School);
+            //    intent.PutExtra("IsAdmin", profile.IsProfileAdmin);
+            //    StartActivity(intent);
+            //};
         }
 
 		public override void OnResume()

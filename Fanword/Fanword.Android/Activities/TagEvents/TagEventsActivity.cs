@@ -73,7 +73,11 @@ namespace Fanword.Android.Activities.TagEvents
             rvDates.SetLayoutManager(layoutManager);
 
             var times = new List<DateTime>();
-            currentTime = DateTime.Now.Date.ToUniversalTime();
+           currentTime = DateTime.Now.Date;
+
+        //   cureentTime = DateTime.Now.Date;
+
+         //   currentTime = DateTime.Now.Date.ToUniversalTime();
             var startTime = DateTime.Now.Date.ToUniversalTime().AddDays(-2);
             for (int i = 0; i < 5; i++)
             {
@@ -187,7 +191,18 @@ namespace Fanword.Android.Activities.TagEvents
             view.FindViewById<TextView>(Resource.Id.lblTeam2).Text = item.Team2Name;
             view.FindViewById<TextView>(Resource.Id.lblEventName).Text = item.Name;
             view.FindViewById<TextView>(Resource.Id.lblSport).Text = item.SportName;
-            view.FindViewById<TextView>(Resource.Id.lblTime).Text = item.DateOfEventUtc.ToLocalTime().ToString("hh:mm tt") + " " + lblTimeZone;
+            //view.FindViewById<TextView>(Resource.Id.lblTime).Text = item.DateOfEventUtc.ToLocalTime().ToString("hh:mm tt") + " " + lblTimeZone;
+            if(item.IsTbd)
+            {
+                view.FindViewById<TextView>(Resource.Id.lblTime).Text= "TBD"  + " " + lblTimeZone;
+            }
+            else
+            {
+                DateTime eventDate = ConvertToUTC(item.DateOfEventUtc, item.TimezoneId);
+                //view.FindViewById<TextView>(Resource.Id.lblTime).Text = item.DateOfEventUtc.ToString("hh:mm tt") + " " + lblTimeZone;
+                view.FindViewById<TextView>(Resource.Id.lblTime).Text = eventDate.ToString("hh:mm tt") + " " + lblTimeZone;
+
+            }
 
             var team2ImageView = view.FindViewById<ImageViewAsync>(Resource.Id.imgTeam2);
             team2ImageView.Tag?.CancelPendingTask(item.Team2Url);
@@ -230,6 +245,7 @@ namespace Fanword.Android.Activities.TagEvents
             return view;
         }
 
+
         void GetData()
         {
             var apiTask = new ServiceApi().SearchEvents(currentTime);
@@ -244,7 +260,36 @@ namespace Fanword.Android.Activities.TagEvents
                 }
             });
         }
+        public DateTime ConvertToUTC(DateTime dd, string timezoneId)
+        {
+            DateTime eventDate = dd;
+            if (!string.IsNullOrEmpty(timezoneId))
+            {
+                TimeZoneInfo zoneInfo;
+                try
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById(timezoneId);
+                }
+                catch (TimeZoneNotFoundException)
+                {
+                    zoneInfo = TimeZoneInfo.FindSystemTimeZoneById("America/New_York");
+                }
 
+                if (zoneInfo.StandardName == TimeZone.CurrentTimeZone.StandardName)
+                {
+                    eventDate = eventDate.ToLocalTime();
+                }
+                else if (timezoneId.Contains("Central"))
+                {
+                    eventDate = dd.AddHours(-6);
+                }
+                else
+                {
+                    eventDate = TimeZoneInfo.ConvertTimeFromUtc(dd, zoneInfo);
+                }
+            }
+            return eventDate;
+        }
         void BindViewHolder(RecyclerView.ViewHolder holder, DateTime item, int position, int viewType)
         {
             if (item == DateTime.Now.Date.ToUniversalTime())

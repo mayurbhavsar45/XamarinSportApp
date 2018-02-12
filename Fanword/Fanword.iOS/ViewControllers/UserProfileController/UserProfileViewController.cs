@@ -83,24 +83,36 @@ namespace Fanword.iOS
 			apiTask.HandleError(LoadingScreen);
 			apiTask.OnSucess(response =>
 			{
+
                 profile = response.Result;
-				lblTitle.Text = response.Result.Name;
-				lblName.Text = response.Result.Name;
-				lblPosts.Text = LargeValueHelper.GetString(response.Result.Posts);
-				lblFollowers.Text = LargeValueHelper.GetString(response.Result.Followers);
-				lblAthlete.Text = response.Result.Athlete;
-				isFollowing = response.Result.IsFollowing;
+                lblTitle.Text = response.Result.Name;
+                lblName.Text = response.Result.Name;
+                lblAthlete.Superview.Hidden = true;
+                lblPosts.Text = LargeValueHelper.GetString(response.Result.Posts);
+                lblFollowers.Text = LargeValueHelper.GetString(response.Result.Followers);
+                isFollowing = response.Result.IsFollowing;
                 Views.SetFollowed(btnFollow, profile.IsFollowing);
 
-				if (string.IsNullOrEmpty(lblAthlete.Text))
-				{
-                    lblAthlete.Superview.Hidden = true;
-				}
+                if (!string.IsNullOrEmpty(response.Result.ProfileUrl)) {
+                    ImageService.Instance.LoadUrl(response.Result.ProfileUrl).Transform(new CircleTransformation()).Retry(3, 300).Into(imgProfile);
+                }
 
-				if (!string.IsNullOrEmpty(response.Result.ProfileUrl))
-				{
-					ImageService.Instance.LoadUrl(response.Result.ProfileUrl).Transform(new CircleTransformation()).Retry(3, 300).Into(imgProfile);
-				}
+                var apiTask2 = new ServiceApi().GetUser(UserId);
+                apiTask2.HandleError(LoadingScreen);
+                apiTask2.OnSucess(response2 => {
+                    if (!response2.Result.AthleteVerified) {
+                        lblAthlete.Text = "";
+                        lblAthlete.Superview.Hidden = true;
+                    } else {
+                        lblAthlete.Text = response.Result.Athlete;
+                        lblAthlete.Superview.Hidden = false;
+                        if (string.IsNullOrEmpty(lblAthlete.Text)) {
+                            lblAthlete.Superview.Hidden = true;
+                        }
+
+                    }
+                });
+
 			});
         }
 	}

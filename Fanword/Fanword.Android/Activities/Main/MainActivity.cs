@@ -28,6 +28,9 @@ using Fanword.Android.Activities.Settings;
 using Fanword.Shared.Helpers;
 using Fanword.Android.Activities.ContentSourceInfo;
 using Gcm.Client;
+using Xamarin.Facebook;
+using Xamarin.Facebook.Login;
+using Fanword.Android.CustomViews;
 
 namespace Fanword.Android
 { 
@@ -39,6 +42,8 @@ namespace Fanword.Android
         MenuFragment menuFragment;
         HomeFragment homeFragment;
         public static string PostId { get; set; }
+        
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             RequestWindowFeature(WindowFeatures.NoTitle);
@@ -49,10 +54,10 @@ namespace Fanword.Android
 
             GcmClient.CheckDevice(this);
             GcmClient.CheckManifest(this);
-            GcmClient.Register(this, "fanword-191110");
-
-            GcmService.Initialize(this);
-            GcmService.Register(this);
+            GcmClient.Register(this, ServiceApiBase.SenderID);  //fanword-191110
+        
+            //GcmService.Initialize(this);
+            //GcmService.Register(this);
         }
 
         void SetupViewBindings()
@@ -70,7 +75,8 @@ namespace Fanword.Android
             ShowHelpIfNecessary(TutorialHelper.Welcome,() => 
             {
                ShowHelpIfNecessary(TutorialHelper.FindFavorites);
-            });
+
+             });            
 
             dlDrawer.DrawerOpened += (sender, e) => 
             {
@@ -196,6 +202,8 @@ namespace Fanword.Android
 
         public void Logout()
         {
+            FacebookSdk.SdkInitialize(this);
+            LoginManager.Instance.LogOut();
             CrossSettings.Current.Clear();
             StartActivity(typeof(LoginActivity));
             Finish();

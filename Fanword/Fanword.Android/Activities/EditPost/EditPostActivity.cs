@@ -261,8 +261,8 @@ namespace Fanword.Android.Activities.EditPost
 
             View view = LayoutInflater.Inflate(Resource.Layout.PostAsModalLayout, null);
             var lvAdminProfiles = view.FindViewById<ListView>(Resource.Id.lvAdminProfiles);
-            var adminProfiles = user.AdminSchools?.Select(m => new PostAsAdminProfile() { SchoolId = m.Id, Title = m.Name, Url = m.ProfileUrl}).ToList() ?? new List<PostAsAdminProfile>();
-            adminProfiles.AddRange(user.AdminTeams?.Select(m => new PostAsAdminProfile() { TeamId = m.Id, Title = m.SchoolName, SubTitle = m.SportName, Url = m.ProfileUrl }) ?? new List<PostAsAdminProfile>());
+            var adminProfiles = user.AdminSchools?.Select(m => new PostAsAdminProfile() { SchoolId = m.Id, Title = m.Name, Url = m.ProfileUrl}).OrderBy(m => m.Title).ThenBy(m => m.SubTitle).ToList() ?? new List<PostAsAdminProfile>();
+            adminProfiles.AddRange(user.AdminTeams?.Select(m => new PostAsAdminProfile() { TeamId = m.Id, Title = m.SchoolName, SubTitle = m.SportName, Url = m.ProfileUrl }) ?? new List<PostAsAdminProfile>().OrderBy(m => m.Title).ThenBy(m => m.SubTitle));
             var adapter = new CustomListAdapter<PostAsAdminProfile>(adminProfiles, GetAdminView);
             lvAdminProfiles.Adapter = adapter;
             adapter.NoContentEnabled = false;

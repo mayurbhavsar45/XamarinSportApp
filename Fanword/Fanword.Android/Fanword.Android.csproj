@@ -267,6 +267,7 @@
     <Compile Include="Activities\Settings\SettingsActivity.cs" />
     <Compile Include="Activities\ShowTeams\ShowTeamsActivity.cs" />
     <Compile Include="Activities\SignUp\SignUpActivity.cs" />
+    <Compile Include="Activities\SplashLogin\SplashLoginActivity.cs" />
     <Compile Include="Activities\SportProfile\SportProfileActivity.cs" />
     <Compile Include="Activities\StudentAthleteInfo\StudentAthleteInfoActivity.cs" />
     <Compile Include="Activities\TagEvents\TagEventsActivity.cs" />
@@ -811,8 +812,15 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\LogoGrey.png" />
   </ItemGroup>
-  <ItemGroup />
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxxhdpi\FanwordLogoWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxxhdpi\EmptyFeedSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxxhdpi\FanwordSplash.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

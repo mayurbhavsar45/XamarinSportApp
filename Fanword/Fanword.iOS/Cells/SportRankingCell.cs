@@ -19,6 +19,9 @@ namespace Fanword.iOS
 		public SportRankingCell (IntPtr handle) : base (handle)
 		{
 		}
+		
+		
+		
 
 		public void SetData(Ranking item, int position, Action<int, UIButton> followClicked, UINavigationController navigationController)
         {

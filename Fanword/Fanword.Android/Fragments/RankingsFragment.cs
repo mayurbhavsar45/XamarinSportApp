@@ -38,6 +38,7 @@ namespace Fanword.Android.Fragments
         private bool myTeams;
         private bool mySports;
         private bool mySchools;
+     
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             View view = inflater.Inflate(Resource.Layout.RankingsLayout, null);
@@ -122,6 +123,7 @@ namespace Fanword.Android.Fragments
 
         View GetView(Ranking item, int position, View convertView, ViewGroup parent)
         {
+           
             View view = convertView;
             if (view == null)
             {
@@ -134,20 +136,32 @@ namespace Fanword.Android.Fragments
 
                 view.FindViewById<Button>(Resource.Id.btnShowRankings).Click += (sender, e) => 
                 {
-					var model = adapter.Items[(int)view.Tag];
-                    Navigator.GoToSportProflie(model.SportId, true);  
+                    var model = adapter.Items[(int)view.Tag];
+                    if (model.IsActive == true)
+                    {
+                        
+                        Navigator.GoToSportProflie(model.SportId, true);
+                    }
                 };
 
 				view.FindViewById<ImageViewAsync>(Resource.Id.imgProfile).Click += (sender, e) =>
 				{
-					var model = adapter.Items[(int)view.Tag];
-					Navigator.GoToTeamProflie(model.TeamId, false);
+                    var model = adapter.Items[(int)view.Tag];
+                    if (model.IsActive == true)
+                    {
+                        
+                        Navigator.GoToTeamProflie(model.TeamId, false);
+                    }
 				};
 
                 view.FindViewById<TextView>(Resource.Id.lblTeamName).Click += (sender, e) => 
                 {
-					var model = adapter.Items[(int)view.Tag];
-					Navigator.GoToTeamProflie(model.TeamId, false);
+                    var model = adapter.Items[(int)view.Tag];
+                    if (model.IsActive == true)
+                    {
+                      
+                        Navigator.GoToTeamProflie(model.TeamId, false);
+                    }
                 };
                 view.FindViewById<TextView>(Resource.Id.lblRank).Typeface = CustomTypefaces.RobotoBold;
                 view.FindViewById<TextView>(Resource.Id.lblTeamName).Typeface = CustomTypefaces.RobotoBold;
@@ -157,7 +171,15 @@ namespace Fanword.Android.Fragments
             view.FindViewById<TextView>(Resource.Id.lblRank).Text = item.Rank.ToString();
             view.FindViewById<TextView>(Resource.Id.lblTeamName).Text = item.TeamName;
             view.FindViewById<TextView>(Resource.Id.lblSportName).Text = item.SportName;
-            view.FindViewById<TextView>(Resource.Id.lblWinsLosses).Text = item.Wins + "W " + item.Loses + "L " + item.Ties + "T";
+            if (item.IsActive == true)
+            {
+                view.FindViewById<TextView>(Resource.Id.lblWinsLosses).Text = item.Wins + "W " + item.Loses + "L " + item.Ties + "T";
+            }
+            else
+            {
+                view.FindViewById<TextView>(Resource.Id.lblWinsLosses).SetTextColor(Color.DarkGray);
+                view.FindViewById<TextView>(Resource.Id.lblWinsLosses).Text = "This Profile is not active yet";
+            }
             view.FindViewById<TextView>(Resource.Id.lblDate).Text = item.DateUpdatedUtc.ToString("dd MMMM");
 
             var profileImageView = view.FindViewById<ImageViewAsync>(Resource.Id.imgProfile);
@@ -176,15 +198,34 @@ namespace Fanword.Android.Fragments
             view.FindViewById<TextView>(Resource.Id.btnShowRankings).TextFormatted = span;
             if (item.IsFollowing)
             {
-                view.FindViewById<Button>(Resource.Id.btnFollow).SetTextColor(Color.White);
-                view.FindViewById<Button>(Resource.Id.btnFollow).Text = "Following";
-                (view.FindViewById<Button>(Resource.Id.btnFollow).Parent as RelativeLayout).Background = Resources.GetDrawable(Resource.Drawable.FollowingRoundedBackground);
+                if(item.IsActive==true)
+                {
+                    (view.FindViewById<Button>(Resource.Id.btnFollow).Parent as RelativeLayout).Visibility = ViewStates.Visible;
+                    view.FindViewById<Button>(Resource.Id.btnFollow).SetTextColor(Color.White);
+                    view.FindViewById<Button>(Resource.Id.btnFollow).Text = "Following";
+                    (view.FindViewById<Button>(Resource.Id.btnFollow).Parent as RelativeLayout).Background = Resources.GetDrawable(Resource.Drawable.FollowingRoundedBackground);
+                }
+                else
+                {
+                    (view.FindViewById<Button>(Resource.Id.btnFollow).Parent as RelativeLayout).Visibility = ViewStates.Gone;
+                }
+             
             }
             else
             {
-                view.FindViewById<Button>(Resource.Id.btnFollow).SetTextColor(new Color(144,144,144));
-                view.FindViewById<Button>(Resource.Id.btnFollow).Text = "Follow";
-                (view.FindViewById<Button>(Resource.Id.btnFollow).Parent as RelativeLayout).Background = Resources.GetDrawable(Resource.Drawable.FollowRoundedBackground);
+
+                if (item.IsActive == true)
+                {
+                    (view.FindViewById<Button>(Resource.Id.btnFollow).Parent as RelativeLayout).Visibility = ViewStates.Visible;
+                    view.FindViewById<Button>(Resource.Id.btnFollow).SetTextColor(new Color(144, 144, 144));
+                    view.FindViewById<Button>(Resource.Id.btnFollow).Text = "Follow";
+                    (view.FindViewById<Button>(Resource.Id.btnFollow).Parent as RelativeLayout).Background = Resources.GetDrawable(Resource.Drawable.FollowRoundedBackground);
+                }
+                else
+                {
+                    (view.FindViewById<Button>(Resource.Id.btnFollow).Parent as RelativeLayout).Visibility = ViewStates.Gone;
+
+                }
             }
             return view;
         }

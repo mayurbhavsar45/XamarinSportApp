@@ -10,6 +10,7 @@ using Xamarin.Facebook;
 using Fanword.Shared.Service;
 using Plugin.Settings;
 using Mixpanel.Android.MpMetrics;
+using Gcm;
 
 namespace Fanword.Android
 {
@@ -33,7 +34,6 @@ namespace Fanword.Android
 			FacebookSdk.SdkInitialize (this);
 
             MixpanelAPI mixpanel = MixpanelAPI.GetInstance(this, MIXPANEL_TOKEN);
-
 
             CrossPushNotifications.Current.Configure(ServiceApiBase.HubName, ServiceApiBase.AzureConnectionString, new [] { "fanword" }, Resource.Drawable.AppIcon);
             CrossPushNotifications.Current.PushNotificationClicked += (sender, e) =>

@@ -25,7 +25,7 @@ namespace Fanword.iOS
         {
             base.ViewDidLoad();
 
-			ShowHelpIfNecessary(TutorialHelper.BecomeAdmin);
+			//ShowHelpIfNecessary(TutorialHelper.BecomeAdmin);
             btnBack.TouchUpInside += (sender, e) => NavigationController.PopViewController(true);
 
 			if (IsAdmin)

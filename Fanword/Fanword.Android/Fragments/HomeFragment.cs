@@ -114,7 +114,7 @@ namespace Fanword.Android.Fragments
 			});
 
             (fragments[1] as ScoresFragment).GetData();
-		}
+        }
 
         void SetButtonStates(int position)
         {
