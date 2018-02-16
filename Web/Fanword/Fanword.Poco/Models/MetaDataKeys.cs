@@ -16,6 +16,7 @@ namespace Fanword.Poco.Models
         public const string UserFullName = "UserFullName";
         public const string NewsNotificationMessage = "NewsNotificationMessage";
         public const string CommentId = "CommentId";
+        public const string PostUserID = "PostUserID";
         
     }
 }

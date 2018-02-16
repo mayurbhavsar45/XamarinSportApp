@@ -49,11 +49,16 @@ namespace Fanword.Business.Builders.Mobile.Likes
         public async Task LikePostAsync(string postId, string userId)
         {
             var like = await _repo.PostLikes.FirstOrDefaultAsync(m => m.PostId == postId && m.CreatedById == userId);
+
+            var CreatedPostUserData = await _repo.Posts.FirstOrDefaultAsync(m => m.Id == postId);
+
             if (like == null)
             {
                 like = new Data.Entities.PostLike();
                 like.PostId = postId;
                 like.CreatedById = userId;
+               
+               
                 await _repo.PostLikes.AddOrUpdateAndSaveAsync(like);
                 var me = await _repo.Users.FirstOrDefaultAsync(m => m.Id == userId);
 
@@ -66,6 +71,7 @@ namespace Fanword.Business.Builders.Mobile.Likes
                     metaData.Add(MetaDataKeys.UserNotificationType, UserNotificationType.Like.ToString());
                     metaData.Add(MetaDataKeys.PostId, postId);
                     metaData.Add(MetaDataKeys.UserFullName, post.CreatedBy.FirstName + " " + post.CreatedBy.LastName);
+                    metaData.Add(MetaDataKeys.PostUserID, CreatedPostUserData.CreatedById);
 
 
                     PushMsgNotificationModel pushMsgNotificationModel = new PushMsgNotificationModel();

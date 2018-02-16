@@ -19,7 +19,7 @@ namespace Fanword.Business.CustomNotification
                 data = (pushMsgNotificationModel)
             });
             Microsoft.Azure.NotificationHubs.NotificationOutcome outcome = null;
-            outcome = await CustomNotification.Notifications.Instance.Hub.SendGcmNativeNotificationAsync(pushMsgNotificationJson);
+            outcome = await CustomNotification.Notifications.Instance.Hub.SendGcmNativeNotificationAsync(pushMsgNotificationJson,pushMsgNotificationModel.CreatedById);
         }
     }
 }

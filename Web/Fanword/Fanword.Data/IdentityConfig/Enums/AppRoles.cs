@@ -14,5 +14,7 @@ namespace Fanword.Data.Enums {
         public static string TeamAdmin = "TeamAdmin";
         public static string SchoolAdmin = "SchoolAdmin";
         public static string Advertiser = "Advertiser";
+        public static string Data = "Data";
+        public static string DataAdv = "DataAdv";
     }
 }

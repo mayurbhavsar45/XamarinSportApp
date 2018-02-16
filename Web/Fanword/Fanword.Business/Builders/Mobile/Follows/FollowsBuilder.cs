@@ -64,7 +64,7 @@ namespace Fanword.Business.Builders.Mobile.Follows
                 pushMsgNotificationModel.metaData = metaData;
                 pushMsgNotificationModel.content = "is following you";
 
-                new PushMsgNotification().PushMessageAsync(pushMsgNotificationModel);
+               new PushMsgNotification().PushMessageAsync(pushMsgNotificationModel);
                 new NotificationService(me.FirstName + " " + me.LastName + " is following you", NotificationType.User).AddUser(followedUserId).AddMetaData(metaData).AddContent("is following you").Send();
             }
         }
