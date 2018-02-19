@@ -1,0 +1,1255 @@
+Function=xamarin_timezone_get_names
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_get_locale_country_code
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_localized_string_format
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_1
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_5
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_6
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_7
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_8
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_9
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_init_nsthread
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_CGPoint__VNNormalizedFaceBoundingBoxPointForLandmarkPoint_Vector2_CGRect_nuint_nuint_string
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_CGPoint__VNImagePointForFaceLandmarkPoint_Vector2_CGRect_nuint_nuint_string
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=xamarin_get_block_descriptor
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_NVector3_int_CGSize
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_NVector3_int_CGSize
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_stret_NVector3_int_CGSize
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_stret_NVector3_int_CGSize
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_NVector3_Int64_CGSize
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_NVector3_Int64_CGSize
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_stret_NVector3_Int64_CGSize
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_stret_NVector3_Int64_CGSize
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_int_CGSize_nfloat_nfloat
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_int_CGSize_nfloat_nfloat
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_int_CGSize_nfloat_nfloat
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_int_CGSize_nfloat_nfloat
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_Int64_CGSize_nfloat_nfloat
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_Int64_CGSize_nfloat_nfloat
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_Int64_CGSize_nfloat_nfloat
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_Int64_CGSize_nfloat_nfloat
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_int
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_int
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_int
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_int
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_Int64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_Int64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_Int64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_Int64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_IntPtr_UInt32
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_UInt32
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_IntPtr_UInt64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_UInt64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_nint_nint_nint_UInt32
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_nint_nint_nint_UInt32
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_nint_nint_nint_UInt64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_nint_nint_nint_UInt64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_UInt32_nint_UInt32
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_UInt32_nint_UInt32
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_UInt64_nint_UInt64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_UInt64_nint_UInt64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i_int_int_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i_int_int_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i_int_int_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i_int_int_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_Vector2_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_Vector2_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSend_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSendSuper_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSend_stret_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSendSuper_stret_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSend_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSendSuper_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3d
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3d
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2d_Vector2d_Vector2i_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2d_Vector2d_Vector2i_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSend_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSendSuper_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_float_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_float_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKBox_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKBox_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_GKBox
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_GKBox
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKBox
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKBox
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_nuint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKQuad_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKQuad_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_GKQuad
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_GKQuad
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKQuad
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKQuad
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2_int
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2_int
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2_Int64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2_Int64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_ref_MPSImageHistogramInfo
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_ref_MPSImageHistogramInfo
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4d_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4d_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2d_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2d_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3d_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3d_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4d_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4d_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4d
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4d
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_MDLAxisAlignedBoundingBox_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_MDLAxisAlignedBoundingBox_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector2i_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector2i_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector2i_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector2i_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_bool_IntPtr_Vector2i_nint_nuint_int_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_bool_IntPtr_Vector2i_nint_nuint_int_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_bool_IntPtr_Vector2i_nint_nuint_Int64_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_bool_IntPtr_Vector2i_nint_nuint_Int64_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_int_IntPtr_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_int_IntPtr_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_Int64_IntPtr_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_Int64_IntPtr_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_float_IntPtr_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_float_IntPtr_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_Vector2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt32_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt32_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_UInt64_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_UInt64_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_int_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_int_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_int_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_int_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_bool_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_bool_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_int_UInt32_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_int_UInt32_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_int_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_int_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_Int64_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_Int64_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2i_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2i_int_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2i_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2i_Int64_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_nuint_nuint_int_bool_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_nuint_nuint_int_bool_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_nuint_nuint_Int64_bool_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_nuint_nuint_Int64_bool_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_int_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_int_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_Int64_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_Int64_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_nuint_int_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_nuint_int_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_nuint_Int64_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_nuint_Int64_bool_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector2i_nint_float_IntPtr_IntPtr_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector2i_nint_float_IntPtr_IntPtr_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector2i_IntPtr_IntPtr_IntPtr_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector2i_IntPtr_IntPtr_IntPtr_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_Int64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_Int64
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_int_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_int_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_Int64_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_Int64_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_int_Vector2i_float_float_float_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_int_Vector2i_float_float_float_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Int64_Vector2i_float_float_float_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Int64_Vector2i_float_float_float_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_int_Vector2i_float_float_float_float_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_int_Vector2i_float_float_float_float_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Int64_Vector2i_float_float_float_float_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Int64_Vector2i_float_float_float_float_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Matrix4_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Matrix4_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix4_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix4_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_IntPtr_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_IntPtr_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret_IntPtr_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret_IntPtr_Double
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_MDLAxisAlignedBoundingBox_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_MDLAxisAlignedBoundingBox_float
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector4i_bool_bool_bool_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector4i_bool_bool_bool_bool
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_MDLVoxelIndexExtent2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_MDLVoxelIndexExtent2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSend_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSendSuper_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSend_stret_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSendSuper_stret_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret_Vector4i
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__void_objc_msgSend_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__void_objc_msgSendSuper_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaternion
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaternion
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSend
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSendSuper
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSend_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSendSuper_stret
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix2
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix3
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix4
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_nint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_nint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_nint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_nint
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=Flush
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/System.dll
+ObjectiveCClass=OBJC_CLASS_$_SBConnectionString
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBLocalStorage
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBNotificationHub
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBRegistration
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_StoredRegistrationEntry
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBTokenProvider
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITAuthenticator
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashAttachment
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashDetails
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashMetaData
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackActivity
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackComposeViewController
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackListViewController
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyAttachment
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyBaseManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyBaseViewController
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITMetricsManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITStoreUpdateManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITUpdateManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITUpdateViewController
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITAuthenticatorErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITCrashErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITFeedbackErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITHockeyErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITUpdateErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupAddDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupJoinDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppInviteContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppInviteDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGameRequestContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGameRequestDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKHashtag
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLikeButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLikeControl
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessageDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSendButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKShareErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareAPI
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareLinkContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMediaContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphAction
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphObject
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphValueContainer
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSharePhoto
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSharePhotoContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareVideo
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareVideoContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerBroadcastContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerShareButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerShareOptions
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerSharer
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandler
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandlerCancelContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandlerOpenFromComposerContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandlerReplyContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoginErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginManagerLoginResult
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginTooltipView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKTooltipView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSettings
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenDidChangeNotification
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenChangeNewKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenChangeOldKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenDidChangeUserID
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAccessToken
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAchievedLevel
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAddedPaymentInfo
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAddedToCart
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAddedToWishlist
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameCompletedRegistration
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameCompletedTutorial
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameContentID
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameContentType
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameCurrency
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameDescription
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameInitiatedCheckout
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameLevel
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventsLoggingResultNotification
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameMaxRatingValue
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterValueNo
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameNumItems
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventsOverrideAppIDBundleKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNamePaymentInfoAvailable
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameRated
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameRegistrationMethod
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameSearchString
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameSearched
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameSpentCredits
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameSuccess
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameUnlockedAchievement
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameViewedContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterValueYes
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppEvents
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKApplicationDelegate
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkResolver
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkUtility
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKErrorArgumentCollectionKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKErrorArgumentNameKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKErrorArgumentValueKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKGraphRequestErrorCategoryKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKErrorDeveloperMessageKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKGraphRequestErrorGraphErrorCode
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKGraphRequestErrorGraphErrorSubcode
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKGraphRequestErrorHTTPStatusCodeKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKErrorLocalizedDescriptionKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKErrorLocalizedTitleKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKGraphRequestErrorParsedJSONResponseKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphErrorRecoveryProcessor
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequest
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKNonJSONResponseProperty
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequestConnection
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequestDataAttachment
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorAccessTokens
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorAppEvents
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorCacheErrors
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorDeveloperErrors
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorGraphAPIDebugInfo
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorGraphAPIDebugWarning
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorInformational
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorNetworkRequests
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorPerformanceCharacteristics
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoggingBehaviorUIControlErrors
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKProfileDidChangeNotification
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKProfileChangeNewKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+Field=FBSDKProfileChangeOldKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKProfile
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKProfilePictureView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_BFTask
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKTestUsersManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKUtility
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_IQBarButtonItem
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQKeyboardManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQKeyboardReturnKeyHandler
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQPreviousNextView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQTextView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQTitleBarButtonItem
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQToolbar
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_Mixpanel
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mixpanel.dll
+ObjectiveCClass=OBJC_CLASS_$_MixpanelPeople
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mixpanel.dll
+ObjectiveCClass=OBJC_CLASS_$_MPTweak
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mixpanel.dll
+ObjectiveCClass=OBJC_CLASS_$_MPTweakStore
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/Mixpanel.dll
+Function=WebPGetDecoderVersion
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache/Link/WebP.Touch.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret
+Function=mono_profiler_startup_log

@@ -138,7 +138,11 @@ namespace Fanword.iOS
             var user = CrossSettings.Current.GetValueOrDefaultJson<User>("User");
             InvokeOnMainThread(() =>
             {
-				CrossPushNotifications.Current.Register(new string[] { user.Id });
+				//CrossPushNotifications.Current.Register(new string[] { user.Id });
+
+                var ad = (AppDelegate)UIApplication.SharedApplication.Delegate;
+                ad.registerForNotification();
+
             });
 
             if(AppDelegate.ClickedNotification != null)

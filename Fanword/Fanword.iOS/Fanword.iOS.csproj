@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Christopher Aumueller (J5DQCWEFTY)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchProfiling>true</MtouchProfiling>
@@ -33,6 +33,7 @@
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
     <MtouchSdkVersion>10.3</MtouchSdkVersion>
+    <CodesignProvision>VS: com.agilx.chrisfanword Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>
@@ -43,13 +44,14 @@
     </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignKey>iPhone Developer: Christopher Aumueller (J5DQCWEFTY)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <CodesignProvision>VS: com.agilx.chrisfanword Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
@@ -59,12 +61,12 @@
     </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignKey>iPhone Developer: Christopher Aumueller (J5DQCWEFTY)</CodesignKey>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
-    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <CodesignProvision>VS: com.agilx.chrisfanword Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -74,7 +76,7 @@
     <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Christopher Aumueller (J5DQCWEFTY)</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchFastDev>true</MtouchFastDev>
@@ -86,15 +88,14 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <MtouchSdkVersion>10.3</MtouchSdkVersion>
-    <CodesignProvision>
-    </CodesignProvision>
+    <CodesignProvision>VS: com.agilx.chrisfanword Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
     <DefineConstants>__UNIFIED__;__MOBILE__;__IOS__;</DefineConstants>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignKey>iPhone Developer: Christopher Aumueller (J5DQCWEFTY)</CodesignKey>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
@@ -102,7 +103,7 @@
     </MtouchHttpClientHandler>
     <MtouchTlsProvider>
     </MtouchTlsProvider>
-    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignProvision>VS: com.agilx.chrisfanword Development</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -1096,17 +1097,7 @@
     <None Include="app.config" />
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
-    <ImageAsset Include="Resources\Media.xcassets\Images.imageset\Contents.json">
-      <Visible>false</Visible>
-      <InProject>false</InProject>
-    </ImageAsset>
-    <ImageAsset Include="Resources\Media.xcassets\LogoWhite.imageset\Contents.json">
-      <Visible>false</Visible>
-      <InProject>false</InProject>
-    </ImageAsset>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -1142,10 +1133,6 @@
     <Compile Include="ViewControllers\OnboardingAthleteSeasonController\OnboardingAthleteSeasonViewController.cs" />
     <Compile Include="ViewControllers\OnboardingAthleteSeasonController\OnboardingAthleteSeasonViewController.designer.cs">
       <DependentUpon>OnboardingAthleteSeasonViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewControllers\SplashLogin\SplashLogin.cs" />
-    <Compile Include="ViewControllers\SplashLogin\SplashLogin.designer.cs">
-      <DependentUpon>SplashLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewControllers\TablePopoverController\TablePopoverViewController.cs" />
     <Compile Include="ViewControllers\TablePopoverController\TablePopoverViewController.designer.cs">
@@ -1478,21 +1465,6 @@
       <Project>{E5CA2C62-35B1-4ABB-93DA-AB417FEE9431}</Project>
       <Name>Fanword.Shared</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ImageAsset Include="Resources\Media.xcassets\Images.imageset\LogoWhite.png">
-      <Visible>false</Visible>
-      <InProject>false</InProject>
-    </ImageAsset>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="ArrowLeft.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ImageAsset Include="Resources\Media.xcassets\LogoWhite.imageset\LogoWhite.png">
-      <Visible>false</Visible>
-      <InProject>false</InProject>
-    </ImageAsset>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

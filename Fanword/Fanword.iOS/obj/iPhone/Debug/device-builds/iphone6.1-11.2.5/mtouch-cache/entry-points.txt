@@ -1,0 +1,289 @@
+Function=xamarin_timezone_get_data
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/mscorlib.dll
+Function=UIApplicationMain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/System.dll
+Function=Flush
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/System.dll
+ObjectiveCClass=OBJC_CLASS_$_SBConnectionString
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBLocalStorage
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBNotificationHub
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBRegistration
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_StoredRegistrationEntry
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_SBTokenProvider
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Microsoft.WindowsAzure.Messaging.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITAuthenticator
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashAttachment
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashDetails
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITCrashMetaData
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackActivity
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackComposeViewController
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackListViewController
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITFeedbackManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyAttachment
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyBaseManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITHockeyBaseViewController
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITMetricsManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITStoreUpdateManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITUpdateManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_BITUpdateViewController
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITAuthenticatorErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITCrashErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITFeedbackErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITHockeyErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+Field=kBITUpdateErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/HockeySDK.iOSBindings.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupAddDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupJoinDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppInviteContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppInviteDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGameRequestContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGameRequestDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKHashtag
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLikeButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLikeControl
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessageDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSendButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKShareErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareAPI
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareDialog
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareLinkContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMediaContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphAction
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphObject
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphValueContainer
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSharePhoto
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSharePhotoContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareVideo
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareVideoContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerBroadcastContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerShareButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerShareOptions
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerSharer
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandler
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandlerCancelContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandlerOpenFromComposerContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessengerURLHandlerReplyContext
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKLoginErrorDomain
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginManagerLoginResult
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginTooltipView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKTooltipView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSettings
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenDidChangeNotification
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenChangeNewKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenChangeOldKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAccessTokenDidChangeUserID
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAccessToken
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAchievedLevel
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAddedPaymentInfo
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAddedToCart
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameAddedToWishlist
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameCompletedRegistration
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameCompletedTutorial
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameContentID
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameContentType
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameCurrency
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameDescription
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameInitiatedCheckout
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameLevel
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventsLoggingResultNotification
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameMaxRatingValue
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterValueNo
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameNumItems
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventsOverrideAppIDBundleKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNamePaymentInfoAvailable
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameRated
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameRegistrationMethod
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameSearchString
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameSearched
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameSpentCredits
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterNameSuccess
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameUnlockedAchievement
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventNameViewedContent
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKAppEventParameterValueYes
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppEvents
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKApplicationDelegate
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkResolver
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkUtility
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKButton
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphErrorRecoveryProcessor
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequest
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKNonJSONResponseProperty
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequestConnection
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequestDataAttachment
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKProfileDidChangeNotification
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKProfileChangeNewKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+Field=FBSDKProfileChangeOldKey
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKProfile
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKProfilePictureView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_BFTask
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKTestUsersManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKUtility
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Facebook.dll
+ObjectiveCClass=OBJC_CLASS_$_IQBarButtonItem
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQKeyboardManager
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQKeyboardReturnKeyHandler
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQPreviousNextView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQTextView
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQTitleBarButtonItem
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_IQToolbar
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/IQKeyboardManager.dll
+ObjectiveCClass=OBJC_CLASS_$_Mixpanel
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Mixpanel.dll
+ObjectiveCClass=OBJC_CLASS_$_MixpanelPeople
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Mixpanel.dll
+ObjectiveCClass=OBJC_CLASS_$_MPTweak
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Mixpanel.dll
+ObjectiveCClass=OBJC_CLASS_$_MPTweakStore
+	/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Debug/device-builds/iphone6.1-11.2.5/mtouch-cache/Link/Mixpanel.dll
+Function=mono_pmip

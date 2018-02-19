@@ -1,0 +1,540 @@
+# Version: 11.6.1.4 (xcode9.2: db807ec9)
+# [first argument, ignore] # --cache
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.4/lib/mtouch/mtouch.exe \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-cache' \
+	--sim \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/bin/iPhoneSimulator/Debug/Fanword.iOS.app' \
+	--executable \
+	Fanword.iOS \
+	--debug \
+	--profiling \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	11.2 \
+	--targetver \
+	9.0 \
+	--aot-options=-O=-float32 \
+	--http-message-handler=HttpClientHandler \
+	--abi=x86_64 \
+	--symbollist \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list' \
+	--dsym=no \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.Facebook.iOS.4.24.0/lib/Xamarin.iOS10/Facebook.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Fanword.Poco.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.Shared/bin/Debug/Fanword.Shared.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.FFImageLoading.2.2.9/lib/Xamarin.iOS10/FFImageLoading.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.FFImageLoading.2.2.9/lib/Xamarin.iOS10/FFImageLoading.Platform.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.FFImageLoading.Transformations.2.2.9/lib/Xamarin.iOS10/FFImageLoading.Transformations.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/HockeySDK.Xamarin.4.1.2/lib/Xamarin.iOS10/HockeySDK.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/HockeySDK.Xamarin.4.1.2/lib/Xamarin.iOS10/HockeySDK.iOSBindings.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/Humanizer.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.IQKeyboardManager.1.2/lib/Xamarin.iOS10/IQKeyboardManager.dll' \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Microsoft.WindowsAzure.Messaging.iOS.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/lib_iOS/Mixpanel.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Mobile.Extensions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Mobile.Extensions.iOS.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/ModernHttpClient.dll' \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Newtonsoft.Json.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugin.Connectivity.2.3.0/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugin.Connectivity.2.3.0/lib/Xamarin.iOS10/Plugin.Connectivity.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Plugin.Dialog.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Plugin.Dialog.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Plugin.PushNotifications.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Plugin.PushNotifications.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugins.Settings.2.5.4/lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugins.Settings.2.5.4/lib/Xamarin.iOS10/Plugin.Settings.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Polly.5.0.6/lib/netstandard1.0/Polly.dll' \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.IO.Compression.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/TimeZoneConverter.2.2.1/lib/netstandard2.0/TimeZoneConverter.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/TimeZoneNames.3.2.0/lib/netstandard2.0/TimeZoneNames.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/WebP.Touch.1.0.3/lib/Xamarin.iOS10/WebP.Touch.dll' \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.AccessControl.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/Microsoft.Win32.Registry.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/netstandard.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.AppContext.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Concurrent.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.NonGeneric.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Collections.Specialized.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Annotations.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.EventBasedAsync.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.TypeConverter.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Console.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.Common.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Data.SqlClient.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Contracts.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.FileVersionInfo.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Process.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.StackTrace.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TextWriterTraceListener.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceEvent.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.TraceSource.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tracing.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Dynamic.Runtime.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Calendars.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Globalization.Extensions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Compression.ZipFile.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.AccessControl.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.DriveInfo.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.Watcher.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.IsolatedStorage.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.MemoryMappedFiles.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.Pipes.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.IO.UnmanagedMemoryStream.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Expressions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Parallel.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Linq.Queryable.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.AuthenticationManager.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Cache.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.HttpListener.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Mail.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NameResolution.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.NetworkInformation.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Ping.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Requests.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Security.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.ServicePoint.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Sockets.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.Utilities.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebHeaderCollection.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.Client.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Net.WebSockets.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.DispatchProxy.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.ILGeneration.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Emit.Lightweight.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Extensions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Reflection.TypeExtensions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ReaderWriter.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.CompilerServices.VisualC.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Extensions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Handles.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.RuntimeInformation.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.WindowsRuntime.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Loader.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Numerics.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Formatters.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Json.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Runtime.Serialization.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.AccessControl.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Claims.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Algorithms.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Cng.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Csp.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.DeriveBytes.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encoding.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.Aes.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDiffieHellman.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Encryption.ECDsa.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.Algorithms.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Hashing.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.OpenSsl.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Pkcs.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.ProtectedData.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RandomNumberGenerator.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.RSA.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Cryptography.X509Certificates.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.Principal.Windows.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Security.SecureString.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Duplex.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Http.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.NetTcp.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Primitives.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceModel.Security.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ServiceProcess.ServiceController.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.CodePages.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.Extensions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.AccessControl.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Overlapped.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Tasks.Parallel.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Thread.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.ThreadPool.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Threading.Timer.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.ValueTuple.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlDocument.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.Facebook.iOS.4.24.0/lib/Xamarin.iOS10/Facebook.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Fanword.Poco.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.Shared/bin/Debug/Fanword.Shared.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.FFImageLoading.2.2.9/lib/Xamarin.iOS10/FFImageLoading.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.FFImageLoading.2.2.9/lib/Xamarin.iOS10/FFImageLoading.Platform.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.FFImageLoading.Transformations.2.2.9/lib/Xamarin.iOS10/FFImageLoading.Transformations.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/HockeySDK.Xamarin.4.1.2/lib/Xamarin.iOS10/HockeySDK.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/HockeySDK.Xamarin.4.1.2/lib/Xamarin.iOS10/HockeySDK.iOSBindings.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/Humanizer.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xamarin.IQKeyboardManager.1.2/lib/Xamarin.iOS10/IQKeyboardManager.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Microsoft.WindowsAzure.Messaging.iOS.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/lib_iOS/Mixpanel.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Mobile.Extensions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Mobile.Extensions.iOS.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/ModernHttpClient.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Newtonsoft.Json.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugin.Connectivity.2.3.0/lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugin.Connectivity.2.3.0/lib/Xamarin.iOS10/Plugin.Connectivity.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Plugin.Dialog.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Plugin.Dialog.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugin.Media.2.6.2/lib/Xamarin.iOS10/Plugin.Media.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Plugin.PushNotifications.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Xamrin_mobile_lib/Fanword.iOS/Plugin.PushNotifications.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugins.Settings.2.5.4/lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Xam.Plugins.Settings.2.5.4/lib/Xamarin.iOS10/Plugin.Settings.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.Abstractions.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Plugin.Share.7.0.1/lib/Xamarin.iOS10/Plugin.Share.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Polly.5.0.6/lib/netstandard1.0/Polly.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/TimeZoneConverter.2.2.1/lib/netstandard2.0/TimeZoneConverter.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/TimeZoneNames.3.2.0/lib/netstandard2.0/TimeZoneNames.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/WebP.Touch.1.0.3/lib/Xamarin.iOS10/WebP.Touch.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.Shared/bin/Debug/Notifications.Mobile.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.Shared/bin/Debug/FileUploader.Portable.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.Shared/bin/Debug/HtmlAgilityPack.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.Shared/bin/Debug/System.Net.Http.Formatting.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.Shared/bin/Debug/System.Net.Http.Primitives.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/af/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/ar/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/bg/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/bn-BD/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/cs/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/da/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/de/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/el/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/es/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/fa/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/fi-FI/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/fr/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/fr-BE/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/he/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/hr/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/hu/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/id/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/it/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/ja/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/nb/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/nb-NO/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/nl/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/pl/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/pt/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/ro/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/ru/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/sk/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/sl/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/sr/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/sr-Latn/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/sv/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/tr/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/uk/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/uz-Cyrl-UZ/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/uz-Latn-UZ/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/vi/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/zh-CN/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/zh-Hans/Humanizer.resources.dll' \
+	-r \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/packages/Humanizer.Core.2.1.0/lib/netstandard1.0/zh-Hant/Humanizer.resources.dll' \
+	--target-framework \
+	'Xamarin.iOS,v1.0' \
+	'/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/bin/iPhoneSimulator/Debug/Fanword.iOS.exe' \

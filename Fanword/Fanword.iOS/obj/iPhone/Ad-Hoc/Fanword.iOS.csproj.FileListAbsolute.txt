@@ -1,0 +1,5 @@
+/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Ad-Hoc/ibtool/_BundleResourceWithLogicalName.items
+/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Ad-Hoc/actool/_PartialAppManifest.items
+/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Ad-Hoc/actool/_BundleResourceWithLogicalName.items
+/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Ad-Hoc/optimized/
+/Volumes/Data/Parimal Dhimmar/xamrin/working/XamarinSportApp/Fanword/Fanword.iOS/obj/iPhone/Ad-Hoc/Fanword.iOS.csproj.CoreCompileInputs.cache

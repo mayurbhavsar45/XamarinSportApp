@@ -1,4 +1,4 @@
-﻿// WARNING
+// WARNING
 //
 // This file has been generated automatically by Visual Studio from the outlets and
 // actions declared in your storyboard file.
@@ -40,20 +40,16 @@ namespace Fanword.iOS
         [Outlet]
         UIKit.UIView vwFacebookContainer { get; set; }
 
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton btnBack { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (btnBack != null) {
-                btnBack.Dispose ();
-                btnBack = null;
-            }
-
             if (btnForgotPassword != null) {
                 btnForgotPassword.Dispose ();
                 btnForgotPassword = null;
+            }
+
+            if (btnRegister != null) {
+                btnRegister.Dispose ();
+                btnRegister = null;
             }
 
             if (btnSignIn != null) {

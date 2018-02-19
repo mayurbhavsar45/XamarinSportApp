@@ -114,11 +114,6 @@ namespace Fanword.iOS
 
 			lblAthlete.Hidden = string.IsNullOrEmpty(user.AthleteTeamId);
             lblAthlete.Text = user.AthleteSchool + " - " + user.AthleteSport;
-
-            if (!user.AthleteVerified) {
-                lblAthlete.Hidden = true;
-                lblAthlete.Text = "";
-            }
         }
 
         public override void ViewWillAppear(bool animated)

@@ -74,8 +74,7 @@ namespace Fanword.iOS
 				model.Add (new FeedItem ());
 			}
 			source = new CustomListSource<FeedItem> (model, GetCell, (tv, ip) => AutomaticDimension);
-            //source.NoContentEnabled = false;
-            source.NoContentText = "No content yet. Try following some profiles.";
+			source.NoContentEnabled = false;
 
 			Source = source;
             ReloadData();
@@ -257,9 +256,9 @@ namespace Fanword.iOS
                 cell.ImgProfile.AddGestureRecognizer(new UITapGestureRecognizer(() => GoToProfile(cell.PostId)));
                 cell.ImgImage.UserInteractionEnabled = true;
                 cell.ImgImage.AddGestureRecognizer(new UITapGestureRecognizer((obj) => ImageClicked(cell.PostId)));
-               // cell.BtnFacebook.TouchUpInside += (sender, e) => Links.OpenUrl(source.Items[cell.Position].FacebookUrl);
-                //cell.BtnTwitter.TouchUpInside += (sender, e) => Links.OpenUrl(source.Items[cell.Position].TwitterUrl);
-               // cell.BtnInstagram.TouchUpInside += (sender, e) => Links.OpenUrl(source.Items[cell.Position].InstagramUrl);
+                cell.BtnFacebook.TouchUpInside += (sender, e) => Links.OpenUrl(source.Items[cell.Position].FacebookUrl);
+                cell.BtnTwitter.TouchUpInside += (sender, e) => Links.OpenUrl(source.Items[cell.Position].TwitterUrl);
+                cell.BtnInstagram.TouchUpInside += (sender, e) => Links.OpenUrl(source.Items[cell.Position].InstagramUrl);
 				cell.IsCommonNew = false;
 			}
 
@@ -368,13 +367,9 @@ namespace Fanword.iOS
 			cell.BtnComment.SetImage (UIImage.FromBundle (item.IsCommented ? "IconCommented" : "IconComment"), UIControlState.Normal);
 
 
-            //cell.BtnFacebook.Hidden = string.IsNullOrEmpty(item.FacebookUrl); 
-            //cell.BtnTwitter.Hidden = string.IsNullOrEmpty(item.TwitterUrl);
-            //cell.BtnInstagram.Hidden = string.IsNullOrEmpty(item.InstagramUrl);
-
-            cell.BtnFacebook.Hidden = true;
-            cell.BtnTwitter.Hidden = true;
-            cell.BtnInstagram.Hidden = true;
+			cell.BtnFacebook.Hidden = string.IsNullOrEmpty(item.FacebookUrl); 
+            cell.BtnTwitter.Hidden = string.IsNullOrEmpty(item.TwitterUrl);
+			cell.BtnInstagram.Hidden = string.IsNullOrEmpty(item.InstagramUrl);
 
             if (!string.IsNullOrEmpty(item.ImageUrl))
             {
