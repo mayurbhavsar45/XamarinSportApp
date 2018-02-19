@@ -68,10 +68,14 @@ namespace Fanword.Android.Activities.MyProfile
                 ImageService.Instance.LoadUrl(user.ProfileUrl).DownSample(300).Transform(new CircleTransformation()).Retry(3,300).Into(headerView.FindViewById<ImageViewAsync>(Resource.Id.imgProfile));
             }
 
+            if (user.AthleteVerified) {
+                lblAthlete.Visibility = string.IsNullOrEmpty(user.AthleteTeamId) ? ViewStates.Gone : ViewStates.Visible;
+                lblAthlete.Text = user.AthleteSchool + " - " + user.AthleteSport;
+            } else {
+                lblAthlete.Text = "";
+                lblAthlete.Visibility = ViewStates.Gone;
+            }
 
-
-            lblAthlete.Visibility = string.IsNullOrEmpty(user.AthleteTeamId) ? ViewStates.Gone : ViewStates.Visible;
-			lblAthlete.Text = user.AthleteSchool + " - " + user.AthleteSport;
 
 			rvFeed.Initialize(this, headerView, CrossSettings.Current.GetValueOrDefaultJson<User>("User").Id, FeedType.MyProfile);
             rvFeed.SwipeContainer = slRefresh;

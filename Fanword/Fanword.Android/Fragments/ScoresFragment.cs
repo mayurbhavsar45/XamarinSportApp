@@ -175,6 +175,7 @@ namespace Fanword.Android.Fragments
                 return;
 
             var filter = new ScoresFilterModel();
+          
             filter.FollowFilter = new FollowingFilterModel();
             filter.TeamId = TeamId;
             filter.SportId = SportId;
@@ -183,7 +184,9 @@ namespace Fanword.Android.Fragments
             filter.FollowFilter.MySports = mySports;
             filter.FollowFilter.MyTeams = myTeams;
             filter.DateFilter = dateFilter;
-            filter.Today = DateTime.Now;
+          //  var dt = DateTime.ParseExact("1/14/2018 12:00:00 AM", "M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture);
+            filter.Today = DateTime.Now.Date;
+            //filter.Today = DateTime.UtcNow.Date;
 
             webLoadingIcon.Visibility = ViewStates.Visible;
             webLoadingIcon.SetBackgroundColor(new Color(227, 228, 230));
@@ -230,26 +233,91 @@ namespace Fanword.Android.Fragments
                 foreach (var item in obj)
                 {
                     DateTime eventDate = ConvertToUTC(item.EventDate, item.TimezoneId);
-                    TempList.Add(new ScoreModel()
+                    if (dateFilter == DateFilter.Today)
                     {
-                        EventDate = eventDate,
-                        EventId = item.EventId,
-                        EventName = item.EventName,
-                        IsTbd = item.IsTbd,
-                        PostCount = item.PostCount,
-                        ShowTicketUrl = item.ShowTicketUrl,
-                        SportName = item.SportName,
-                        SportProfileUrl = item.SportProfileUrl,
-                        Team1Name = item.Team1Name,
-                        Team1Score = item.Team1Score,
-                        Team1Url = item.Team1Url,
-                        Team2Name = item.Team2Name,
-                        Team2Score = item.Team2Score,
-                        Team2Url = item.Team2Url,
-                        TeamCount = item.TeamCount,
-                        TicketUrl = item.TicketUrl,
-                        TimezoneId = item.TimezoneId
-                    });
+                        if (eventDate.Date < DateTime.Now.Date)
+                        {
+                            System.Console.Write("No");
+                        }
+                        else
+                        {
+
+                            TempList.Add(new ScoreModel()
+                            {
+                                EventDate = eventDate,
+                                EventId = item.EventId,
+                                EventName = item.EventName,
+                                IsTbd = item.IsTbd,
+                                PostCount = item.PostCount,
+                                ShowTicketUrl = item.ShowTicketUrl,
+                                SportName = item.SportName,
+                                SportProfileUrl = item.SportProfileUrl,
+                                Team1Name = item.Team1Name,
+                                Team1Score = item.Team1Score,
+                                Team1Url = item.Team1Url,
+                                Team2Name = item.Team2Name,
+                                Team2Score = item.Team2Score,
+                                Team2Url = item.Team2Url,
+                                TeamCount = item.TeamCount,
+                                TicketUrl = item.TicketUrl,
+                                TimezoneId = item.TimezoneId
+                            });
+                        }
+
+                    }
+                    else if(dateFilter == DateFilter.Upcoming)
+                    {
+                        if (eventDate.Date > DateTime.Now.Date)
+                        {
+                            TempList.Add(new ScoreModel()
+                            {
+                                EventDate = eventDate,
+                                EventId = item.EventId,
+                                EventName = item.EventName,
+                                IsTbd = item.IsTbd,
+                                PostCount = item.PostCount,
+                                ShowTicketUrl = item.ShowTicketUrl,
+                                SportName = item.SportName,
+                                SportProfileUrl = item.SportProfileUrl,
+                                Team1Name = item.Team1Name,
+                                Team1Score = item.Team1Score,
+                                Team1Url = item.Team1Url,
+                                Team2Name = item.Team2Name,
+                                Team2Score = item.Team2Score,
+                                Team2Url = item.Team2Url,
+                                TeamCount = item.TeamCount,
+                                TicketUrl = item.TicketUrl,
+                                TimezoneId = item.TimezoneId
+                            });
+                        }
+                    }
+                    else
+                    {
+                        TempList.Add(new ScoreModel()
+                        {
+                            EventDate = eventDate,
+                            EventId = item.EventId,
+                            EventName = item.EventName,
+                            IsTbd = item.IsTbd,
+                            PostCount = item.PostCount,
+                            ShowTicketUrl = item.ShowTicketUrl,
+                            SportName = item.SportName,
+                            SportProfileUrl = item.SportProfileUrl,
+                            Team1Name = item.Team1Name,
+                            Team1Score = item.Team1Score,
+                            Team1Url = item.Team1Url,
+                            Team2Name = item.Team2Name,
+                            Team2Score = item.Team2Score,
+                            Team2Url = item.Team2Url,
+                            TeamCount = item.TeamCount,
+                            TicketUrl = item.TicketUrl,
+                            TimezoneId = item.TimezoneId
+                        });
+
+                    }
+
+
+
                 }
 
                 var grouped = TempList.GroupBy(m => m.EventDate.ToString("D"));

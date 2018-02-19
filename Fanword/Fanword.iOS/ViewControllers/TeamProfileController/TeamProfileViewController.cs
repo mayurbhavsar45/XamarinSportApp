@@ -204,7 +204,7 @@ namespace Fanword.iOS
 				btnBack.Superview.BackgroundColor = color;
 				btnProfile.Superview.Superview.BackgroundColor = color;
 
-				btnAdmin.SetTitle("Become an Admin of this profile", UIControlState.Normal);
+				//btnAdmin.SetTitle("Become an Admin of this profile", UIControlState.Normal);
 				Views.SetFollowed(btnFollow, response.Result.IsFollowing);
 
 				if (!string.IsNullOrEmpty(response.Result.ProfileUrl))

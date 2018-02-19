@@ -1096,7 +1096,17 @@
     <None Include="app.config" />
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <ImageAsset Include="Resources\Media.xcassets\Images.imageset\Contents.json">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Media.xcassets\LogoWhite.imageset\Contents.json">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -1132,6 +1142,10 @@
     <Compile Include="ViewControllers\OnboardingAthleteSeasonController\OnboardingAthleteSeasonViewController.cs" />
     <Compile Include="ViewControllers\OnboardingAthleteSeasonController\OnboardingAthleteSeasonViewController.designer.cs">
       <DependentUpon>OnboardingAthleteSeasonViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\SplashLogin\SplashLogin.cs" />
+    <Compile Include="ViewControllers\SplashLogin\SplashLogin.designer.cs">
+      <DependentUpon>SplashLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewControllers\TablePopoverController\TablePopoverViewController.cs" />
     <Compile Include="ViewControllers\TablePopoverController\TablePopoverViewController.designer.cs">
@@ -1464,6 +1478,21 @@
       <Project>{E5CA2C62-35B1-4ABB-93DA-AB417FEE9431}</Project>
       <Name>Fanword.Shared</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Media.xcassets\Images.imageset\LogoWhite.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="ArrowLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Media.xcassets\LogoWhite.imageset\LogoWhite.png">
+      <Visible>false</Visible>
+      <InProject>false</InProject>
+    </ImageAsset>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

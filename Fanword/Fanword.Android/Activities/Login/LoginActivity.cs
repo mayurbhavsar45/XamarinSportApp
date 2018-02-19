@@ -1,14 +1,8 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content;
 using Android.Content.PM;
 using Android.OS;
-using Android.Runtime;
+using System.Collections.Generic;
 using Android.Views;
 using Android.Widget;
 using Fanword.Shared;
@@ -16,14 +10,17 @@ using Mobile.Extensions.Android.Extensions;
 using Xamarin.Facebook;
 using Xamarin.Facebook.Login;
 using Xamarin.Facebook.Login.Widget;
-using System.Resources;
 using Android.Util;
 using Fanword.Android.Activities.ForgotPassword;
 using Java.Security;
+using Mixpanel.Android.MpMetrics;
+using System;
+using System.Linq;
+using System.Text;
+using Android.Runtime;
+using System.Resources;
 using Plugin.Dialog;
 using Plugin.PushNotifications.Shared;
-using Mixpanel.Android.MpMetrics;
-
 //using Plugin.Dialog;
 
 namespace Fanword.Android
@@ -46,6 +43,7 @@ namespace Fanword.Android
             RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.LoginLayout);
+            FacebookSdk.SdkInitialize(this);
             this.PopulateViewProperties();
 
             SetupViewBindings();
@@ -53,14 +51,14 @@ namespace Fanword.Android
 
         void SetupViewBindings()
         {
-            PackageInfo info = PackageManager.GetPackageInfo(PackageName, global::Android.Content.PM.PackageInfoFlags.Signatures);
+           /* PackageInfo info = PackageManager.GetPackageInfo(PackageName, global::Android.Content.PM.PackageInfoFlags.Signatures);
             foreach (global::Android.Content.PM.Signature signature in info.Signatures)
             {
                 MessageDigest md = MessageDigest.GetInstance("SHA");
                 md.Update(signature.ToByteArray());
                 var hash = Base64.EncodeToString(md.Digest(), Base64Flags.Default);
                 int j = 1;
-            }
+            }*/
             var drawable = Resources.GetDrawable(Resource.Drawable.FacebookRoundedBackground);
             drawable.SetBounds(0, 0, drawable.IntrinsicWidth, drawable.IntrinsicHeight);
             btnFacebook.SetCompoundDrawables(drawable, drawable, drawable, drawable);
@@ -70,8 +68,8 @@ namespace Fanword.Android
             btnFacebook.RegisterCallback(manager, this);
 
 #if DEBUG
-            txtEmail.Text = "dkprajapati18@gmail.com";
-            txtPassword.Text = "Darshan@1234";
+            txtEmail.Text = "support@agilx.com"; //"dkprajapati18@gmail.com";
+            txtPassword.Text = "Password$1"; //"Darshan@1234";
 #endif
 
             btnSignIn.Click += (sender, args) =>
@@ -120,7 +118,17 @@ namespace Fanword.Android
             apiTask.OnSucess(this, (response) =>
            {
                HideProgressDialog();
-               StartActivity(typeof(MainActivity));
+               var user = new ServiceApi().GetMyUser();
+               if (user == response)
+               {
+                   StartActivity(typeof(MainActivity));
+                   Finish();
+               }
+               else
+               {
+                   StartActivity(typeof(MainActivity));
+               }
+               
            });
         }
 

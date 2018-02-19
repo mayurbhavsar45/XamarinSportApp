@@ -60,7 +60,7 @@
             android:gravity="center_vertical"
             android:textColor="#212121"
             android:layout_weight="1" />
-        <ImageButton
+    <!--  <ImageButton
             android:src="@drawable/facebook"
             android:layout_width="22dp"
             android:layout_height="36dp"
@@ -68,7 +68,7 @@
             android:background="@drawable/buttonbackground"
             android:scaleType="fitCenter"
             android:layout_marginRight="5dp" />
-        <ImageButton
+     <ImageButton
             android:src="@drawable/twitter"
             android:layout_width="22dp"
             android:layout_height="36dp"
@@ -83,7 +83,7 @@
             android:id="@+id/btnInstagram"
             android:background="@drawable/buttonbackground"
             android:scaleType="fitCenter"
-            android:layout_marginRight="5dp" />
+            android:layout_marginRight="5dp" /> -->
         <TextView
             android:text="5m"
             android:textAppearance="?android:attr/textAppearanceSmall"

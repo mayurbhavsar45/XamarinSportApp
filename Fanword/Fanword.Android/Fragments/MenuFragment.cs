@@ -130,8 +130,14 @@ namespace Fanword.Android.Fragments
                 //ImageService.Instance.LoadUrl(user.ProfileUrl).SetSettings(imgProfile, Resource.Drawable.DefProfPic, 200, new CircleTransformation());
             }
 
-            lblAthlete.Visibility = string.IsNullOrEmpty(user.AthleteTeamId) ? ViewStates.Gone : ViewStates.Visible;
-			lblAthlete.Text = user.AthleteSchool + " - " + user.AthleteSport;
+            if (user.AthleteVerified) {
+                lblAthlete.Visibility = string.IsNullOrEmpty(user.AthleteTeamId) ? ViewStates.Gone : ViewStates.Visible;
+                lblAthlete.Text = user.AthleteSchool + " - " + user.AthleteSport;
+            } else {
+                lblAthlete.Visibility = ViewStates.Gone;
+                lblAthlete.Text = "";
+            }
+
         }
 
         View GetView(MenuItem item, int position, View convertView, ViewGroup parent)

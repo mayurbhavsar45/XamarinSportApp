@@ -24,6 +24,7 @@
                 android:src="@drawable/loginorange"
                 android:layout_width="match_parent"
                 android:layout_height="170dp"
+                android:transitionName="splashLogin"
                 android:id="@+id/imageView1"
                 android:scaleType="centerCrop" />
             <TextView
@@ -187,7 +188,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp">
+                android:layout_marginBottom="8dp"
+                android:visibility="invisible">
                 <RelativeLayout
                     android:minWidth="25px"
                     android:minHeight="25px"
@@ -234,7 +236,8 @@
                     android:textColor="#f95f06"
                     android:layout_centerHorizontal="true"
                     android:textAllCaps="false"
-                    android:textSize="14dp" />
+                    android:textSize="14dp"
+                    android:visibility="invisible" />
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>

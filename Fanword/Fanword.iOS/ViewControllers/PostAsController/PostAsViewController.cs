@@ -66,8 +66,8 @@ namespace Fanword.iOS
                 DismissViewController(true, null);
             }));
 
-            var adminProfiles = user.AdminSchools?.Select(m => new PostAsAdminProfile() { SchoolId = m.Id, Title = m.Name, Url = m.ProfileUrl }).ToList() ?? new List<PostAsAdminProfile>();
-            adminProfiles.AddRange(user.AdminTeams?.Select(m => new PostAsAdminProfile() { TeamId = m.Id, Title = m.SchoolName, SubTitle = m.SportName, Url = m.ProfileUrl }) ?? new List<PostAsAdminProfile>());
+            var adminProfiles = user.AdminSchools?.Select(m => new PostAsAdminProfile() { SchoolId = m.Id, Title = m.Name, Url = m.ProfileUrl }).OrderBy(m => Title).ThenBy(m => m.SubTitle).ToList() ?? new List<PostAsAdminProfile>();
+            adminProfiles.AddRange(user.AdminTeams?.Select(m => new PostAsAdminProfile() { TeamId = m.Id, Title = m.SchoolName, SubTitle = m.SportName, Url = m.ProfileUrl }) ?? new List<PostAsAdminProfile>().OrderBy(m => Title).ThenBy(m => m.SubTitle));
             var source = new CustomListSource<PostAsAdminProfile>(adminProfiles, GetCell, (arg1, arg2) => 65);
             tvAdmins.Source = source;
             source.NoContentEnabled = false;

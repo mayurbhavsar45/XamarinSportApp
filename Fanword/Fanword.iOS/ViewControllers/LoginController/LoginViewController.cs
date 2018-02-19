@@ -6,6 +6,7 @@ using Foundation;
 using UIKit;
 using Mobile.Extensions.iOS.Extensions;
 using Fanword.Shared;
+using Fanword.Poco.Models;
 using Facebook.LoginKit;
 using CoreGraphics;
 using Facebook.CoreKit;
@@ -23,7 +24,7 @@ namespace Fanword.iOS
 		{
 		}
 
-		public override UIStatusBarStyle PreferredStatusBarStyle ()
+        public override UIStatusBarStyle PreferredStatusBarStyle ()
 		{
 			return UIStatusBarStyle.LightContent;
 		}
@@ -32,7 +33,7 @@ namespace Fanword.iOS
 		{
 			base.ViewDidLoad ();
 
-			FacebookButton = new LoginButton (new CGRect (0, 0, vwFacebookContainer.Frame.Width, vwFacebookContainer.Frame.Height));
+            FacebookButton = new LoginButton (new CGRect (0, 0, vwFacebookContainer.Frame.Width, vwFacebookContainer.Frame.Height));
 			FacebookButton.LoginBehavior = LoginBehavior.SystemAccount;
 			FacebookButton.Layer.CornerRadius = 10;
 			FacebookButton.ClipsToBounds = true;
@@ -58,11 +59,9 @@ namespace Fanword.iOS
 						var main = Storyboard.InstantiateViewController ("MainViewController") as MainViewController;
 						NavigationController.PushViewController (main, true);
 					});
-
 				}
 			};
 			vwFacebookContainer.InsertSubview (FacebookButton,0);
-
 
 #if DEBUG
 			//txtEmail.Text = "jacob.krings@agilx.com";
@@ -70,11 +69,11 @@ namespace Fanword.iOS
 			txtPassword.Text = "Password$1";
 #endif
 
-			btnRegister.TouchUpInside += (sender, e) =>
-			{
-				var controller = Storyboard.InstantiateViewController<SignUpViewController> ();
-				NavigationController.PushViewController (controller, true);
-			};
+			//btnRegister.TouchUpInside += (sender, e) =>
+			//{
+			//	var controller = Storyboard.InstantiateViewController<SignUpViewController> ();
+			//	NavigationController.PushViewController (controller, true);
+			//};
 
 			btnSignIn.TouchUpInside += (sender, e) =>
 			{
