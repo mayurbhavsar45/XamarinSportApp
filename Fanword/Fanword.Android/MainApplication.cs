@@ -35,21 +35,22 @@ namespace Fanword.Android
 
             MixpanelAPI mixpanel = MixpanelAPI.GetInstance(this, MIXPANEL_TOKEN);
 
-            CrossPushNotifications.Current.Configure(ServiceApiBase.HubName, ServiceApiBase.AzureConnectionString, new [] { "fanword" }, Resource.Drawable.AppIcon);
-            CrossPushNotifications.Current.PushNotificationClicked += (sender, e) =>
-            {
-                Navigator.HandleNotificationTap(e.MetaData, e.Title, e.Message);
-            };
+            CrossPushNotifications.Current.Configure(ServiceApiBase.HubName, ServiceApiBase.AzureConnectionString, new[] { "fanword" }, Resource.Drawable.AppIcon);
+            ////due to blank notification the code is commented
+            //CrossPushNotifications.Current.PushNotificationClicked += (sender, e) =>
+            //{
+            //    Navigator.HandleNotificationTap(e.MetaData, e.Title, e.Message);
+            //};
 
-            CrossPushNotifications.Current.PushNotificationRecieved += (sender, item) =>
-            {
-                var lastId = CrossSettings.Current.GetValueOrDefault("LastNotificationId", "");
-                if (lastId == item.Id)
-                    return;
+            //CrossPushNotifications.Current.PushNotificationRecieved += (sender, item) =>
+            //{
+            //    var lastId = CrossSettings.Current.GetValueOrDefault("LastNotificationId", "");
+            //    if (lastId == item.Id)
+            //        return;
 
-                CrossSettings.Current.AddOrUpdateValue("LastNotificationId", item.Id);
-                CrossPushNotifications.Current.ShowLocalNotification(item);
-            };
+            //    CrossSettings.Current.AddOrUpdateValue("LastNotificationId", item.Id);
+            //    CrossPushNotifications.Current.ShowLocalNotification(item);
+            //};
         }
 
 
