@@ -17,6 +17,10 @@ using Plugin.Settings;
 using Fanword.Poco.Models;
 using Mobile.Extensions.Android.Extensions;
 using Mobile.Extensions.Extensions;
+using Fanword.Android.Activities.ViewPost;
+using Fanword.Android.Activities.PostDetails;
+using Fanword.Android.Activities.UserProfile;
+using Fanword.Android.Activities.MyProfile;
 
 // These attributes are to register the right permissions for our app concerning push messages
 [assembly: Permission(Name = "com.agilx.fanword.permission.C2D_MESSAGE")]
@@ -45,7 +49,7 @@ namespace Fanword.Android
     {
         public static string RegistrationID { get; private set; }
         static NotificationHub Hub { get; set; }
-
+        static int notificationID = 0;
         public GcmService() : base(MyBroadcastReceiver.SENDER_IDS) { }
 
         // This handles the successful registration of our device to Google, We need to register with Azure here ourselves
@@ -78,7 +82,7 @@ namespace Fanword.Android
             {
                 Log.Error(MyBroadcastReceiver.TAG, ex.Message);
             }
-           // createNotification("Fanword", "Registered");
+            // createNotification("Fanword", "Registered");
         }
 
         protected override void OnMessage(Context context, Intent intent)
@@ -119,21 +123,60 @@ namespace Fanword.Android
                 string messageText = intent.Extras.GetString("msg");
                 if (!string.IsNullOrEmpty(messageText))
                 {
-                    createNotification("New hub message!", messageText);
+                    createNotification("New hub message!", messageText, notificationData.metaData);
                     return;
                 }
                 else
                 {
                     //If the incoming message's parameters couldn't be recognized, then this Notification will be published...
-                    createNotification("Fanword", notificationData.title);
+                    createNotification("Fanword", notificationData.title, notificationData.metaData);
                 }
             }
         }
 
-        void createNotification(string title, string desc)
+        void createNotification(string title, string desc, MetaData metaData = null)
         {
-            //Create an Intent to show UI
-            var uiIntent = new Intent(this, typeof(MainActivity));
+            Intent uiIntent = new Intent(this, typeof(MainActivity));
+
+            if (metaData != null && metaData.UserNotificationType != null)
+            {
+                if (metaData.UserNotificationType == UserNotificationType.Like.ToString())
+                {
+                    uiIntent = new Intent(this, typeof(ViewPostActivity));
+                    uiIntent.PutExtra("PostId", metaData.PostId);
+                }
+                else if (metaData.UserNotificationType == UserNotificationType.Comment.ToString())
+                {
+                    uiIntent = new Intent(this, typeof(PostDetailsActivity));
+                    uiIntent.PutExtra("Fragment", "Comments");
+                    uiIntent.PutExtra("PostId", metaData.PostId);
+                }
+                else if(metaData.UserNotificationType == UserNotificationType.CommentLike.ToString())
+                {
+                    uiIntent = new Intent(this, typeof(PostDetailsActivity));
+                    uiIntent.PutExtra("Fragment", "Comments");
+                    uiIntent.PutExtra("PostId", metaData.PostId);
+                }
+                else if (metaData.UserNotificationType == UserNotificationType.Share.ToString())
+                {
+                    uiIntent = new Intent(this, typeof(PostDetailsActivity));
+                    uiIntent.PutExtra("Fragment", "Shares");
+                    uiIntent.PutExtra("PostId", metaData.PostId);
+                }
+                else if (metaData.UserNotificationType == UserNotificationType.Follow.ToString())
+                {
+                    var user = CrossSettings.Current.GetValueOrDefaultJson<User>("User");
+                    if (metaData.FromId == user.Id)
+                    {
+                        uiIntent = new Intent(this, typeof(MyProfileActivity));
+                    }
+                    else
+                    {
+                        uiIntent = new Intent(this, typeof(UserProfileActivity));
+                        uiIntent.PutExtra("UserId", metaData.FromId);
+                    }
+                }
+            }
 
             var pendingIntent = PendingIntent.GetActivity(this, 0, uiIntent, 0);
             var builder = new Notification.Builder(this)
@@ -157,11 +200,11 @@ namespace Fanword.Android
             notification.SetLatestEventInfo(this, title, desc, pendingIntent);
 #pragma warning restore CS0618 // Type or member is obsolete
 
-            // Publish the notification:
-            const int notificationID = 0;
-            if (notificationManager != null)
+            // Publish the notification:        
+            if (notificationManager != null && notification != null && !string.IsNullOrWhiteSpace(title) && !string.IsNullOrWhiteSpace(desc))
             {
                 notificationManager.Notify(notificationID, notification);
+                notificationID += 1;
             }
         }
 
@@ -174,6 +217,9 @@ namespace Fanword.Android
         {
             Hub.Unregister();
         }
+
+
+
     }
 
     public class NotificationModel
