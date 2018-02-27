@@ -8,7 +8,6 @@ using Fanword.Shared.Service;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using Android.Util;
-using Android.Support.V4.App;
 using System.Linq;
 using System.Diagnostics;
 using Newtonsoft.Json.Linq;
@@ -136,7 +135,10 @@ namespace Fanword.Android
 
         void createNotification(string title, string desc, MetaData metaData = null)
         {
+            Intent mainIntent = new Intent(this, typeof(MainActivity));
             Intent uiIntent = new Intent(this, typeof(MainActivity));
+            bool isDefaultIntent = true;
+            Intent parentIntent = null;
 
             if (metaData != null && metaData.UserNotificationType != null)
             {
@@ -144,24 +146,37 @@ namespace Fanword.Android
                 {
                     uiIntent = new Intent(this, typeof(ViewPostActivity));
                     uiIntent.PutExtra("PostId", metaData.PostId);
+                    isDefaultIntent = false;
                 }
                 else if (metaData.UserNotificationType == UserNotificationType.Comment.ToString())
                 {
                     uiIntent = new Intent(this, typeof(PostDetailsActivity));
                     uiIntent.PutExtra("Fragment", "Comments");
                     uiIntent.PutExtra("PostId", metaData.PostId);
+
+                    parentIntent = new Intent(this, typeof(ViewPostActivity));
+                    parentIntent.PutExtra("PostId", metaData.PostId);
+                    isDefaultIntent = false;
                 }
                 else if(metaData.UserNotificationType == UserNotificationType.CommentLike.ToString())
                 {
                     uiIntent = new Intent(this, typeof(PostDetailsActivity));
                     uiIntent.PutExtra("Fragment", "Comments");
                     uiIntent.PutExtra("PostId", metaData.PostId);
+
+                    parentIntent = new Intent(this, typeof(ViewPostActivity));
+                    parentIntent.PutExtra("PostId", metaData.PostId);
+                    isDefaultIntent = false;
                 }
                 else if (metaData.UserNotificationType == UserNotificationType.Share.ToString())
                 {
                     uiIntent = new Intent(this, typeof(PostDetailsActivity));
                     uiIntent.PutExtra("Fragment", "Shares");
                     uiIntent.PutExtra("PostId", metaData.PostId);
+
+                    parentIntent = new Intent(this, typeof(ViewPostActivity));
+                    parentIntent.PutExtra("PostId", metaData.PostId);
+                    isDefaultIntent = false;
                 }
                 else if (metaData.UserNotificationType == UserNotificationType.Follow.ToString())
                 {
@@ -175,10 +190,24 @@ namespace Fanword.Android
                         uiIntent = new Intent(this, typeof(UserProfileActivity));
                         uiIntent.PutExtra("UserId", metaData.FromId);
                     }
+                    isDefaultIntent = false;
                 }
             }
 
-            var pendingIntent = PendingIntent.GetActivity(this, 0, uiIntent, 0);
+            //var pendingIntent = PendingIntent.GetActivity(this, 0, uiIntent, 0);
+            var taskStackBuilder = TaskStackBuilder.Create(this);
+            if(isDefaultIntent == false)
+            {
+                taskStackBuilder.AddNextIntent(mainIntent);
+            }
+            if (parentIntent != null)
+            {
+                taskStackBuilder.AddNextIntent(parentIntent);
+            }
+            taskStackBuilder.AddNextIntent(uiIntent);
+            var pendingIntent = taskStackBuilder.GetPendingIntent(0, PendingIntentFlags.UpdateCurrent);
+                                        
+
             var builder = new Notification.Builder(this)
                 .SetAutoCancel(true)
                 .SetContentIntent(pendingIntent)
