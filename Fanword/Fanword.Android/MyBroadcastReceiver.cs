@@ -46,9 +46,11 @@ namespace Fanword.Android
     [Service]
     public class GcmService : GcmServiceBase
     {
+        static TaskStackBuilder stackBuilder = null;
         public static string RegistrationID { get; private set; }
         static NotificationHub Hub { get; set; }
         static int notificationID = 0;
+        static Queue<string> notificationIds = new Queue<string>();
         public GcmService() : base(MyBroadcastReceiver.SENDER_IDS) { }
 
         // This handles the successful registration of our device to Google, We need to register with Azure here ourselves
@@ -86,6 +88,10 @@ namespace Fanword.Android
 
         protected override void OnMessage(Context context, Intent intent)
         {
+            if (stackBuilder == null)
+            {
+                stackBuilder = TaskStackBuilder.Create(this);
+            }
             NotificationModel notificationData = new NotificationModel();
             var msg = new StringBuilder();
             OnRegistered(context, RegistrationID);
@@ -94,6 +100,18 @@ namespace Fanword.Android
                 foreach (var key in intent.Extras.KeySet())
                 {
                     msg.AppendLine(key + "=" + intent.Extras.Get(key));
+                    if (key.Equals("NotificationUniqueId"))
+                    {
+                        if(notificationIds.Contains(intent.GetStringExtra(key)))
+                        {
+                            return;
+                        }
+                        if (notificationIds.Count > 20)
+                        {
+                            notificationIds.Dequeue();
+                        }
+                        notificationIds.Enqueue(intent.GetStringExtra(key));
+                    }
                     if (key.Equals("title"))
                     {
                         notificationData.title = intent.Extras.Get(key).ToString();
@@ -142,8 +160,19 @@ namespace Fanword.Android
 
             if (metaData != null && metaData.UserNotificationType != null)
             {
+
+
+
+                //NotificationCompat.Builder builder = new NotificationCompat.Builder(this);.SetAutoCancel(true).SetContentIntent(resultPendingIntent).SetContentTitle(“My Notifications”).SetSmallIcon(Resource.Drawable.Icon).SetContentText(“Click here to next Activity”);
+                //            NotificationManager notificationManager = (NotificationManager)GetSystemService(Context.NotificationService);
+                //11                notificationManager.Notify(ButtonClickNotification, builder.Build());
+
                 if (metaData.UserNotificationType == UserNotificationType.Like.ToString())
                 {
+                    //Intent newIntent = new Intent(this, typeof(ViewPostActivity));
+                    //newIntent.PutExtras(valuesSend);
+                    //stackBuilder.AddParentStack(Java.Lang.Class.FromType(typeof(Second_Activity)));
+                    //stackBuilder.AddNextIntent(newIntent);
                     uiIntent = new Intent(this, typeof(ViewPostActivity));
                     uiIntent.PutExtra("PostId", metaData.PostId);
                     isDefaultIntent = false;
@@ -158,7 +187,7 @@ namespace Fanword.Android
                     parentIntent.PutExtra("PostId", metaData.PostId);
                     isDefaultIntent = false;
                 }
-                else if(metaData.UserNotificationType == UserNotificationType.CommentLike.ToString())
+                else if (metaData.UserNotificationType == UserNotificationType.CommentLike.ToString())
                 {
                     uiIntent = new Intent(this, typeof(PostDetailsActivity));
                     uiIntent.PutExtra("Fragment", "Comments");
@@ -193,20 +222,23 @@ namespace Fanword.Android
                     isDefaultIntent = false;
                 }
             }
-
+            //PendingIntent resultPendingIntent = stackBuilder.GetPendingIntent(0, PendingIntentFlags.UpdateCurrent);
             //var pendingIntent = PendingIntent.GetActivity(this, 0, uiIntent, 0);
-            var taskStackBuilder = TaskStackBuilder.Create(this);
-            if(isDefaultIntent == false)
+            //var taskStackBuilder = TaskStackBuilder.Create(this);
+            if (isDefaultIntent == false)
             {
-                taskStackBuilder.AddNextIntent(mainIntent);
+                //taskStackBuilder.AddNextIntent(mainIntent);
+                stackBuilder.AddNextIntent(mainIntent);
             }
             if (parentIntent != null)
             {
-                taskStackBuilder.AddNextIntent(parentIntent);
+                //taskStackBuilder.AddNextIntent(parentIntent);
+                stackBuilder.AddNextIntent(parentIntent);
             }
-            taskStackBuilder.AddNextIntent(uiIntent);
-            var pendingIntent = taskStackBuilder.GetPendingIntent(0, PendingIntentFlags.UpdateCurrent);
-                                        
+            //taskStackBuilder.AddNextIntent(uiIntent);
+            stackBuilder.AddNextIntent(uiIntent);
+            var pendingIntent = stackBuilder.GetPendingIntent(0, PendingIntentFlags.UpdateCurrent);
+
 
             var builder = new Notification.Builder(this)
                 .SetAutoCancel(true)
