@@ -94,7 +94,7 @@ namespace Fanword.Android
             }
             NotificationModel notificationData = new NotificationModel();
             var msg = new StringBuilder();
-            OnRegistered(context, RegistrationID);
+            //OnRegistered(context, RegistrationID);
             if (intent != null && intent.Extras != null)
             {
                 foreach (var key in intent.Extras.KeySet())
@@ -220,9 +220,9 @@ namespace Fanword.Android
                 taskStackBuilder.AddNextIntent(parentIntent);
             }
             taskStackBuilder.AddNextIntent(uiIntent);
-            var pendingIntent = taskStackBuilder.GetPendingIntent(0, PendingIntentFlags.UpdateCurrent);
-
-
+            var pendingIntent = taskStackBuilder.GetPendingIntent(notificationID, PendingIntentFlags.UpdateCurrent);
+            notificationID++;
+            
             var builder = new Notification.Builder(this)
                 .SetAutoCancel(true)
                 .SetContentIntent(pendingIntent)
